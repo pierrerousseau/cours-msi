@@ -1,0 +1,12 @@
+.reveal section img {
+    height: 128px;
+    width: 128px;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    margin: 2em;
+}
+
+text {
+    visibility: hidden;
+}
