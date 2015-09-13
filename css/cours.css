@@ -12,6 +12,12 @@
     color: #d75f00;
 }
 
+.reveal .highlight {
+    padding-top: .25em;
+    font-weight: bolder;
+    color: #d75f00;
+}
+
 text {
     visibility: hidden;
 }
