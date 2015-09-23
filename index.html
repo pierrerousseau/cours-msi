@@ -141,14 +141,83 @@
                     </blockquote>
                     <ul>
                         <li> niveaux d'abstraction </li>
-                        <li> méthodes </li>
-                        <li> outils (formalismes) </li>
+                        <li> méthodes, outils (formalismes) </li>
                         <li class="fragment"> <em> lourdeur </em> </li>
                     </ul>
                     <h3 class="fragment"> 
                         <hr />
                         Conseil : Adapter, choisir ce qui est utile
                     </h3>
+                </section>
+
+                <section>
+                    <h1> Découplage </h1>
+                    <ul>
+                        <li> <em> données </em> : structures, relations </li>
+                        <li> <em> traitements </em> : flux de données internes et externes, combinaison, amélioration </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1> Dimensions </h1>
+                    <ul>
+                        <li> Cycle de décision (but du SI) </li>
+                        <li> Cycle de vie (étapes de la conception d'un SI) </li>
+                        <li> Cycle d'<em>abstraction</em> (modélisation du SI) </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1> Cycle d'abstraction </h1>
+                    <ul>
+                        <li> Expression des besoins </li>
+                        <li> modèle Conceptuel </li>
+                        <li> modèle Organisationel </li>
+                        <li> modèle Logique </li>
+                        <li> modèle Opérationel </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1> Outils </h1>
+                    <table>
+                        <tbody>
+                        <tr> 
+                            <td> Besoins </td>
+                            <td> &nbsp; </td>
+                            <td class="center"> DD<sup>1</sup> </td>
+                            <td class="center"> MF/DF<sup>2</sup> </td>
+                        </tr>
+                        <tr> 
+                            <td rowspan="2" style="vertical-align: bottom"> Conceptuel </td>
+                            <td> &nbsp; </td>
+                            <td colspan="2" class="center"> MCC<sup>3</sup> </td>
+                        </tr>
+                        <tr> 
+                            <td> Quoi ? </td>
+                            <td class="center"> MCD<sup>5</sup> </td>
+                            <td class="center"> MCT<sup>4</sup> </td>
+                        </tr>
+                        <tr> 
+                            <td> Organisationel </td>
+                            <td> Qui ? Où ? </td>
+                            <td class="center fog"> MOD </td>
+                            <td class="center"> MOT<sup>6</sup> </td>
+                        </tr>
+                        <tr> 
+                            <td> Logique </td>
+                            <td> &nbsp; </td>
+                            <td class="center"> MLD<sup>7</sup> </td>
+                            <td class="center fog"> MLT </td>
+                        </tr>
+                        <tr> 
+                            <td> Physique </td>
+                            <td> Comment ? </td>
+                            <td class="center"> MPD<sup>8</sup> </td>
+                            <td class="center fog"> MPT </td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </section>
 
 				<section>

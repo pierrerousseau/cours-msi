@@ -15,15 +15,27 @@
     margin: 0;
 }
 
+.reveal sup {
+    font-size: .4em
+}
+
 .reveal em {
     font-weight: bolder;
     color: #d75f00;
+}
+
+.reveal .fog {
+    opacity: .4;
 }
 
 .reveal .highlight {
     padding-top: .25em;
     font-weight: bolder;
     color: #d75f00;
+}
+
+.reveal table td.center {
+    text-align: center;
 }
 
 text {
