@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="28cm" height="14cm" viewBox="141 130 555 265" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="545" cy="221.891" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="545" y="217.791">
+      <tspan x="545" y="217.791">Acteur</tspan>
+      <tspan x="545" y="233.791">interne</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="200.737" cy="221.809" rx="58.222" ry="38.2831"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200.737" y="217.709">
+      <tspan x="200.737" y="217.709">Acteur</tspan>
+      <tspan x="200.737" y="233.709">externe</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="488.563" y1="221.891" x2="268.695" y2="221.813"/>
+    <polygon style="fill: #000000" points="261.195,221.81 271.196,216.814 268.695,221.813 271.193,226.814 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="261.195,221.81 271.196,216.814 268.695,221.813 271.193,226.814 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="359.125" y="194" width="45.75" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="382" y="216.9">
+      <tspan x="382" y="216.9">flux</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x="461" y="132" width="234" height="262"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="578" y="266.9">
+      <tspan x="578" y="266.9"></tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="592.737" cy="344.809" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="592.737" y="340.709">
+      <tspan x="592.737" y="340.709">Acteur</tspan>
+      <tspan x="592.737" y="356.709">interne</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="545" y1="259" x2="585.921" y2="300.747"/>
+    <polygon style="fill: #000000" points="591.171,306.103 580.601,302.462 585.921,300.747 587.742,295.462 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="591.171,306.103 580.601,302.462 585.921,300.747 587.742,295.462 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="564.35" y="130.7" width="128.6" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="628.65" y="153.6">
+      <tspan x="628.65" y="153.6">domaine d'étude</tspan>
+    </text>
+  </g>
+</svg>

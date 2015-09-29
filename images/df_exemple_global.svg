@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="27cm" height="18cm" viewBox="317 198 527 346" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="373" cy="277.999" rx="54.6261" ry="27.3131"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="373" y="281.899">
+      <tspan x="373" y="281.899">Fournisseur</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x="592.174" y="199.7" width="250.577" height="343"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="717.463" y="375.1">
+      <tspan x="717.463" y="375.1"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="733.3" y="199.7" width="106.15" height="38.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="786.375" y="222.75">
+      <tspan x="786.375" y="222.75">supermarché</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="618.936" y1="462.994" x2="419.232" y2="303.392"/>
+    <polygon style="fill: #000000" points="413.373,298.71 424.306,301.047 419.232,303.392 418.063,308.859 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="413.373,298.71 424.306,301.047 419.232,303.392 418.063,308.859 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="427.626" y1="278" x2="601.254" y2="278.426"/>
+    <polygon style="fill: #000000" points="608.754,278.445 598.742,283.42 601.254,278.426 598.766,273.42 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="608.754,278.445 598.742,283.42 601.254,278.426 598.766,273.42 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="685.545" y1="316.447" x2="687.175" y2="430.415"/>
+    <polygon style="fill: #000000" points="687.282,437.914 682.14,427.987 687.175,430.415 692.138,427.844 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="687.282,437.914 682.14,427.987 687.175,430.415 692.138,427.844 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="461.3" y="246.7" width="64.7" height="37.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="493.65" y="269.25">
+      <tspan x="493.65" y="269.25">livrer</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="687.311" cy="278.706" rx="74.7728" ry="37.3864"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="687.311" y="282.606">
+      <tspan x="687.311" y="282.606">Gestion des stocks</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="688.142" cy="481.121" rx="75.6393" ry="37.8197"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="688.142" y="485.021">
+      <tspan x="688.142" y="485.021">Gestion des achats</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="670.3" y="332.7" width="155.725" height="38.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="748.162" y="355.75">
+      <tspan x="748.162" y="355.75">demander achats</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="444.3" y="394.7" width="106.15" height="38.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="497.375" y="417.75">
+      <tspan x="497.375" y="417.75">commander</tspan>
+    </text>
+  </g>
+</svg>
