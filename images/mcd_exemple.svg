@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="27cm" height="5cm" viewBox="12 -9 527 87" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #fdf6e3" x="12.8" y="7" width="133.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="12.8" y="7" width="133.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="79.7" y="21">Appartement</text>
+    <rect style="fill: #fdf6e3" x="12.8" y="25" width="133.8" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="12.8" y="25" width="133.8" height="36"/>
+    <polygon style="fill: #000000" points="15.8,35 17.8,38 19.8,35 17.8,32 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="21.8" y="41">id-appartement</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="21.8" y1="42.6" x2="139.6" y2="42.6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="17.8" cy="51" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="21.8" y="57">addresse</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="459.6" y="-8.8" width="79.9" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="459.6" y="-8.8" width="79.9" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="499.55" y="5.2">Bail</text>
+    <rect style="fill: #fdf6e3" x="459.6" y="9.2" width="79.9" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="459.6" y="9.2" width="79.9" height="68"/>
+    <polygon style="fill: #000000" points="462.6,19.2 464.6,22.2 466.6,19.2 464.6,16.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="468.6" y="25.2">id-bail</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="468.6" y1="26.8" x2="532.5" y2="26.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="464.6" cy="35.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="468.6" y="41.2">loyer</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="464.6" cy="51.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="468.6" y="57.2">charges</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="464.6" cy="67.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="468.6" y="73.2">caution</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="146.6,35 146.6,35 247.9,35 247.9,35 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="150.6" y="31">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="459.6,35.2 411.35,35.2 411.35,35 363.1,35 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="455.6" y="31.2">1,1</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="247.5" y1="25" x2="362" y2="24"/>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 266.5 0.4 L 343.3,0.4 C 353.904,0.4 362.5,16.07 362.5,35.4 C 362.5,54.73 353.904,70.4 343.3,70.4 L 266.5,70.4 C 255.896,70.4 247.3,54.73 247.3,35.4 C 247.3,16.07 255.896,0.4 266.5,0.4"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.9" y="15.4">
+      <tspan x="304.9" y="15.4">Lier</tspan>
+      <tspan x="304.9" y="31.4"></tspan>
+      <tspan x="304.9" y="47.4">date-début</tspan>
+      <tspan x="304.9" y="63.4">date-fin</tspan>
+    </text>
+  </g>
+</svg>

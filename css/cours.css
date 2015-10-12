@@ -7,7 +7,24 @@
     margin: 1em .5em;
 }
 
+.reveal section img.exo {
+    height: 256;
+    width: auto;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    background: #add9e4;
+}
+
 .reveal section img.diagram {
+    height: 256px;
+    width: auto;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.reveal section img.big-diagram {
     height: 512px;
     width: auto;
     border: none;

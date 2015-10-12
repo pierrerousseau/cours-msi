@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="46cm" height="14cm" viewBox="132 146 912 279" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #fdf6e3" x="161.8" y="146.2" width="87.6" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="161.8" y="146.2" width="87.6" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="205.6" y="160.2">Pièce</text>
+    <rect style="fill: #fdf6e3" x="161.8" y="164.2" width="87.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="161.8" y="164.2" width="87.6" height="52"/>
+    <polygon style="fill: #000000" points="164.8,174.2 166.8,177.2 168.8,174.2 166.8,171.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="180.2">id-pièce</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="170.8" y1="181.8" x2="242.4" y2="181.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="190.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="196.2">titre</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="206.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="212.2">auteur</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="341" y1="279" x2="413.264" y2="279"/>
+    <polygon style="fill: #000000" points="420.764,279 410.764,284 413.264,279 410.764,274 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="420.764,279 410.764,284 413.264,279 410.764,274 "/>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="140.8" y="339.2" width="133.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140.8" y="339.2" width="133.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="207.7" y="353.2">Role</text>
+    <rect style="fill: #fdf6e3" x="140.8" y="357.2" width="133.8" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140.8" y="357.2" width="133.8" height="68"/>
+    <polygon style="fill: #000000" points="143.8,367.2 145.8,370.2 147.8,367.2 145.8,364.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="149.8" y="373.2">id-pièce</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="149.8" y1="374.8" x2="267.6" y2="374.8"/>
+    <polygon style="fill: #000000" points="143.8,383.2 145.8,386.2 147.8,383.2 145.8,380.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="149.8" y="389.2">nom-acteur</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="149.8" y1="390.8" x2="267.6" y2="390.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="145.8" cy="399.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="149.8" y="405.2">nom-personnage</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="145.8" cy="415.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="149.8" y="421.2">age-acteur</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 157.967 258.2 L 254.633,258.2 C 267.98,258.2 278.8,267.154 278.8,278.2 C 278.8,289.246 267.98,298.2 254.633,298.2 L 157.967,298.2 C 144.62,298.2 133.8,289.246 133.8,278.2 C 133.8,267.154 144.62,258.2 157.967,258.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="206.3" y="282.2">
+      <tspan x="206.3" y="282.2">Composer</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="205.6,216.2 205.5,216.2 205.5,258.2 206.3,258.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="202.3" y="254.2">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="206.3,298.2 206.5,298.2 206.5,339.2 207.7,339.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="203.7" y="335.2">1,1</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="523.3" y="148.2" width="87.6" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="523.3" y="148.2" width="87.6" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="567.1" y="162.2">Pièce</text>
+    <rect style="fill: #fdf6e3" x="523.3" y="166.2" width="87.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="523.3" y="166.2" width="87.6" height="52"/>
+    <polygon style="fill: #000000" points="526.3,176.2 528.3,179.2 530.3,176.2 528.3,173.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.3" y="182.2">id-pièce</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="532.3" y1="183.8" x2="603.9" y2="183.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="528.3" cy="192.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.3" y="198.2">titre</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="528.3" cy="208.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.3" y="214.2">auteur</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="502.3" y="341.2" width="133.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="502.3" y="341.2" width="133.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="569.2" y="355.2">Role</text>
+    <rect style="fill: #fdf6e3" x="502.3" y="359.2" width="133.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="502.3" y="359.2" width="133.8" height="52"/>
+    <polygon style="fill: #000000" points="505.3,369.2 507.3,372.2 509.3,369.2 507.3,366.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="511.3" y="375.2">id-pièce</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="511.3" y1="376.8" x2="629.1" y2="376.8"/>
+    <polygon style="fill: #000000" points="505.3,385.2 507.3,388.2 509.3,385.2 507.3,382.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="511.3" y="391.2">id-acteur</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="511.3" y1="392.8" x2="629.1" y2="392.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="507.3" cy="401.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="511.3" y="407.2">nom-personnage</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 519.467 260.2 L 616.133,260.2 C 629.48,260.2 640.3,269.154 640.3,280.2 C 640.3,291.246 629.48,300.2 616.133,300.2 L 519.467,300.2 C 506.12,300.2 495.3,291.246 495.3,280.2 C 495.3,269.154 506.12,260.2 519.467,260.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="567.8" y="284.2">
+      <tspan x="567.8" y="284.2">Composer</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="567.1,218.2 567,218.2 567,260.2 567.8,260.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="563.8" y="256.2">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="567.8,300.2 568,300.2 568,341.2 569.2,341.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="565.2" y="337.2">1,1</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 746.467 365.2 L 843.133,365.2 C 856.48,365.2 867.3,374.154 867.3,385.2 C 867.3,396.246 856.48,405.2 843.133,405.2 L 746.467,405.2 C 733.12,405.2 722.3,396.246 722.3,385.2 C 722.3,374.154 733.12,365.2 746.467,365.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="794.8" y="389.2">
+      <tspan x="794.8" y="389.2">Jouer</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="636.1,385.2 700,385.2 700,385.2 722.3,385.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="718.3" y="381.2">1,n</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="941.3" y="341.2" width="103" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="941.3" y="341.2" width="103" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="992.8" y="355.2">Acteur</text>
+    <rect style="fill: #fdf6e3" x="941.3" y="359.2" width="103" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="941.3" y="359.2" width="103" height="52"/>
+    <polygon style="fill: #000000" points="944.3,369.2 946.3,372.2 948.3,369.2 946.3,366.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="950.3" y="375.2">id-acteur</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="950.3" y1="376.8" x2="1037.3" y2="376.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="946.3" cy="385.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="950.3" y="391.2">nom-acteur</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="946.3" cy="401.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="950.3" y="407.2">age-acteur</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="941.3,385.2 933.2,385.2 933.2,385.2 867.3,385.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="871.3" y="381.2">1,n</text>
+  </g>
+</svg>

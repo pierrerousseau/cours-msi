@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="30cm" height="4cm" viewBox="161 91 600 73" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #add9e4" x="161.8" y="91.2" width="149.2" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="161.8" y="91.2" width="149.2" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="236.4" y="105.2">Livre</text>
+    <rect style="fill: #add9e4" x="161.8" y="109.2" width="149.2" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="161.8" y="109.2" width="149.2" height="52"/>
+    <polygon style="fill: #000000" points="164.8,119.2 166.8,122.2 168.8,119.2 166.8,116.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="125.2">id-livre</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="170.8" y1="126.8" x2="304" y2="126.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="135.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="141.2">titre</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="151.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="157.2">date-publication</text>
+  </g>
+  <g>
+    <rect style="fill: #add9e4" x="658.8" y="107.2" width="103" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="658.8" y="107.2" width="103" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="710.3" y="121.2">Éditeur</text>
+    <rect style="fill: #add9e4" x="658.8" y="125.2" width="103" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="658.8" y="125.2" width="103" height="36"/>
+    <polygon style="fill: #000000" points="661.8,135.2 663.8,138.2 665.8,135.2 663.8,132.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="667.8" y="141.2">id-éditeur</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="667.8" y1="142.8" x2="754.8" y2="142.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="663.8" cy="151.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="667.8" y="157.2">nom</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="311,135.2 385.5,135.2 385.5,135.2 401.8,135.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="315" y="131.2">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="658.8,135.2 647.3,135.2 647.3,135.2 546.8,135.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="654.8" y="131.2">1,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 425.967 108.2 L 522.633,108.2 C 535.98,108.2 546.8,120.288 546.8,135.2 C 546.8,150.112 535.98,162.2 522.633,162.2 L 425.967,162.2 C 412.62,162.2 401.8,150.112 401.8,135.2 C 401.8,120.288 412.62,108.2 425.967,108.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="474.3" y="123.2">
+      <tspan x="474.3" y="123.2">Publier</tspan>
+      <tspan x="474.3" y="139.2"></tspan>
+      <tspan x="474.3" y="155.2">date</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="404" y1="126" x2="545" y2="127"/>
+</svg>

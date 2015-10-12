@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="31cm" height="5cm" viewBox="252 189 612 88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #fdf6e3" x="252" y="189" width="126.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="252" y="189" width="126.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="315.05" y="203">Entité A</text>
+    <rect style="fill: #fdf6e3" x="252" y="207" width="126.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="252" y="207" width="126.1" height="52"/>
+    <polygon style="fill: #000000" points="255,217 257,220 259,217 257,214 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="261" y="223">identifiant-a</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="261" y1="224.6" x2="371.1" y2="224.6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="257" cy="233" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="261" y="239">propriété-a1</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="257" cy="249" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="261" y="255">propriété-a2</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="737.8" y="190.2" width="126.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="737.8" y="190.2" width="126.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="800.85" y="204.2">Entité B</text>
+    <rect style="fill: #fdf6e3" x="737.8" y="208.2" width="126.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="737.8" y="208.2" width="126.1" height="68"/>
+    <polygon style="fill: #000000" points="740.8,218.2 742.8,221.2 744.8,218.2 742.8,215.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="746.8" y="224.2">identifiant-b</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="746.8" y1="225.8" x2="856.9" y2="225.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="742.8" cy="234.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="746.8" y="240.2">propriété-b1</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="742.8" cy="250.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="746.8" y="256.2">propriété-b2</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="742.8" cy="266.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="746.8" y="272.2">propriété-b3</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="378.1,233 424.762,233 424.762,233.2 471.425,233.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.1" y="229">min,max</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="471.809" y1="226.2" x2="599" y2="227"/>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 492.75 198.2 L 578.05,198.2 C 589.827,198.2 599.375,213.87 599.375,233.2 C 599.375,252.53 589.827,268.2 578.05,268.2 L 492.75,268.2 C 480.973,268.2 471.425,252.53 471.425,233.2 C 471.425,213.87 480.973,198.2 492.75,198.2"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="535.4" y="221.2">
+      <tspan x="535.4" y="221.2">Association</tspan>
+      <tspan x="535.4" y="237.2"></tspan>
+      <tspan x="535.4" y="253.2">propriété-ab</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="737.8,234.2 668.588,234.2 668.588,233.2 599.375,233.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="733.8" y="230.2">min,max</text>
+  </g>
+</svg>
