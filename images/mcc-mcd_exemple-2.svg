@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="30cm" height="11cm" viewBox="161 98 582 216" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #fdf6e3" x="161.8" y="107" width="133.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="161.8" y="107" width="133.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="228.7" y="121">Adhérent</text>
+    <rect style="fill: #fdf6e3" x="161.8" y="125" width="133.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="161.8" y="125" width="133.8" height="52"/>
+    <polygon style="fill: #000000" points="164.8,135 166.8,138 168.8,135 166.8,132 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="141">no-carte</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="170.8" y1="142.6" x2="288.6" y2="142.6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="151" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="157">nom-adhérent</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="167" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="173">date-naissance</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="624.6" y="107.2" width="118.4" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="624.6" y="107.2" width="118.4" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="683.8" y="121.2">Activité</text>
+    <rect style="fill: #fdf6e3" x="624.6" y="125.2" width="118.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="624.6" y="125.2" width="118.4" height="36"/>
+    <polygon style="fill: #000000" points="627.6,135.2 629.6,138.2 631.6,135.2 629.6,132.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633.6" y="141.2">id-activité</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="633.6" y1="142.8" x2="736" y2="142.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="629.6" cy="151.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633.6" y="157.2">nom-activité</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="295.6,135 295.6,135 396.9,135 396.9,135 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="299.6" y="147">0,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="624.6,135.2 568.35,135.2 568.35,135 512.1,135 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="620.6" y="131.2">0,n</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="398.375" y1="121" x2="510.25" y2="121.25"/>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 416 99.95 L 492.8,99.95 C 503.404,99.95 512,115.62 512,134.95 C 512,154.28 503.404,169.95 492.8,169.95 L 416,169.95 C 405.396,169.95 396.8,154.28 396.8,134.95 C 396.8,115.62 405.396,99.95 416,99.95"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="454.4" y="114.95">
+      <tspan x="454.4" y="114.95">Participer</tspan>
+      <tspan x="454.4" y="130.95"></tspan>
+      <tspan x="454.4" y="146.95">date-début</tspan>
+      <tspan x="454.4" y="162.95">date-fin</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="409.998" y="244.1" width="118.4" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="409.998" y="244.1" width="118.4" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="469.198" y="258.1">Catalogue</text>
+    <rect style="fill: #fdf6e3" x="409.998" y="262.1" width="118.4" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="409.998" y="262.1" width="118.4" height="52"/>
+    <polygon style="fill: #000000" points="412.998,272.1 414.998,275.1 416.998,272.1 414.998,269.1 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="418.998" y="278.1">id-catalogue</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="418.998" y1="279.7" x2="521.398" y2="279.7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="414.998" cy="288.1" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="418.998" y="294.1">titre</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="414.998" cy="304.1" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="418.998" y="310.1">année</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="528.398,288.1 577.198,288.1 577.198,287.8 625.998,287.8 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.398" y="284.1">0,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 645.198 269.1 L 721.998,269.1 C 732.602,269.1 741.198,277.472 741.198,287.8 C 741.198,298.128 732.602,306.5 721.998,306.5 L 645.198,306.5 C 634.594,306.5 625.998,298.128 625.998,287.8 C 625.998,277.472 634.594,269.1 645.198,269.1"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="683.598" y="291.8">
+      <tspan x="683.598" y="291.8">Composer</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="683.598,269.1 683.598,215.15 683.8,215.15 683.8,161.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="687.598" y="265.1">0,n</text>
+  </g>
+</svg>

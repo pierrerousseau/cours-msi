@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="32cm" height="15cm" viewBox="109 87 627 284" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="334.727" cy="125.603" rx="74.8066" ry="37.4033"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="334.727" y="129.503">
+      <tspan x="334.727" y="129.503">Adhérent</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="281.823" y1="161.787" x2="281.71" y2="306.155"/>
+    <polygon style="fill: #000000" points="281.829,154.287 286.821,164.291 281.823,161.787 276.821,164.284 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="281.829,154.287 286.821,164.291 281.823,161.787 276.821,164.284 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="387.503" y1="306.155" x2="387.615" y2="161.787"/>
+    <polygon style="fill: #000000" points="387.621,154.287 392.613,164.291 387.615,161.787 382.613,164.284 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="387.621,154.287 392.613,164.291 387.615,161.787 382.613,164.284 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 417.513,321.726 A 164.891,164.891 0 0 0 409.533,125.603"/>
+    <polygon style="fill: #000000" points="413.177,327.831 415.312,316.857 417.75,321.887 423.238,322.955 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="413.177,327.831 415.312,316.857 417.75,321.887 423.238,322.955 "/>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="334.607" cy="332.603" rx="74.8066" ry="37.4033"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="334.607" y="328.503">
+      <tspan x="334.607" y="328.503">Service des</tspan>
+      <tspan x="334.607" y="344.503">Inscriptions</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="658.907" cy="136.803" rx="76.5206" ry="38.2603"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="658.907" y="140.703">
+      <tspan x="658.907" y="140.703">Organisateur</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="109.7" y="119.2" width="145.4" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="182.4" y="142.1">
+      <tspan x="182.4" y="142.1">nouvelle inscription</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="278.3" y="256.2" width="145.4" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="351" y="279.1">
+      <tspan x="351" y="279.1">catalogue</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="396.3" y="119.2" width="145.4" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="469" y="142.1">
+      <tspan x="469" y="142.1">choix activité</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 259.92,125.603 A 164.024,164.024 0 0 0 251.793,321.128"/>
+    <polygon style="fill: #000000" points="256.134,327.229 246.068,322.364 251.554,321.29 253.987,316.257 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="256.134,327.229 246.068,322.364 251.554,321.29 253.987,316.257 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="436.3" y="329.2" width="145.4" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="509" y="352.1">
+      <tspan x="509" y="352.1">ajout activité</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="247.8" y="169.2" width="145.4" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320.5" y="191.1">
+      <tspan x="320.5" y="191.1">carte </tspan>
+      <tspan x="320.5" y="207.1">d'adhérent</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 397.074,357.277 A 397.958,397.958 0 0 0 658.907,175.064"/>
+    <polygon style="fill: #000000" points="389.706,358.671 398.709,352.041 397.097,357.393 400.412,361.895 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="389.706,358.671 398.709,352.041 397.097,357.393 400.412,361.895 "/>
+  </g>
+</svg>
