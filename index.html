@@ -521,13 +521,13 @@
                 <section>
                     <h1> MCD : construction </h1>
                     <p> À l'aide du MCC </p>
-                    <img src="images/mcc-mcd_exemple-1.svg" alt="du MCC au MCD" class="diagram" />
+                    <img src="images/mcc-mcd_exemple-1.svg" alt="du MCC au MCD" class="big-diagram" />
                 </section>
 
                 <section>
                     <h1> MCD : construction </h1>
                     <p> À l'aide du MCC </p>
-                    <img src="images/mcc-mcd_exemple-2.svg" alt="du MCC au MCD" class="diagram" />
+                    <img src="images/mcc-mcd_exemple-2.svg" alt="du MCC au MCD" class="big-diagram" />
                 </section>
 
                 <section>
@@ -544,18 +544,16 @@
 
                 <section>
                     <h1> MCD : normalisation </h1>
-                    <p>
-                        Respect des 3 premières formes normales
-                        <ul>
-                            <li> aucune propriété n'est décomposable ou répétitive 
-                                <ul> <li> <i> une seule valeur possible </i> </li> </ul>
-                            </li>
-                            <li> toute propriété dépend de la totalité de l'identifiant </li>
-                            <li> toute propriété dépend directement de l'identifiant 
-                                <ul> <li> <i> pas de transitivité </i> </li> </ul>
-                            </li>
-                        </ul>
-                    </p>
+                    <p> Respect des 3 premières formes normales </p>
+                    <ol>
+                        <li> aucune propriété n'est décomposable ou multiple 
+                            <ul> <li> <i> une seule valeur possible </i> </li> </ul>
+                        </li>
+                        <li> toute propriété dépend de la totalité de l'identifiant </li>
+                        <li> toute propriété dépend directement de l'identifiant 
+                            <ul> <li> <i> pas de transitivité </i> </li> </ul>
+                        </li>
+                    </ol>
                 </section>
 
                 <section>
@@ -591,17 +589,32 @@
                 <section>
                 <section>
                     <h1> Modèle conceptuel de traitement (MCT) </h1>
-                    <p> Mettre en évidence les traitements réalisés par le SI </p>
+                    <p> Décrire les <em> activités </em> du SI </p>
+                    <ul class="fragment"> 
+                    	<li> <strong> Évènement </strong> : apport d'information <em> déclencheur </em> </li>
+                    	<li> <strong> Opération </strong> : suite <em> non-interuptible </em> d'actions d'une activité </li>
+                    	<li> <strong> Résultat </strong> :  information produite par l'opération </li>
+                    </ul>
                 </section>
 
                 <section>
                     <h1> MCT : formalisme </h1>
-                    <img src="images/mct_formalisme.svg" alt="formalisme MCT" class="diagram" />
+                    <img src="images/mct_formalisme.svg" alt="formalisme MCT" class="big-diagram" />
                 </section>
 
                 <section>
                     <h1> MCT : exemple </h1>
-                    <img src="images/mct_expemple.svg" alt="exemple MCT" class="diagram" />
+                    <img src="images/mct_exemple.svg" alt="exemple MCT" class="big-diagram" />
+                </section>
+
+                <section>
+                    <h1> MCT : construction </h1>
+                    <p> à l'aide du MCC en respectant les règles suivantes : </p>
+                    <ol class="fragment"> 
+                    	<li> une opération produit des résultats exhaustifs </li>
+                    	<li> une opération est une suite inintérompue d'actions </li>
+                    	<li> une opération ne comporte pas de résultat intermédiaire conditionnel </li>
+                    </ol>
                 </section>
 
                 <section data-background="#add9e4">
