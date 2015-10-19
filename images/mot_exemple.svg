@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="33cm" height="28cm" viewBox="152 91 648 543" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="162.8" y="92.2" width="264" height="537.468"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="294.8" y="364.834">
+      <tspan x="294.8" y="364.834"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="426.7" y="92.3" width="264" height="537.368"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="558.7" y="364.884">
+      <tspan x="558.7" y="364.884"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="203.1,156.4 273.662,156.4 273.662,185.664 "/>
+    <polygon style="fill: #000000" points="273.662,193.164 268.662,183.164 273.662,185.664 278.662,183.164 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.662,193.164 268.662,183.164 273.662,185.664 278.662,183.164 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="380.1,157.4 310.538,157.4 310.538,184.664 "/>
+    <polygon style="fill: #000000" points="310.538,192.164 305.538,182.164 310.538,184.664 315.538,182.164 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="310.538,192.164 305.538,182.164 310.538,184.664 315.538,182.164 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="258.8" y="225.1" width="104.475" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="311.038" y="278.9">
+      <tspan x="311.038" y="278.9">Vérifications</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 253.7 195.3 L 327.45,195.3 L 327.45,217.3 L 290.575,222.8 L 253.7,217.3 L 253.7,195.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="290.575" y="210.3">
+      <tspan x="290.575" y="210.3"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="216.75" y="225.3" width="42.05" height="64.3998"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="237.775" y="261.4">
+      <tspan x="237.775" y="261.4">1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="216.925" y="289.8" width="42.075" height="73.0002"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="237.963" y="330.2">
+      <tspan x="237.963" y="330.2">MA</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="162.975" y="92.2" width="263.825" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="294.888" y="115.1">
+      <tspan x="294.888" y="115.1">Secrétariat RH</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="426.7" y="92.3" width="263.825" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="558.613" y="115.2">
+      <tspan x="558.613" y="115.2">Directeur Technique</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="474.7,364.3 545.262,364.3 545.262,393.564 "/>
+    <polygon style="fill: #000000" points="545.262,401.064 540.262,391.064 545.262,393.564 550.262,391.064 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="545.262,401.064 540.262,391.064 545.262,393.564 550.262,391.064 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 526.7 404.3 L 600.45,404.3 L 600.45,426.3 L 563.575,431.8 L 526.7,426.3 L 526.7,404.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="563.575" y="419.3">
+      <tspan x="563.575" y="419.3"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="272.15" y="126.6" width="163.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="354" y="149.5">
+      <tspan x="354" y="149.5">offre d'emploi</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="152.65" y="126.072" width="163.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="234.5" y="148.972">
+      <tspan x="234.5" y="148.972">candidature</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="259" y="324.9" width="48.25" height="38"/>
+    <text font-size="8.28604" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="283.125" y="346.421">
+      <tspan x="283.125" y="346.421">POK</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="307.15" y="324.9" width="56.1" height="38"/>
+    <text font-size="8.28604" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="335.2" y="346.421">
+      <tspan x="335.2" y="346.421">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="283.125" y1="362.9" x2="282.855" y2="388.065"/>
+    <polygon style="fill: #000000" points="282.774,395.564 277.882,385.511 282.855,388.065 287.881,385.619 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="282.774,395.564 277.882,385.511 282.855,388.065 287.881,385.619 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="215.8" y="390.4" width="133.4" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="282.5" y="413.3">
+      <tspan x="282.5" y="413.3">Rejet candidature</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="363" y1="341.3" x2="453.264" y2="341.752"/>
+    <polygon style="fill: #000000" points="460.764,341.789 450.739,346.739 453.264,341.752 450.789,336.739 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="460.764,341.789 450.739,346.739 453.264,341.752 450.789,336.739 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="458.15" y="318.4" width="105" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="510.65" y="340.3">
+      <tspan x="510.65" y="340.3">accepté pour</tspan>
+      <tspan x="510.65" y="356.3">entretien</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="652.948,366.9 583.386,366.9 583.386,394.164 "/>
+    <polygon style="fill: #000000" points="583.386,401.664 578.386,391.664 583.386,394.164 588.386,391.664 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="583.386,401.664 578.386,391.664 583.386,394.164 588.386,391.664 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="572.3" y="334.9" width="77.6" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="611.1" y="356.8">
+      <tspan x="611.1" y="356.8">candidat</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="530.45" y="432.9" width="104.475" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="582.688" y="478.7">
+      <tspan x="582.688" y="478.7">Entretien</tspan>
+      <tspan x="582.688" y="494.7">technique</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="488.4" y="433.1" width="42.05" height="64.3998"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="509.425" y="469.2">
+      <tspan x="509.425" y="469.2">2</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="488.7" y="497.1" width="41.8" height="73.6685"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="509.6" y="537.834">
+      <tspan x="509.6" y="537.834">MA</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="530.65" y="532.7" width="48.25" height="38"/>
+    <text font-size="8.28604" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="554.775" y="554.222">
+      <tspan x="554.775" y="554.222">POK</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="578.8" y="532.7" width="56.1" height="38"/>
+    <text font-size="8.28604" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="606.85" y="554.222">
+      <tspan x="606.85" y="554.222">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="554.775" y1="570.7" x2="554.399" y2="595.944"/>
+    <polygon style="fill: #000000" points="554.287,603.443 549.437,593.37 554.399,595.944 559.436,593.519 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="554.287,603.443 549.437,593.37 554.399,595.944 559.436,593.519 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="485.9" y="595.768" width="133.4" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="552.6" y="618.668">
+      <tspan x="552.6" y="618.668">Rejet candidature</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="634.905" y1="551.066" x2="725.169" y2="551.517"/>
+    <polygon style="fill: #000000" points="732.669,551.554 722.644,556.504 725.169,551.517 722.694,546.505 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="732.669,551.554 722.644,556.504 725.169,551.517 722.694,546.505 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="698.4" y="532.369" width="101.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="749.25" y="555.269">
+      <tspan x="749.25" y="555.269">...</tspan>
+    </text>
+  </g>
+</svg>

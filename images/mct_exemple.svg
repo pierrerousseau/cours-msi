@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="17cm" height="18cm" viewBox="77 90 328 346" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="13cm" height="17cm" viewBox="144 90 245 338" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="162.8,123.2 233.362,123.2 233.362,152.464 "/>
     <polygon style="fill: #000000" points="233.362,159.964 228.362,149.964 233.362,152.464 238.362,149.964 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="233.362,159.964 228.362,149.964 233.362,152.464 238.362,149.964 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="197.288" y1="342.3" x2="197.011" y2="374.165"/>
-    <polygon style="fill: #000000" points="196.946,381.665 192.033,371.622 197.011,374.165 202.033,371.709 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="196.946,381.665 192.033,371.622 197.011,374.165 202.033,371.709 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="219.377" y1="342.4" x2="219.057" y2="366.665"/>
+    <polygon style="fill: #000000" points="218.958,374.164 214.09,364.099 219.057,366.665 224.089,364.231 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="218.958,374.164 214.09,364.099 219.057,366.665 224.089,364.231 "/>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="77.8" y="91.2" width="163.7" height="38"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="159.65" y="114.1">
-      <tspan x="159.65" y="114.1">demande d'embauche</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="144.85" y="91.2" width="96.65" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="193.175" y="114.1">
+      <tspan x="193.175" y="114.1">candidature</tspan>
     </text>
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="177.575" y="204.4" width="145.175" height="99.8"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="250.163" y="258.2">
-      <tspan x="250.163" y="258.2">Vérifications</tspan>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="250.162" y="258.2">
+      <tspan x="250.162" y="258.2">Vérifications</tspan>
     </text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="343.175,123.8 270.638,123.8 270.638,151.164 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="343.176,123.8 270.638,123.8 270.638,151.164 "/>
     <polygon style="fill: #000000" points="270.638,158.664 265.638,148.664 270.638,151.164 275.638,148.664 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="270.638,158.664 265.638,148.664 270.638,151.164 275.638,148.664 "/>
   </g>
   <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 212.075 162.9 L 285.825,162.9 L 285.825,194.9 L 248.95,202.9 L 212.075,194.9 L 212.075,162.9"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="248.95" y="182.9">
-      <tspan x="248.95" y="182.9">A et B</tspan>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 212.076 162.9 L 285.826,162.9 L 285.826,194.9 L 248.951,202.9 L 212.076,194.9 L 212.076,162.9"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="248.951" y="182.9">
+      <tspan x="248.951" y="182.9">A et B</tspan>
     </text>
   </g>
   <g>
@@ -41,46 +41,46 @@
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="325.075" y="115.4" width="29.9" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="340.025" y="138.3">
-      <tspan x="340.025" y="138.3">B</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="325.076" y="115.4" width="29.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="340.026" y="138.3">
+      <tspan x="340.026" y="138.3">B</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="241.577" y="90.9002" width="163.7" height="38"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="323.427" y="113.8">
-      <tspan x="323.427" y="113.8">offre d'emploi</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="241.578" y="90.9002" width="147.422" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="315.289" y="113.8">
+      <tspan x="315.289" y="113.8">offre d'emploi</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="261.177" y="304.4" width="61.75" height="38"/>
-    <text font-size="8.28592" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="292.052" y="325.922">
-      <tspan x="292.052" y="325.922">Anomalie</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="261.178" y="304.4" width="61.75" height="38"/>
+    <text font-size="8.28604" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="292.053" y="325.921">
+      <tspan x="292.053" y="325.921">OK</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="144.427" y="383.901" width="105" height="52"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="196.927" y="405.801">
-      <tspan x="196.927" y="405.801">Accepté pour</tspan>
-      <tspan x="196.927" y="421.801">entretient</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="254.927" y="376.9" width="105" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="307.427" y="398.8">
+      <tspan x="307.427" y="398.8">accepté pour</tspan>
+      <tspan x="307.427" y="414.8">entretien</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="266.077" y="384.401" width="101.7" height="52"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="316.927" y="406.301">
-      <tspan x="316.927" y="406.301">Candidature</tspan>
-      <tspan x="316.927" y="422.301">rejetée</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="168.078" y="376.4" width="101.7" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="218.928" y="398.3">
+      <tspan x="218.928" y="398.3">candidature</tspan>
+      <tspan x="218.928" y="414.3">rejetée</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="292.052" y1="342.4" x2="291.629" y2="374.666"/>
-    <polygon style="fill: #000000" points="291.531,382.165 286.663,372.1 291.629,374.666 296.662,372.231 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="291.531,382.165 286.663,372.1 291.629,374.666 296.662,372.231 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="307.491" y1="342.4" x2="307.445" y2="367.164"/>
+    <polygon style="fill: #000000" points="307.431,374.664 302.45,364.655 307.445,367.164 312.45,364.673 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.431,374.664 302.45,364.655 307.445,367.164 312.45,364.673 "/>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="177.427" y="304.401" width="83.9" height="38"/>
-    <text font-size="8.28592" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="219.377" y="325.922">
-      <tspan x="219.377" y="325.922">OK</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="177.427" y="304.4" width="83.9" height="38"/>
+    <text font-size="8.28604" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="219.377" y="325.921">
+      <tspan x="219.377" y="325.921">Anomalie</tspan>
     </text>
   </g>
 </svg>
