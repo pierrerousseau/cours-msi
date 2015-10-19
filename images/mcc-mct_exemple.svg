@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="11cm" height="17cm" viewBox="161 91 216 338" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="179.75,123.5 250.312,123.5 250.312,152.764 "/>
+    <polygon style="fill: #000000" points="250.312,160.264 245.312,150.264 250.312,152.764 255.312,150.264 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="250.312,160.264 245.312,150.264 250.312,152.764 255.312,150.264 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="236.327" y1="330.2" x2="235.972" y2="366.964"/>
+    <polygon style="fill: #000000" points="235.9,374.464 230.996,364.416 235.972,366.964 240.996,364.513 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="235.9,374.464 230.996,364.416 235.972,366.964 240.996,364.513 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="161.8" y="91.4998" width="96.65" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="210.125" y="114.4">
+      <tspan x="210.125" y="114.4">inscription</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="194.525" y="192.2" width="145.175" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="267.113" y="238">
+      <tspan x="267.113" y="238">Saisie Informations</tspan>
+      <tspan x="267.113" y="254">Edition Carte</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 229.026 163.2 L 302.776,163.2 L 302.776,185.2 L 265.901,190.7 L 229.026,185.2 L 229.026,163.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="265.901" y="178.2">
+      <tspan x="265.901" y="178.2"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="278.128" y="292.2" width="61.75" height="38"/>
+    <text font-size="8.28604" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="309.003" y="313.721">
+      <tspan x="309.003" y="313.721">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="271.877" y="377.2" width="105" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="324.377" y="407.1">
+      <tspan x="324.377" y="407.1">carte remise</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="185.028" y="376.7" width="101.7" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="235.878" y="398.6">
+      <tspan x="235.878" y="398.6">inscription</tspan>
+      <tspan x="235.878" y="414.6">refusée</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="324.441" y1="330.2" x2="324.39" y2="367.464"/>
+    <polygon style="fill: #000000" points="324.38,374.964 319.394,364.957 324.39,367.464 329.394,364.97 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="324.38,374.964 319.394,364.957 324.39,367.464 329.394,364.97 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="194.377" y="292.2" width="83.9" height="38"/>
+    <text font-size="8.28604" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="236.327" y="313.721">
+      <tspan x="236.327" y="313.721">Anomalie</tspan>
+    </text>
+  </g>
+</svg>
