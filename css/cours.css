@@ -1,3 +1,7 @@
+.reveal section .top {
+    vertical-align: top;
+}
+
 .reveal section img {
     height: 128px;
     width: 128px;

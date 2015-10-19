@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="58cm" height="28cm" viewBox="151 -114 1154 552" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #fdf6e3" x="160.8" y="92.2" width="110.7" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160.8" y="92.2" width="110.7" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="216.15" y="106.2">Offre</text>
+    <rect style="fill: #fdf6e3" x="160.8" y="110.2" width="110.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160.8" y="110.2" width="110.7" height="52"/>
+    <polygon style="fill: #000000" points="163.8,120.2 165.8,123.2 167.8,120.2 165.8,117.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="169.8" y="126.2">id-offre</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="169.8" y1="127.8" x2="264.5" y2="127.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="165.8" cy="136.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="169.8" y="142.2">titre</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="165.8" cy="152.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="169.8" y="158.2">description</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="497.6" y="91.4" width="133.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="497.6" y="91.4" width="133.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="564.5" y="105.4">Candidat</text>
+    <rect style="fill: #fdf6e3" x="497.6" y="109.4" width="133.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="497.6" y="109.4" width="133.8" height="52"/>
+    <polygon style="fill: #000000" points="500.6,119.4 502.6,122.4 504.6,119.4 502.6,116.4 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="506.6" y="125.4">id-candidat</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="506.6" y1="127" x2="624.4" y2="127"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="502.6" cy="135.4" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="506.6" y="141.4">nom</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="502.6" cy="151.4" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="506.6" y="157.4">date-naissance</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="271.5,136.2 296.862,136.2 296.862,135.6 322.224,135.6 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="275.5" y="132.2">0,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 343.549 115.4 L 428.849,115.4 C 440.626,115.4 450.174,124.444 450.174,135.6 C 450.174,146.756 440.626,155.8 428.849,155.8 L 343.549,155.8 C 331.772,155.8 322.224,146.756 322.224,135.6 C 322.224,124.444 331.772,115.4 343.549,115.4"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="386.199" y="139.6">
+      <tspan x="386.199" y="139.6">Candidater</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="497.6,135.4 473.887,135.4 473.887,135.6 450.174,135.6 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="493.6" y="131.4">1,n</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="164.8" y="288" width="103" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="164.8" y="288" width="103" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="216.3" y="302">Contrat</text>
+    <rect style="fill: #fdf6e3" x="164.8" y="306" width="103" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="164.8" y="306" width="103" height="36"/>
+    <polygon style="fill: #000000" points="167.8,316 169.8,319 171.8,316 169.8,313 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="173.8" y="322">id-contrat</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="173.8" y1="323.6" x2="260.8" y2="323.6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="169.8" cy="332" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="173.8" y="338">salaire</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 174.125 203 L 259.425,203 C 271.202,203 280.75,212.044 280.75,223.2 C 280.75,234.356 271.202,243.4 259.425,243.4 L 174.125,243.4 C 162.348,243.4 152.8,234.356 152.8,223.2 C 152.8,212.044 162.348,203 174.125,203"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="216.775" y="227.2">
+      <tspan x="216.775" y="227.2">Lier</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="216.15,162.2 216.15,182.6 216.775,182.6 216.775,203 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="220.15" y="174.2">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="216.3,288 216.3,265.7 216.775,265.7 216.775,243.4 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="220.3" y="284">1,1</text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="328.6" y="10.8" width="52.8" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="355" y="33.7">
+      <tspan x="355" y="33.7">MCD</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="1029.75" y="-114" width="98.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1079.2" y="-91.1">
+      <tspan x="1079.2" y="-91.1">MOD Siège</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="1002.8" y="305" width="98.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1052.25" y="327.9">
+      <tspan x="1052.25" y="327.9">MOD R&amp;D</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="847.8" y="-52.2" width="110.7" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="847.8" y="-52.2" width="110.7" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="903.15" y="-38.2">Offre</text>
+    <rect style="fill: #fdf6e3" x="847.8" y="-34.2" width="110.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="847.8" y="-34.2" width="110.7" height="52"/>
+    <polygon style="fill: #000000" points="850.8,-24.2 852.8,-21.2 854.8,-24.2 852.8,-27.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="856.8" y="-18.2">id-offre</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="856.8" y1="-16.6" x2="951.5" y2="-16.6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="852.8" cy="-8.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="856.8" y="-2.2">titre</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="852.8" cy="7.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="856.8" y="13.8">description</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="1171.6" y="-52" width="133.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1171.6" y="-52" width="133.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1238.5" y="-38">Candidat</text>
+    <rect style="fill: #fdf6e3" x="1171.6" y="-34" width="133.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1171.6" y="-34" width="133.8" height="52"/>
+    <polygon style="fill: #000000" points="1174.6,-24 1176.6,-21 1178.6,-24 1176.6,-27 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1180.6" y="-18">id-candidat</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1180.6" y1="-16.4" x2="1298.4" y2="-16.4"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1176.6" cy="-8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1180.6" y="-2">nom</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1176.6" cy="8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1180.6" y="14">date-naissance</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="958.5,-8.2 976.362,-8.2 976.362,-7.8 994.224,-7.8 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="962.5" y="-12.2">0,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1015.55 -28 L 1100.85,-28 C 1112.63,-28 1122.17,-18.9562 1122.17,-7.8 C 1122.17,3.35616 1112.63,12.4 1100.85,12.4 L 1015.55,12.4 C 1003.77,12.4 994.224,3.35616 994.224,-7.8 C 994.224,-18.9562 1003.77,-28 1015.55,-28"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1058.2" y="-3.8">
+      <tspan x="1058.2" y="-3.8">Candidater</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1171.6,-8 1146.89,-8 1146.89,-7.8 1122.17,-7.8 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="1167.6" y="-12">1,n</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="851.8" y="163.6" width="103" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="851.8" y="163.6" width="103" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="903.3" y="177.6">Contrat</text>
+    <rect style="fill: #fdf6e3" x="851.8" y="181.6" width="103" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="851.8" y="181.6" width="103" height="36"/>
+    <polygon style="fill: #000000" points="854.8,191.6 856.8,194.6 858.8,191.6 856.8,188.6 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="860.8" y="197.6">id-contrat</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="860.8" y1="199.2" x2="947.8" y2="199.2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="856.8" cy="207.6" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="860.8" y="213.6">salaire</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 861.125 82.6 L 946.425,82.6 C 958.202,82.6 967.75,91.6438 967.75,102.8 C 967.75,113.956 958.202,123 946.425,123 L 861.125,123 C 849.348,123 839.8,113.956 839.8,102.8 C 839.8,91.6438 849.348,82.6 861.125,82.6"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="903.775" y="106.8">
+      <tspan x="903.775" y="106.8">Lier</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="903.15,17.8 903.15,50.2 903.775,50.2 903.775,82.6 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="907.15" y="29.8">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="903.3,163.6 903.3,143.3 903.775,143.3 903.775,123 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="907.3" y="159.6">1,1</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="833.8" y="367.8" width="110.7" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="833.8" y="367.8" width="110.7" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="889.15" y="381.8">Offre</text>
+    <rect style="fill: #fdf6e3" x="833.8" y="385.8" width="110.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="833.8" y="385.8" width="110.7" height="52"/>
+    <polygon style="fill: #000000" points="836.8,395.8 838.8,398.8 840.8,395.8 838.8,392.8 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="842.8" y="401.8">id-offre</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="842.8" y1="403.4" x2="937.5" y2="403.4"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="838.8" cy="411.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="842.8" y="417.8">titre</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="838.8" cy="427.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="842.8" y="433.8">description</text>
+  </g>
+  <g>
+    <rect style="fill: #fdf6e3" x="1155.6" y="367" width="133.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1155.6" y="367" width="133.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1222.5" y="381">Candidat</text>
+    <rect style="fill: #fdf6e3" x="1155.6" y="385" width="133.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1155.6" y="385" width="133.8" height="52"/>
+    <polygon style="fill: #000000" points="1158.6,395 1160.6,398 1162.6,395 1160.6,392 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1164.6" y="401">id-candidat</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1164.6" y1="402.6" x2="1282.4" y2="402.6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1160.6" cy="411" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1164.6" y="417">nom</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1160.6" cy="427" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1164.6" y="433">date-naissance</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="944.5,411.8 962.362,411.8 962.362,411.2 980.224,411.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="948.5" y="407.8">0,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1001.55 391 L 1086.85,391 C 1098.63,391 1108.17,400.044 1108.17,411.2 C 1108.17,422.356 1098.63,431.4 1086.85,431.4 L 1001.55,431.4 C 989.772,431.4 980.224,422.356 980.224,411.2 C 980.224,400.044 989.772,391 1001.55,391"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1044.2" y="415.2">
+      <tspan x="1044.2" y="415.2">Candidater</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1155.6,411 1131.89,411 1131.89,411.2 1108.17,411.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="1151.6" y="407">1,n</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" x1="663.5" y1="181.8" x2="794.151" y2="105.819"/>
+    <polygon style="fill: #000000" points="800.634,102.048 794.503,111.398 794.151,105.819 789.476,102.753 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" points="800.634,102.048 794.503,111.398 794.151,105.819 789.476,102.753 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" x1="662.5" y1="264.8" x2="793.056" y2="337.948"/>
+    <polygon style="fill: #000000" points="799.599,341.614 788.431,341.088 793.056,337.948 793.318,332.364 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" points="799.599,341.614 788.431,341.088 793.056,337.948 793.318,332.364 "/>
+  </g>
+</svg>

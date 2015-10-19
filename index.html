@@ -663,17 +663,128 @@
                 <section>
                 <section>
                     <h1> Modèle organisationel de données (MOD) </h1>
-                    <p> Mettre en évidence la visibilité des données </p>
+                    <p> Mettre en évidence <em> la visibilité </em> des données </p>
+                    <ul class="fragment"> 
+                    	<li> Définir l'emplacement les <em> types de sites </em> </li>
+                    	<li> Déterminer la <em> répartition </em> des données par type de site </li>
+                    	<li> Déterminer les <em> droits d'accès </em> aux données </li>
+                    </ul>
                 </section>
 
                 <section>
                     <h1> MOD : formalisme </h1>
-                    <img src="images/mod_formalisme.svg" alt="formalisme MOD" class="diagram" />
+                    <p> Identique au MCD, mais découplé par site </p>
+                    <ul class="fragment">
+                    	<li> ajout d'un tableau de sites </li>
+                    	<li> ajout d'un tableau de droits d'accès </li>
+                    </ul>
                 </section>
 
                 <section>
-                    <h1> MOT : exemple </h1>
-                    <img src="images/mod_expemple.svg" alt="exemple MOD" class="diagram" />
+                    <h1> MOD : sites </h1>
+                    <table> 
+                    	<thead> 
+                    		<tr>
+                    			<th> Sites </th>
+                    			<th> Acteurs </th>
+                			</tr>
+                		</thead>
+                			<tr> 
+                				<td class="top"> Siège </td>
+                				<td> 
+                					<ul> 
+                						<li> Direction </li>
+                						<li> Secrétariat RH </li>
+                						<li> Service RH </li>
+            						</ul>
+                				</td>
+                			</tr>
+                			<tr> 
+                				<td class="top"> R&D </td>
+                				<td> 
+                					<ul> 
+                						<li> Direction technique </li>
+                						<li> Équipe de developpement </li>
+            						</ul>
+                				</td>
+                			</tr>
+                		<tbody>
+                    </table>
+                </section>
+                
+                <section>
+                    <h1> MOD : droits d'accès </h1>
+                    <table> 
+                    	<thead> 
+                    		<tr>
+                    			<th> &nbsp; </th>
+                    			<th colspan="4"> Secrétariat RH </th>
+                    			<th colspan="4"> Dir. technique </th>
+                    			<th colspan="4"> Service RH </th>
+                			</tr>
+                    		<tr>
+                    			<th> Entité-Relation </th>
+                    			<th> C. </th>
+                    			<th> R. </th>
+                    			<th> U. </th>
+                    			<th> D. </th>
+                    			<th> C. </th>
+                    			<th> R. </th>
+                    			<th> U. </th>
+                    			<th> D. </th>
+                    			<th> C. </th>
+                    			<th> R. </th>
+                    			<th> U. </th>
+                    			<th> D. </th>
+                			</tr>
+                		</thead>
+                		<tbody>
+                    		<tr>
+                    			<td> Contrat </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> X </td>
+                    			<td> X </td>
+                    			<td> X </td>
+                    			<td> X </td>
+                			</tr>
+                			<tr>
+                    			<td> Offre </td>
+                    			<td> - </td>
+                    			<td> X </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> - </td>
+                    			<td> X </td>
+                    			<td> X </td>
+                    			<td> - </td>
+                    			<td> X </td>
+                    			<td> X </td>
+                    			<td> X </td>
+                    			<td> X </td>
+                			</tr>
+                		</tbody>
+                    </table>
+                </section>
+                
+                <section>
+                    <h1> MOD : construction </h1>
+                    <p> à l'aide du MCD </p>
+                    <ul>
+                    	<li> Création d'un MOD par site </li>
+                    	<li> Ajout des données organisationelles </li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h1> MOD : exemple </h1>
+                    <img src="images/mcd-mod_exemple.svg" alt="du MCD aux MOD" class="big-diagram" />
                 </section>
                 
                 <section data-background="#add9e4">
