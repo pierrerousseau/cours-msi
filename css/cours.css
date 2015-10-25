@@ -1,3 +1,11 @@
+.solution .reveal .slide-background.present {
+    background: #81d8d0;
+}
+
+.exercise .reveal .slide-background.present {
+    background: #add9e4;
+}
+
 .reveal section .top {
     vertical-align: top;
 }

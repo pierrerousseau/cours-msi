@@ -136,7 +136,7 @@
                     </ul>
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 1 </h3>
                     <h2> Décrire le système d'information d'une boulangerie </h2>
                 </section>
@@ -248,12 +248,12 @@
                     </ul>
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 2 </h3>
                     <h2> Recueillir les besoins du SI d'une boulangerie </h2>
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 3 </h3>
                     <h2> Recueillir les besoins du SI d'une start-up souhaitant transformer les possesseurs de machine à pain en boulangerie de voisinage </h2>
                 </section>
@@ -324,7 +324,7 @@
                     </small>
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 4 </h3>
                     <h2> Écrire les dictionnaires de données de nos deux petites entreprises </h2>
                 </section>
@@ -382,7 +382,7 @@
                     </small>
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 5 </h3>
                     <h2> Écrire les matrices de flux de nos deux petites entreprises </h2>
                 </section>
@@ -417,7 +417,7 @@
                     <img src="images/df_exemple_detail.svg" alt="exemple DF détaillé" class="big-diagram" />
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 6 </h3>
                     <h2> Écrire les diagrammes de flux de nos deux petites entreprises </h2>
                 </section>
@@ -441,7 +441,7 @@
                     <img src="images/mcc_exemple.svg" alt="exemple MCC" class="big-diagram" />
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 7 </h3>
                     <h2> Écrire les MCC de nos deux petites entreprises </h2>
                 </section>
@@ -520,13 +520,11 @@
 
                 <section>
                     <h1> MCD : construction </h1>
-                    <p> À l'aide du MCC </p>
                     <img src="images/mcc-mcd_exemple-1.svg" alt="du MCC au MCD" class="big-diagram" />
                 </section>
 
                 <section>
                     <h1> MCD : construction </h1>
-                    <p> À l'aide du MCC </p>
                     <img src="images/mcc-mcd_exemple-2.svg" alt="du MCC au MCD" class="big-diagram" />
                 </section>
 
@@ -574,13 +572,13 @@
                     <img src="images/mcd_transitivite.svg" alt="dépendance transitive" class="diagram" />
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 8 </h3>
                     <h2> Corriger la partie de MCD suivante </h2>
                     <img src="images/mcd_exercice.svg" alt="excercice" class="exo" />
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 9 </h3>
                     <h2> Écrire le MCD de notre boulangerie </h2>
                 </section>
@@ -622,7 +620,7 @@
                     <img src="images/mcc-mct_exemple.svg" alt="exemple MCC vers MCT" class="big-diagram" />
                 </section>
 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 10 </h3>
                     <h2> Écrire le MCT de notre boulangerie </h2>
                 </section>
@@ -659,7 +657,7 @@
                 </section>
                 
                 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 11 </h3>
                     <h2> Le boulanger ouvre des stands aux stations de métro :  écrire les MCC, MCT et MOT du nouveau SI </h2>
                 </section>
@@ -792,10 +790,40 @@
                     <img src="images/mcd-mod_exemple.svg" alt="du MCD aux MOD" class="big-diagram" />
                 </section>
                 
-                <section data-background="#add9e4">
+                <section data-state="exercise">
                     <h3> Exercice 12 </h3>
                     <h2> Le boulanger ouvre des stands aux stations de métro : écrire les MCD et MOD du nouveau SI </h2>
                 </section>
+                </section>
+
+                <section data-state="exercise">
+                    <h1> Exercice 13 </h1>
+                    <small> Modélisez complètement le SI de la boulangerie et de ses stands </small>
+                    <small> 
+                    	<table> 
+                    	<thead>
+                    	<tr> <th> Documents collectés </th> <th> Décisions </th> </tr>
+                    	<tbody> <tr> <td>
+                    	<ul>
+                    		<li> bons de livraisons (fournisseur, numéro du bon de livraison, produits et quantités livrées) </li>
+                    		<li> factures (fournisseur, numéro du bon de livraison si commande et somme à payer) </li>
+                    		<li> fiches de paye (nom et adresse de l'employé, diverses taxes payées et somme versée) </li>
+                    		<li> contrats des employés (nom et adresse et salaire) </li>
+                    		<li> tickets de caisse (code barre, date, produits et quantités et prix total payé) </li>
+                    	</ul>
+                    	</td>
+                    	<td>
+                    	<ul>
+                    		<li> Les commandes se font toujours aux mêmes fournisseurs par téléphone </li>
+                    		<li> Les quantités en stock sont connues et une limite basse atteinte déclanche une alerte </li>
+                    		<li> On veut une gestion simple des factures, qui inclut les factures des fournisseurs, du matériel, des charges et des divers impôts </li>
+                    		<li> Le boulanger va désormais noter précisément le nombre de produit fabriqués </li>
+                    		<li> Chaque stand est équipé d'un appareil pour imprimer les tickets de caisse mettant à jour le stock et la recette du stand </li>
+                    		<li> Le boulanger voit les stocks des stands en temps réel et décide s'il faut ou non ravitailler </li>
+                    		<li> Les dépenses et les gains par jour, semaine, mois et années sont accessibles à tout moment </li>	
+                    	</ul>
+                    	</td></tr></tbody></table>
+                    </small>
                 </section>
 
                 <section>
@@ -820,6 +848,9 @@
                 progress: true,
                 history: true,
                 center: true,
+                slideNumber: true,
+                width: "70%",
+
 
                 transition: 'slide', // none/fade/slide/convex/concave/zoom
 
