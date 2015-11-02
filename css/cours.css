@@ -1,9 +1,29 @@
+.later td {
+    opacity: .8;
+    font-style: italic;
+}
+small.mcc-detail {
+   text-align: left; 
+}
+small.mcc-detail ul {
+    display: inline-block;
+    width: 40%;
+    margin: .5em;
+}
 .solution .reveal .slide-background.present {
     background: #81d8d0;
 }
 
+.solution .reveal section img {
+    background: transparent;
+}
+
 .exercise .reveal .slide-background.present {
     background: #add9e4;
+}
+
+.exercise .reveal section img {
+    background: transparent;
 }
 
 .reveal section .top {
@@ -17,15 +37,6 @@
     box-shadow: none;
     display: inline-block;
     margin: 1em .5em;
-}
-
-.reveal section img.exo {
-    height: 256;
-    width: auto;
-    border: none;
-    box-shadow: none;
-    margin: 0;
-    background: #add9e4;
 }
 
 .reveal section img.diagram {

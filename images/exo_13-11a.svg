@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="14cm" height="18cm" viewBox="161 147 274 360" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="391.275,185.933 349.933,185.933 349.933,217.531 "/>
+    <polygon style="fill: #000000" points="349.933,225.031 344.933,215.031 349.933,217.531 354.933,215.031 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="349.933,225.031 344.933,215.031 349.933,217.531 354.933,215.031 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 284.383 227.267 L 371.783,227.267 L 371.783,259.267 L 328.083,267.267 L 284.383,259.267 L 284.383,227.267"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="328.083" y="247.267">
+      <tspan x="328.083" y="247.267">(A et B) ou B</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="348" y="147.933" width="86.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="391.275" y="170.833">
+      <tspan x="391.275" y="170.833">B : facture</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="246.75" y="269.467" width="151.533" height="138.267"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="322.517" y="326.5">
+      <tspan x="322.517" y="326.5">Enregistrer </tspan>
+      <tspan x="322.517" y="342.5">facture</tspan>
+      <tspan x="322.517" y="358.5">Payer facture</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="251.542" y="469.268" width="141.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="322.067" y="492.168">
+      <tspan x="322.067" y="492.168">comptes à jour</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="322.517" y1="407.734" x2="322.138" y2="459.532"/>
+    <polygon style="fill: #000000" points="322.083,467.032 317.156,456.996 322.138,459.532 327.156,457.069 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="322.083,467.032 317.156,456.996 322.138,459.532 327.156,457.069 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="233.934,186.133 306.233,186.133 306.233,217.531 "/>
+    <polygon style="fill: #000000" points="306.233,225.031 301.233,215.031 306.233,217.531 311.233,215.031 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="306.233,225.031 301.233,215.031 306.233,217.531 311.233,215.031 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="161.109" y="148.133" width="145.65" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="233.934" y="171.033">
+      <tspan x="233.934" y="171.033">A : livraison validée</tspan>
+    </text>
+  </g>
+</svg>

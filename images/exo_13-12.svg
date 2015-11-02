@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="11cm" height="17cm" viewBox="162 91 212 336" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="223.384,129.467 284.044,129.467 284.044,159.464 "/>
+    <polygon style="fill: #000000" points="284.044,166.964 279.044,156.964 284.044,159.464 289.044,156.964 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="284.044,166.964 279.044,156.964 284.044,159.464 289.044,156.964 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 265.608 169.2 L 339.358,169.2 L 339.358,201.2 L 302.483,209.2 L 265.608,201.2 L 265.608,169.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="302.483" y="189.2">
+      <tspan x="302.483" y="189.2"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="221.15" y="211.4" width="151.533" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="296.917" y="249.2">
+      <tspan x="296.917" y="249.2">Calculer salaire</tspan>
+      <tspan x="296.917" y="265.2">Calculer prime</tspan>
+      <tspan x="296.917" y="281.2">Calculer impôts</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="225.942" y="388.534" width="141.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="296.467" y="411.434">
+      <tspan x="296.467" y="411.434">fiche de paye</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="296.917" y1="311.2" x2="296.523" y2="378.798"/>
+    <polygon style="fill: #000000" points="296.479,386.298 291.537,376.269 296.523,378.798 301.537,376.327 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="296.479,386.298 291.537,376.269 296.523,378.798 301.537,376.327 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="162.584" y="91.4666" width="121.6" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="223.384" y="114.367">
+      <tspan x="223.384" y="114.367">jour de paye</tspan>
+    </text>
+  </g>
+</svg>

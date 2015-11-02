@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="34cm" height="12cm" viewBox="225 142 668 239" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="566.286" cy="182.391" rx="59.0516" ry="38.8286"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="566.286" y="186.291">
+      <tspan x="566.286" y="186.291">Boulangerie</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="285.022" cy="182.309" rx="58.222" ry="38.2831"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="285.022" y="186.209">
+      <tspan x="285.022" y="186.209">Fournisseur</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="497.498" y1="182.386" x2="343.244" y2="182.309"/>
+    <polygon style="fill: #000000" points="504.998,182.39 494.995,187.385 497.498,182.386 495,177.385 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="504.998,182.39 494.995,187.385 497.498,182.386 495,177.385 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="419.012" y="142.5" width="76.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="457.287" y="165.4">
+      <tspan x="457.287" y="165.4">livrer</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="566.022" cy="341.483" rx="58.222" ry="38.2831"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="566.022" y="345.383">
+      <tspan x="566.022" y="345.383">Client</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="566.053" y1="293.464" x2="566.286" y2="221.22"/>
+    <polygon style="fill: #000000" points="566.029,300.964 561.061,290.948 566.053,293.464 571.061,290.98 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="566.029,300.964 561.061,290.948 566.053,293.464 571.061,290.98 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="564.8" y="252.2" width="76.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="603.075" y="275.1">
+      <tspan x="603.075" y="275.1">vendre</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="834.022" cy="182.484" rx="58.4023" ry="38.4017"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="834.022" y="186.384">
+      <tspan x="834.022" y="186.384">Créancier</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="765.884" y1="182.478" x2="625.337" y2="182.391"/>
+    <polygon style="fill: #000000" points="773.384,182.482 763.381,187.476 765.884,182.478 763.387,177.476 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="773.384,182.482 763.381,187.476 765.884,182.478 763.387,177.476 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="688.8" y="144.2" width="76.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="727.075" y="167.1">
+      <tspan x="727.075" y="167.1">payer</tspan>
+    </text>
+  </g>
+</svg>

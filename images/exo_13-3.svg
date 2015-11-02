@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="37cm" height="22cm" viewBox="167 116 731 421" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="227.022" cy="320.983" rx="58.222" ry="38.2831"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="227.022" y="324.883">
+      <tspan x="227.022" y="324.883">Fournisseur</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="501.906" y1="320.607" x2="285.244" y2="320.984"/>
+    <polygon style="fill: #000000" points="509.406,320.594 499.415,325.611 501.906,320.607 499.397,315.611 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="509.406,320.594 499.415,325.611 501.906,320.607 499.397,315.611 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="347.462" y="283.674" width="122.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="408.562" y="306.574">
+      <tspan x="408.562" y="306.574">bon de livraison</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="568.079" cy="320.591" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="568.079" y="324.491">
+      <tspan x="568.079" y="324.491">Stock</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="568.815" cy="498.509" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="568.815" y="502.409">
+      <tspan x="568.815" y="502.409">Vendeur</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="568.564" y1="450.666" x2="568.078" y2="357.7"/>
+    <polygon style="fill: #000000" points="568.604,458.166 563.551,448.192 568.564,450.666 573.551,448.14 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="568.604,458.166 563.551,448.192 568.564,450.666 573.551,448.14 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="401.374" y="405.4" width="167" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="484.874" y="428.3">
+      <tspan x="484.874" y="428.3">produits mis à la vente</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="840.737" cy="322.509" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="840.737" y="326.409">
+      <tspan x="840.737" y="326.409">Trésorier</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="567.963" y1="273.747" x2="567.022" y2="193.966"/>
+    <polygon style="fill: #000000" points="568.052,281.246 562.934,271.306 567.963,273.747 572.933,271.188 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="568.052,281.246 562.934,271.306 567.963,273.747 572.933,271.188 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="373.9" y="229.4" width="193.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470.85" y="252.3">
+      <tspan x="470.85" y="252.3">produits utilisés / fabriqués</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="567.022" cy="155.683" rx="58.222" ry="38.2831"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="567.022" y="159.583">
+      <tspan x="567.022" y="159.583">Boulanger</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="774.565" y1="322.393" x2="624.516" y2="320.59"/>
+    <polygon style="fill: #000000" points="782.064,322.483 772.005,327.363 774.565,322.393 772.125,317.363 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="782.064,322.483 772.005,327.363 774.565,322.393 772.125,317.363 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="655.176" y="284.4" width="91.8" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="701.076" y="307.3">
+      <tspan x="701.076" y="307.3">facture</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 268.192,348.054 A 706.651,706.651 0 0 0 518.599,348.602"/>
+    <polygon style="fill: #000000" points="525.976,347.254 517.098,354.05 518.611,348.668 515.213,344.229 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="525.976,347.254 517.098,354.05 518.611,348.668 515.213,344.229 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="360.25" y="360.6" width="65.35" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="392.925" y="383.5">
+      <tspan x="392.925" y="383.5">facture</tspan>
+    </text>
+  </g>
+</svg>

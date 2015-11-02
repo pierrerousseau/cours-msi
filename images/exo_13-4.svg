@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="38cm" height="14cm" viewBox="161 91 741 275" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="221.022" cy="306.375" rx="58.222" ry="38.2831"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="221.022" y="310.275">
+      <tspan x="221.022" y="310.275">Client</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="288.98" y1="306.413" x2="506.378" y2="307.228"/>
+    <polygon style="fill: #000000" points="281.48,306.384 291.499,301.422 288.98,306.413 291.461,311.422 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="281.48,306.384 291.499,301.422 288.98,306.413 291.461,311.422 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="287.45" y="307.092" width="119.25" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="347.075" y="329.992">
+      <tspan x="347.075" y="329.992">ticket de caisse</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="562.079" cy="129.309" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="562.079" y="133.209">
+      <tspan x="562.079" y="133.209">Stock</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="562.815" cy="307.227" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="562.815" y="311.127">
+      <tspan x="562.815" y="311.127">Vendeur</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="562.564" y1="259.384" x2="562.078" y2="166.418"/>
+    <polygon style="fill: #000000" points="562.604,266.884 557.551,256.91 562.564,259.384 567.551,256.858 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="562.604,266.884 557.551,256.91 562.564,259.384 567.551,256.858 "/>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="782.737" cy="205.227" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="782.737" y="209.127">
+      <tspan x="782.737" y="209.127">Trésorier</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="627.552" y1="302.139" x2="742.83" y2="231.468"/>
+    <polygon style="fill: #000000" points="621.158,306.059 627.071,296.57 627.552,302.139 632.297,305.095 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="621.158,306.059 627.071,296.57 627.552,302.139 632.297,305.095 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="634.2" y="292.118" width="106.75" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="687.575" y="315.018">
+      <tspan x="687.575" y="315.018">fiche de paye</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="782.736,252.072 782.736,364.918 562.814,364.918 562.814,344.336 "/>
+    <polygon style="fill: #000000" points="782.736,244.572 787.736,254.572 782.736,252.072 777.736,254.572 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="782.736,244.572 787.736,254.572 782.736,252.072 777.736,254.572 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="782.8" y="253.2" width="119.25" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="842.425" y="276.1">
+      <tspan x="842.425" y="276.1">ticket de caisse</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 730.596,191.026 A 162.781,162.781 0 0 0 607.269,272.394"/>
+    <polygon style="fill: #000000" points="603.708,278.981 603.631,267.801 607.016,272.25 612.606,272.212 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.708,278.981 603.631,267.801 607.016,272.25 612.606,272.212 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="611.8" y="173.2" width="106.75" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="665.175" y="196.1">
+      <tspan x="665.175" y="196.1">contrat</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="395.8" y="221.2" width="167" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="479.3" y="244.1">
+      <tspan x="479.3" y="244.1">produits mis à la vente</tspan>
+    </text>
+  </g>
+</svg>

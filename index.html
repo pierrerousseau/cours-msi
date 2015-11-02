@@ -299,7 +299,7 @@
                             <td> nom-produit </td>
                             <td> nom d'un produit </td>
                             <td> texte </td>
-                            <td> 50 cactères max </td>
+                            <td> 50 car. max </td>
                             <td> - </td>
                             <td> boite de haricots verts </td>
                         </tr>
@@ -509,8 +509,8 @@
                             <li> liée à une (réflexive) ou plusieurs entités (binaires ou n-aires) </li>
                             <li> porteuse de <em>cardinalités</em> 
                                 <ul> 
-                                    <li> occurrences minimale [0, 1] des entités associées </li>
-                                    <li> occurrences minimale [1, n] des entités associées </li>
+                                    <li> occurrence minimale [0, 1] des entités associées </li>
+                                    <li> occurrences maximales [1, n] des entités associées </li>
                                 </ul>
                             </li>
                             <li> peut être composée de propriétés </li>
@@ -575,7 +575,7 @@
                 <section data-state="exercise">
                     <h3> Exercice 8 </h3>
                     <h2> Corriger la partie de MCD suivante </h2>
-                    <img src="images/mcd_exercice.svg" alt="excercice" class="exo" />
+                    <img src="images/mcd_exercice.svg" alt="excercice" class="diagram" />
                 </section>
 
                 <section data-state="exercise">
@@ -711,7 +711,7 @@
             						</ul>
                 				</td>
                 			</tr>
-                		<tbody>
+                		</tbody>
                     </table>
                 </section>
                 
@@ -727,50 +727,23 @@
                 			</tr>
                     		<tr>
                     			<th> Ent.-Rel. </th>
-                    			<th> C. </th>
-                    			<th> R. </th>
-                    			<th> U. </th>
-                    			<th> D. </th>
-                    			<th> C. </th>
-                    			<th> R. </th>
-                    			<th> U. </th>
-                    			<th> D. </th>
-                    			<th> C. </th>
-                    			<th> R. </th>
-                    			<th> U. </th>
-                    			<th> D. </th>
+                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
                 			</tr>
                 		</thead>
                 		<tbody>
                     		<tr>
                     			<td> Contrat </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> X </td>
-                    			<td> X </td>
-                    			<td> X </td>
-                    			<td> X </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
                 			</tr>
                 			<tr>
                     			<td> Offre </td>
-                    			<td> - </td>
-                    			<td> X </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> - </td>
-                    			<td> X </td>
-                    			<td> X </td>
-                    			<td> - </td>
-                    			<td> X </td>
-                    			<td> X </td>
-                    			<td> X </td>
-                    			<td> X </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
                 			</tr>
                 		</tbody>
                     </table>
@@ -796,6 +769,7 @@
                 </section>
                 </section>
 
+                <section>
                 <section data-state="exercise">
                     <h1> Exercice 13 </h1>
                     <small> Modélisez complètement le SI de la boulangerie et de ses stands </small>
@@ -805,25 +779,777 @@
                     	<tr> <th> Documents collectés </th> <th> Décisions </th> </tr>
                     	<tbody> <tr> <td>
                     	<ul>
-                    		<li> bons de livraisons (fournisseur, numéro du bon de livraison, produits et quantités livrées) </li>
-                    		<li> factures (fournisseur, numéro du bon de livraison si commande et somme à payer) </li>
-                    		<li> fiches de paye (nom et adresse de l'employé, diverses taxes payées et somme versée) </li>
-                    		<li> contrats des employés (nom et adresse et salaire) </li>
-                    		<li> tickets de caisse (code barre, date, produits et quantités et prix total payé) </li>
+                    		<li> bons de livraisons (fournisseur, date, numéro du bon de livraison, produits (noms et codes fournisseur) et quantités livrés) </li>
+                    		<li> factures (créancier, code créancier pour la facture, date, date de paiement et somme à payer) </li>
+                    		<li> tickets de caisse (code barre, date, produits, quantités et prix total payé) </li>
+                    		<li> contrats des employés (intitulé, dates de début et de fin, nom, age, adresse et salaire) </li>
+                    		<li> fiches de paye (nom, adresse de l'employé, date de paiement, salaire et prime) </li>
                     	</ul>
                     	</td>
                     	<td>
                     	<ul>
-                    		<li> Les commandes se font toujours aux mêmes fournisseurs par téléphone </li>
-                    		<li> Les quantités en stock sont connues et une limite basse atteinte déclanche une alerte </li>
+                    		<li> Les commandes se font toujours aux mêmes fournisseurs par téléphone, on n'en garde pas de trace </li>
                     		<li> On veut une gestion simple des factures, qui inclut les factures des fournisseurs, du matériel, des charges et des divers impôts </li>
-                    		<li> Le boulanger va désormais noter précisément le nombre de produit fabriqués </li>
-                    		<li> Chaque stand est équipé d'un appareil pour imprimer les tickets de caisse mettant à jour le stock et la recette du stand </li>
-                    		<li> Le boulanger voit les stocks des stands en temps réel et décide s'il faut ou non ravitailler </li>
-                    		<li> Les dépenses et les gains par jour, semaine, mois et années sont accessibles à tout moment </li>	
+                    		<li> Le boulanger va désormais noter précisément le nombre de produits fabriqués </li>
+                    		<li> Chaque stand est équipé d'un appareil pour imprimer les tickets de caisse mettant à jour le stock et les ventes effectuées </li>
+                    		<li> Les stands sont ravitaillés en début de service </li>
+                    		<li> Le boulanger voit les stocks en temps réel et décide s'il faut ou non ravitailler </li>
+                    		<li> Le boulanger peut faire un bilan des dépenses et des gains pour la période de son choix à tout moment </li>	
                     	</ul>
                     	</td></tr></tbody></table>
                     </small>
+                </section>
+                <!-- section data-state="solution">
+                    <h5> Dictionnaire de Données (1/4) </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-bon-livraison </td>
+                            <td> identifiant d'un bon de livraison </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-fournisseur </td>
+                            <td> nom d'un fournisseur </td>
+                            <td> texte </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> Farines Inc. </td>
+                        </tr>
+                        <tr>
+                            <td> code-fournisseur-bon-livraison </td>
+                            <td> identifiant fournisseur d'un bon de livraison </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> 421337-OXO </td>
+                        </tr>
+                        <tr>
+                            <td> date-livraison </td>
+                            <td> date de livraison </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> code-fournisseur-produit </td>
+                            <td> identifiant fournisseur d'un produit </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> #81d8d0 </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-livrée </td>
+                            <td> quantité livrée d'un produit </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> unité selon produit </td>
+                            <td> 12.00 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-produit </td>
+                            <td> nom d'un produit </td>
+                            <td> texte </td>
+                            <td> 70 car. </td>
+                            <td> - </td>
+                            <td> Farine </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-produit </td>
+                            <td> quantité d'un produit en stock </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> unité selon produit </td>
+                            <td> 12.00 </td>
+                        </tr>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Dictionnaire de Données (2/4) </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-facture </td>
+                            <td> identifiant d'une facture </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> code-créancier-facture </td>
+                            <td> identifiant fournisseur d'une facture </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> 00000-0000 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-créancier </td>
+                            <td> nom d'un créancier </td>
+                            <td> texte </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> Farines Inc. </td>
+                        </tr>
+                        <tr>
+                            <td> date-facture </td>
+                            <td> date d'une facture </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> date-paiement-facture </td>
+                            <td> date de paiement d'une facture </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/09/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> total-facture </td>
+                            <td> somme totale à payer pour une facture </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> en euros </td>
+                            <td> 100.0 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Dictionnaire de Données (3/4) </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-stand </td>
+                            <td> identifiant d'un stand </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr class="later">
+                            <td> nom-stand </td>
+                            <td> dénomination d'un stand </td>
+                            <td> texte </td>
+                            <td> 70 car. </td>
+                            <td> - </td>
+                            <td> Nanterre-Université </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-stand </td>
+                            <td> quantité d'un produit disponible dans un stand </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> unité selon produit </td>
+                            <td> 12.00 </td>
+                        </tr>
+                        <tr class="later">
+                            <td> id-ticket </td>
+                            <td> identifiant d'un ticket </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> date-émission </td>
+                            <td> date d'émission d'un ticket de caisse </td>
+                            <td> date </td>
+                            <td> jj/mm/yyyy </td>
+                            <td> - </td>
+                            <td> 06/10/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> code-barre </td>
+                            <td> code barre d'un produit à la vente </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> unique </td>
+                            <td> 3-454977-344617 </td>
+                        </tr>
+                        <tr>
+                            <td> prix-vente </td>
+                            <td> prix d'un produit à la vente </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> en euros </td>
+                            <td> 2.00 </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-vendue </td>
+                            <td> nombre de produits vendus sur un ticket </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> penser au demi-baguettes </td>
+                            <td> 0.5 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Dictionnaire de Données (4/4) </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-contrat </td>
+                            <td> identifiant d'un contrat </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> intitulé </td>
+                            <td> intitulé d'un contrat </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> Vendeur Junior </td>
+                        </tr>
+                        <tr>
+                            <td> date-début </td>
+                            <td> date de début d'un contrat </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> date-fin </td>
+                            <td> date de fin d'un contrat </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 31/12/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> salaire </td>
+                            <td> salaire d'un employé </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> en euros </td>
+                            <td> 2000.0 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-employé </td>
+                            <td> nom d'un employé </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> Robert Dupond </td>
+                        </tr>
+                        <tr>
+                            <td> date-naissance </td>
+                            <td> date de naissance d'un employé </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 31/12/1996 </td>
+                        </tr>
+                        <tr>
+                            <td> adresse </td>
+                            <td> adresse d'un employé </td>
+                            <td> texte </td>
+                            <td> 70 car. </td>
+                            <td> - </td>
+                            <td> 200, Avenue de la République 92001 NANTERRE CEDEX </td>
+                        </tr>
+                        <tr class="later">
+                            <td> id-paye </td>
+                            <td> identifiant d'une paye </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> date-paiement-paye </td>
+                            <td> date de paye </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 31/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> prime </td>
+                            <td> prime versée à un employé </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> en euros </td>
+                            <td> 190.0 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+
+                <section data-state="solution">
+                    <h5> Matrice des Flux </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <td> &nbsp; </td>
+                            <th> Fournisseur </th>
+                            <th> Boulanger </th>
+                            <th> Créancier </th>
+                            <th> Client </th>
+                            <th> Stock </th>
+                            <th> Vendeur </th>
+                            <th> Trésorerie </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th> Fournisseur </th>
+                            <td> &nbsp; </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> <ul> <li> livrer </li> </ul> </td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <th> Boulanger </th>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> <ul> <li> fournir </li> </ul> </td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <th> Créancier </th>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <th> Client </th>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <th> Stock </th>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> <ul> <li> fournir </li> </ul> </td>
+                            <td> <ul> <li> informer </li> </ul> </td>
+                        </tr>
+                        <tr>
+                            <th> Vendeur </th>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> <ul> <li> vendre </li> </ul> </td>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> <ul> <li> informer </li> </ul> </td>
+                        </tr>
+                        <tr>
+                            <th> Trésorerie </th>
+                            <td> <ul> <li> payer </li> </ul> </td>
+                            <td> <ul> <li> payer </li> </ul> </td>
+                            <td> <ul> <li> payer </li> </ul> </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> <ul> <li> payer </li> </ul> </td>
+                            <td> &nbsp; </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+
+                <section data-state="solution">
+                    <h5> Diagramme des Flux </h5>
+                    <img src="images/exo_13-1.svg" class="big-diagram" alt="diagramme des flux" />
+                </section>
+                <section data-state="solution">
+                    <h5> Diagramme des Flux </h5>
+                    <img src="images/exo_13-2.svg" class="big-diagram" alt="diagramme des flux" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Gestion Stock </h5>
+                    <img src="images/exo_13-3.svg" class="big-diagram" alt="MCC stock" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Gestion Stock </h5>
+                    <small class="mcc-detail">
+        			<ul> bon de livraison (Fournisseur, Stock)
+        				<li> nom-fournisseur </li> 
+        				<li> id-bon-livraison </li> 
+        				<li> code-fournisseur-bon-livraison </li> 
+        				<li> code-fournisseur-produit </li> 
+        				<li> nom-produit </li> 
+        				<li> quantité-produit </li> 
+        				<li class="later"> code-barre </li>
+        			</ul>
+                	<ul> facture (Fournisseur, Stock)
+        				<li> id-facture </li> 
+        				<li> code-créancier-facture </li> 
+        				<li> date-facture </li> 
+        				<li> total-facture </li> 
+        			</ul>
+                	<ul> produits utilisés / fabriqués (Boulanger, Stock)
+        				<li> quantité-produit-utilisée </li> 
+        				<li> quantité-produit-fabriquée </li> 
+                	</ul>
+                	<ul> produits mis à la vente (Stock, Vendeur)
+                		<li> code-barre </li>
+        				<li> quantité-produit-stand </li> 
+                	</ul>
+                	<ul> facture (Stock, Trésorier)
+                		<li> id-créancier </li>
+        				<li> code-créancier-facture </li> 
+        				<li> date-facture </li> 
+        				<li> total-facture </li> 
+                    </ul>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Ventes </h5>
+                    <img src="images/exo_13-4.svg" class="big-diagram" alt="MCC ventes" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Ventes </h5>
+                    <small class="mcc-detail">
+                	<ul> ticket de caisse (Vendeur, Client)
+        				<li> date-émission </li> 
+        				<li> code-barre </li>
+        				<li> nom-produit </li>
+        				<li> prix-vente </li>
+        				<li> quantité-vendue </li> 
+                	</ul>
+                	<ul> ticket de caisse (Vendeur, Trésorier)
+        				<li> date-émission </li> 
+        				<li> code-barre </li>
+        				<li> prix-vente </li>
+        				<li> quantité-vendue </li> 
+                	</ul>
+                	<ul> contrat (Trésorier, Vendeur)
+        				<li> intitulé </li> 
+        				<li> nom-employé </li> 
+        				<li> adresse </li> 
+        				<li> date-naissance </li> 
+        				<li> date-début </li> 
+        				<li> date-fin </li> 
+        				<li> salaire </li>
+                	</ul>
+                	<ul> fiche de paye (Trésorier, Vendeur)
+        				<li> salaire </li>
+        				<li> date-paiement </li> 
+        				<li> prime </li>
+                	</ul>
+                	<ul> produits mis à la vente (Stock, Vendeur)
+        				<li> quantité-produit-stand </li> 
+                	</ul>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Trésorerie </h5>
+                    <img src="images/exo_13-5.svg" class="big-diagram" alt="MCC trésorerie" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Tésorerie </h5>
+                    <small class="mcc-detail">
+                	<ul> contrat (Trésorier, Vendeur/Boulanger)
+        				<li> intitulé </li> 
+        				<li> nom-employé </li> 
+        				<li> adresse </li> 
+        				<li> date-naissance </li> 
+        				<li> date-début </li> 
+        				<li> date-fin </li> 
+        				<li> salaire </li>
+                	</ul>
+                	<ul> fiche de paye (Trésorier, Vendeur/Boulanger)
+        				<li> salaire </li>
+        				<li> date-paiement </li> 
+        				<li> prime </li>
+                	</ul>
+                	<ul> ticket de caisse (Vendeur, Trésorier)
+        				<li> date-émission </li> 
+        				<li> code-barre </li>
+        				<li> prix-vente </li>
+        				<li> quantité-vendue </li> 
+                	</ul>
+                	<ul> facture (Stock/Créancier, Trésorerie)
+                		<li> id-créancier </li>
+        				<li> code-créancier-facture </li> 
+        				<li> date-facture </li> 
+        				<li> total-facture </li> 
+                	</ul>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Données </h5>
+                    <img src="images/exo_13-6.svg" class="big-diagram" alt="MCD" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : livraison </h5>
+                    <img src="images/exo_13-7.svg" class="big-diagram" alt="MCT livraison" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : mise à jour du stock </h5>
+                    <img src="images/exo_13-8.svg" class="big-diagram" alt="MCT maj stock" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : ravitaillement d'un stand </h5>
+                    <img src="images/exo_13-9.svg" class="big-diagram" alt="MCT maj stock stand" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : vente </h5>
+                    <img src="images/exo_13-10.svg" class="big-diagram" alt="MCT vente" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : paiement facture </h5>
+                    <img src="images/exo_13-11a.svg" class="big-diagram" alt="MCT paiement" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : embauche </h5>
+                    <img src="images/exo_13-11.svg" class="big-diagram" alt="MCT nouveau contrat" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : paye </h5>
+                    <img src="images/exo_13-12.svg" class="big-diagram" alt="MCT paye" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : bilan </h5>
+                    <img src="images/exo_13-13.svg" class="big-diagram" alt="MCT bilan" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : livraison </h5>
+                    <img src="images/exo_13-14.svg" class="big-diagram" alt="MOT livraison" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : ravitaillement du stock </h5>
+                    <img src="images/exo_13_mot_maj_stock.svg" class="big-diagram" alt="MOT maj stock" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : ravitaillement d'un stand </h5>
+                    <img src="images/exo_13-15.svg" class="big-diagram" alt="MOT bilan" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : vente </h5>
+                    <img src="images/exo_13-16.svg" class="big-diagram" alt="MOT vente" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : embauche, paye, bilan </h5>
+                    <img src="images/exo_13-17.svg" class="big-diagram" alt="MOT bilan" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Données : sites </h5>
+                    <small>
+                    <table> 
+                    	<thead> 
+                    		<tr>
+                    			<th> Sites </th>
+                    			<th> Acteurs </th>
+                			</tr>
+                		</thead>
+                			<tr> 
+                				<td class="top"> Boulangerie </td>
+                				<td> 
+                					<ul> 
+                						<li> Stock </li>
+                						<li> Trésorerie </li>
+                						<li> Boulanger </li>
+                						<li> Vendeur </li>
+            						</ul>
+                				</td>
+                			</tr>
+                			<tr> 
+                				<td class="top"> Stand </td>
+                				<td> 
+                					<ul> 
+                						<li> Vendeur </li>
+            						</ul>
+                				</td>
+                			</tr>
+                		</tbody>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Données : droits d'accès </h1>
+                    <small>
+                    <table> 
+                    	<thead> 
+                    		<tr>
+                    			<th> &nbsp; </th>
+                    			<th colspan="4"> Boulanger </th>
+                    			<th colspan="4"> Trésorerie </th>
+                    			<th colspan="4"> Vendeur </th>
+                    			<th colspan="4"> Stock </th>
+                			</tr>
+                    		<tr>
+                    			<th> Ent.-Rel. </th>
+                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                			</tr>
+                		</thead>
+                		<tbody>
+                    		<tr>
+                    			<td> Contrat </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                			</tr>
+                			<tr>
+                    			<td> Paye </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                			</tr>
+                			<tr>
+                    			<td> Facture </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                			</tr>
+                			<tr>
+                    			<td> Créancier </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                			</tr>
+                			<tr>
+                    			<td> Bon_Livraison </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                			</tr>
+                			<tr>
+                    			<td> Livrer </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                			</tr>
+                			<tr>
+                    			<td> Produit </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                			</tr>
+                			<tr>
+                    			<td> Stand </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                    			<td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                			</tr>
+                			<tr>
+                    			<td> Disposer </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                			</tr>
+                			<tr>
+                    			<td> Ticket_Caisse </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                			</tr>
+                			<tr>
+                    			<td> Vendre </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                			</tr>
+                		</tbody>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Données : boulangerie </h5>
+                    <img src="images/exo_13-6.svg" class="big-diagram" alt="MOD boulangerie" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Données : stand </h5>
+                    <img src="images/exo_13-18.svg" class="big-diagram" alt="MOD stand" />
+                </section -->
                 </section>
 
                 <section>

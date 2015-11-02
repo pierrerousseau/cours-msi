@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="19cm" height="19cm" viewBox="245 110 377 377" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="245.842" y="174.667" width="145.65" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="318.667" y="197.567">
+      <tspan x="318.667" y="197.567">A : livraison validée</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="318.666,212.666 391.494,212.666 391.494,240.93 "/>
+    <polygon style="fill: #000000" points="391.494,248.43 386.494,238.43 391.494,240.93 396.494,238.43 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="391.494,248.43 386.494,238.43 391.494,240.93 396.494,238.43 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 368.399 251 L 448.999,251 L 448.999,283 L 408.699,291 L 368.399,283 L 368.399,251"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="408.699" y="271">
+      <tspan x="408.699" y="271">A ou B ou C</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="332.366" y="293.2" width="151.033" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="407.883" y="331">
+      <tspan x="407.883" y="331">Compter</tspan>
+      <tspan x="407.883" y="347">Mettre à jour</tspan>
+      <tspan x="407.883" y="363">le stock</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="407.884" y1="393" x2="407.525" y2="439.364"/>
+    <polygon style="fill: #000000" points="407.467,446.864 402.545,436.826 407.525,439.364 412.545,436.903 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="407.467,446.864 402.545,436.826 407.525,439.364 412.545,436.903 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="356.6" y="449.1" width="101.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="407.45" y="472">
+      <tspan x="407.45" y="472">stock à jour</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="525.584,214.133 428.849,214.133 428.849,241.264 "/>
+    <polygon style="fill: #000000" points="428.849,248.764 423.849,238.764 428.849,241.264 433.849,238.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="428.849,248.764 423.849,238.764 428.849,241.264 433.849,238.764 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="428.409" y="176.133" width="194.35" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="525.584" y="199.033">
+      <tspan x="525.584" y="199.033">C : pélèvement de produits</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="505.621,148.6 408.699,148.6 408.699,241.264 "/>
+    <polygon style="fill: #000000" points="408.699,248.764 403.699,238.764 408.699,241.264 413.699,238.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="408.699,248.764 403.699,238.764 408.699,241.264 413.699,238.764 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="408.446" y="110.6" width="194.35" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="505.621" y="133.5">
+      <tspan x="505.621" y="133.5">B : ajout produits fabriqués</tspan>
+    </text>
+  </g>
+</svg>
