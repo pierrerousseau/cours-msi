@@ -589,9 +589,9 @@
                     <h1> Modèle conceptuel de traitement (MCT) </h1>
                     <p> Décrire les <em> processus </em> du SI </p>
                     <ul class="fragment"> 
-                    	<li> <strong> Évènement </strong> : apport d'information <em> déclencheur </em> </li>
-                    	<li> <strong> Opération </strong> : suite <em> non-interruptible </em> d'actions d'une activité </li>
-                    	<li> <strong> Résultat </strong> :  information produite par l'opération </li>
+                        <li> <strong> Évènement </strong> : apport d'information <em> déclencheur </em> </li>
+                        <li> <strong> Opération </strong> : suite <em> non-interruptible </em> d'actions d'une activité </li>
+                        <li> <strong> Résultat </strong> :  information produite par l'opération </li>
                     </ul>
                 </section>
 
@@ -609,9 +609,9 @@
                     <h1> MCT : construction </h1>
                     <p> à l'aide du MCC en respectant les règles suivantes : </p>
                     <ol class="fragment"> 
-                    	<li> une opération produit des résultats exhaustifs </li>
-                    	<li> une opération est une suite ininterrompue d'actions </li>
-                    	<li> une opération ne comporte pas de résultat intermédiaire conditionnel </li>
+                        <li> une opération produit des résultats exhaustifs </li>
+                        <li> une opération est une suite ininterrompue d'actions </li>
+                        <li> une opération ne comporte pas de résultat intermédiaire conditionnel </li>
                     </ol>
                 </section>
 
@@ -631,9 +631,9 @@
                     <h1> Modèle org. de traitement (MOT) </h1>
                     <p> Décrire les <em> procédures </em> du SI </p>
                     <ul class="fragment"> 
-                    	<li> Définir les <em> postes de travail </em> </li>
-                    	<li> Déterminer l'ordre d'exécution des <em> phases </em> </li>
-                    	<li> Déterminer les types d'automatisation (MA, TR, TD) </li>
+                        <li> Définir les <em> postes de travail </em> </li>
+                        <li> Déterminer l'ordre d'exécution des <em> phases </em> </li>
+                        <li> Déterminer les types d'automatisation (MA, TR, TD) </li>
                     </ul>
                 </section>
 
@@ -668,9 +668,9 @@
                     <h1> Modèle org. de données (MOD) </h1>
                     <p> Mettre en évidence <em> la visibilité </em> des données </p>
                     <ul class="fragment"> 
-                    	<li> Définir l'emplacement les <em> types de sites </em> </li>
-                    	<li> Déterminer la <em> répartition </em> des données par type de site </li>
-                    	<li> Déterminer les <em> droits d'accès </em> aux données </li>
+                        <li> Définir l'emplacement les <em> types de sites </em> </li>
+                        <li> Déterminer la <em> répartition </em> des données par type de site </li>
+                        <li> Déterminer les <em> droits d'accès </em> aux données </li>
                     </ul>
                 </section>
 
@@ -678,74 +678,74 @@
                     <h1> MOD : formalisme </h1>
                     <p> Identique au MCD, mais découplé par site </p>
                     <ul class="fragment">
-                    	<li> ajout d'un tableau de sites </li>
-                    	<li> ajout d'un tableau de droits d'accès </li>
+                        <li> ajout d'un tableau de sites </li>
+                        <li> ajout d'un tableau de droits d'accès </li>
                     </ul>
                 </section>
 
                 <section>
                     <h1> MOD : sites </h1>
                     <table> 
-                    	<thead> 
-                    		<tr>
-                    			<th> Sites </th>
-                    			<th> Acteurs </th>
-                			</tr>
-                		</thead>
-                			<tr> 
-                				<td class="top"> Siège </td>
-                				<td> 
-                					<ul> 
-                						<li> Direction </li>
-                						<li> Secrétariat RH </li>
-                						<li> Service RH </li>
-            						</ul>
-                				</td>
-                			</tr>
-                			<tr> 
-                				<td class="top"> R&D </td>
-                				<td> 
-                					<ul> 
-                						<li> Direction technique </li>
-                						<li> Équipe de développement </li>
-            						</ul>
-                				</td>
-                			</tr>
-                		</tbody>
+                        <thead> 
+                            <tr>
+                                <th> Sites </th>
+                                <th> Acteurs </th>
+                            </tr>
+                        </thead>
+                            <tr> 
+                                <td class="top"> Siège </td>
+                                <td> 
+                                    <ul> 
+                                        <li> Direction </li>
+                                        <li> Secrétariat RH </li>
+                                        <li> Service RH </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr> 
+                                <td class="top"> R&D </td>
+                                <td> 
+                                    <ul> 
+                                        <li> Direction technique </li>
+                                        <li> Équipe de développement </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </section>
                 
                 <section>
                     <h1> MOD : droits d'accès </h1>
                     <table> 
-                    	<thead> 
-                    		<tr>
-                    			<th> &nbsp; </th>
-                    			<th colspan="4"> Secrétariat RH </th>
-                    			<th colspan="4"> Dir. technique </th>
-                    			<th colspan="4"> Service RH </th>
-                			</tr>
-                    		<tr>
-                    			<th> Ent.-Rel. </th>
-                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                			</tr>
-                		</thead>
-                		<tbody>
-                    		<tr>
-                    			<td> Contrat </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                			</tr>
-                			<tr>
-                    			<td> Offre </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> X </td> <td> X </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                			</tr>
-                		</tbody>
+                        <thead> 
+                            <tr>
+                                <th> &nbsp; </th>
+                                <th colspan="4"> Secrétariat RH </th>
+                                <th colspan="4"> Dir. technique </th>
+                                <th colspan="4"> Service RH </th>
+                            </tr>
+                            <tr>
+                                <th> Ent.-Rel. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Contrat </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Offre </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </section>
                 
@@ -753,8 +753,8 @@
                     <h1> MOD : construction </h1>
                     <p> à l'aide du MCD </p>
                     <ul>
-                    	<li> Création d'un MOD par site </li>
-                    	<li> Ajout des données organisationnelles </li>
+                        <li> Création d'un MOD par site </li>
+                        <li> Ajout des données organisationnelles </li>
                     </ul>
                 </section>
                 
@@ -774,29 +774,29 @@
                     <h1> Exercice 13 </h1>
                     <small> Modélisez complètement le SI de la boulangerie et de ses stands </small>
                     <small> 
-                    	<table> 
-                    	<thead>
-                    	<tr> <th> Documents collectés </th> <th> Décisions </th> </tr>
-                    	<tbody> <tr> <td>
-                    	<ul>
-                    		<li> bons de livraisons (fournisseur, date, numéro du bon de livraison, produits (noms et codes fournisseur) et quantités livrés) </li>
-                    		<li> factures (créancier, code créancier pour la facture, date, date de paiement et somme à payer) </li>
-                    		<li> tickets de caisse (code barre, date, produits, quantités et prix total payé) </li>
-                    		<li> contrats des employés (intitulé, dates de début et de fin, nom, age, adresse et salaire) </li>
-                    		<li> fiches de paye (nom, adresse de l'employé, date de paiement, salaire et prime) </li>
-                    	</ul>
-                    	</td>
-                    	<td>
-                    	<ul>
-                    		<li> Les commandes se font toujours aux mêmes fournisseurs par téléphone, on n'en garde pas de trace </li>
-                    		<li> On veut une gestion simple des factures, qui inclut les factures des fournisseurs, du matériel, des charges et des divers impôts </li>
-                    		<li> Le boulanger va désormais noter précisément le nombre de produits fabriqués </li>
-                    		<li> Chaque stand est équipé d'un appareil pour imprimer les tickets de caisse mettant à jour le stock et les ventes effectuées </li>
-                    		<li> Les stands sont ravitaillés en début de service </li>
-                    		<li> Le boulanger voit les stocks en temps réel et décide s'il faut ou non ravitailler </li>
-                    		<li> Le boulanger peut faire un bilan des dépenses et des gains pour la période de son choix à tout moment </li>	
-                    	</ul>
-                    	</td></tr></tbody></table>
+                        <table> 
+                        <thead>
+                        <tr> <th> Documents collectés </th> <th> Décisions </th> </tr>
+                        <tbody> <tr> <td>
+                        <ul>
+                            <li> bons de livraisons (fournisseur, date, numéro du bon de livraison, produits (noms et codes fournisseur) et quantités livrés) </li>
+                            <li> factures (créancier, code créancier pour la facture, date, date de paiement et somme à payer) </li>
+                            <li> tickets de caisse (code barre, date, produits, quantités et prix total payé) </li>
+                            <li> contrats des employés (intitulé, dates de début et de fin, nom, age, adresse et salaire) </li>
+                            <li> fiches de paye (nom, adresse de l'employé, date de paiement, salaire et prime) </li>
+                        </ul>
+                        </td>
+                        <td>
+                        <ul>
+                            <li> Les commandes se font toujours aux mêmes fournisseurs par téléphone, on n'en garde pas de trace </li>
+                            <li> On veut une gestion simple des factures, qui inclut les factures des fournisseurs, du matériel, des charges et des divers impôts </li>
+                            <li> Le boulanger va désormais noter précisément le nombre de produits fabriqués </li>
+                            <li> Chaque stand est équipé d'un appareil pour imprimer les tickets de caisse mettant à jour le stock et les ventes effectuées </li>
+                            <li> Les stands sont ravitaillés en début de service </li>
+                            <li> Le boulanger voit les stocks en temps réel et décide s'il faut ou non ravitailler </li>
+                            <li> Le boulanger peut faire un bilan des dépenses et des gains pour la période de son choix à tout moment </li>    
+                        </ul>
+                        </td></tr></tbody></table>
                     </small>
                 </section>
                 <section data-state="solution">
@@ -1246,34 +1246,34 @@
                 <section data-state="solution">
                     <h5> Modèle de Conceptuel de Communication : Gestion Stock </h5>
                     <small class="mcc-detail">
-        			<ul> bon de livraison (Fournisseur, Stock)
-        				<li> nom-fournisseur </li> 
-        				<li> id-bon-livraison </li> 
-        				<li> code-fournisseur-bon-livraison </li> 
-        				<li> code-fournisseur-produit </li> 
-        				<li> nom-produit </li> 
-        				<li> quantité-produit </li> 
-        				<li class="later"> code-barre </li>
-        			</ul>
-                	<ul> facture (Fournisseur, Stock)
-        				<li> id-facture </li> 
-        				<li> code-créancier-facture </li> 
-        				<li> date-facture </li> 
-        				<li> total-facture </li> 
-        			</ul>
-                	<ul> produits utilisés / fabriqués (Boulanger, Stock)
-        				<li> quantité-produit-utilisée </li> 
-        				<li> quantité-produit-fabriquée </li> 
-                	</ul>
-                	<ul> produits mis à la vente (Stock, Vendeur)
-                		<li> code-barre </li>
-        				<li> quantité-produit-stand </li> 
-                	</ul>
-                	<ul> facture (Stock, Trésorier)
-                		<li> id-créancier </li>
-        				<li> code-créancier-facture </li> 
-        				<li> date-facture </li> 
-        				<li> total-facture </li> 
+                    <ul> bon de livraison (Fournisseur, Stock)
+                        <li> nom-fournisseur </li> 
+                        <li> id-bon-livraison </li> 
+                        <li> code-fournisseur-bon-livraison </li> 
+                        <li> code-fournisseur-produit </li> 
+                        <li> nom-produit </li> 
+                        <li> quantité-produit </li> 
+                        <li class="later"> code-barre </li>
+                    </ul>
+                    <ul> facture (Fournisseur, Stock)
+                        <li> id-facture </li> 
+                        <li> code-créancier-facture </li> 
+                        <li> date-facture </li> 
+                        <li> total-facture </li> 
+                    </ul>
+                    <ul> produits utilisés / fabriqués (Boulanger, Stock)
+                        <li> quantité-produit-utilisée </li> 
+                        <li> quantité-produit-fabriquée </li> 
+                    </ul>
+                    <ul> produits mis à la vente (Stock, Vendeur)
+                        <li> code-barre </li>
+                        <li> quantité-produit-stand </li> 
+                    </ul>
+                    <ul> facture (Stock, Trésorier)
+                        <li> id-créancier </li>
+                        <li> code-créancier-facture </li> 
+                        <li> date-facture </li> 
+                        <li> total-facture </li> 
                     </ul>
                     </small>
                 </section>
@@ -1284,36 +1284,36 @@
                 <section data-state="solution">
                     <h5> Modèle de Conceptuel de Communication : Ventes </h5>
                     <small class="mcc-detail">
-                	<ul> ticket de caisse (Vendeur, Client)
-        				<li> date-émission </li> 
-        				<li> code-barre </li>
-        				<li> nom-produit </li>
-        				<li> prix-vente </li>
-        				<li> quantité-vendue </li> 
-                	</ul>
-                	<ul> ticket de caisse (Vendeur, Trésorier)
-        				<li> date-émission </li> 
-        				<li> code-barre </li>
-        				<li> prix-vente </li>
-        				<li> quantité-vendue </li> 
-                	</ul>
-                	<ul> contrat (Trésorier, Vendeur)
-        				<li> intitulé </li> 
-        				<li> nom-employé </li> 
-        				<li> adresse </li> 
-        				<li> date-naissance </li> 
-        				<li> date-début </li> 
-        				<li> date-fin </li> 
-        				<li> salaire </li>
-                	</ul>
-                	<ul> fiche de paye (Trésorier, Vendeur)
-        				<li> salaire </li>
-        				<li> date-paiement </li> 
-        				<li> prime </li>
-                	</ul>
-                	<ul> produits mis à la vente (Stock, Vendeur)
-        				<li> quantité-produit-stand </li> 
-                	</ul>
+                    <ul> ticket de caisse (Vendeur, Client)
+                        <li> date-émission </li> 
+                        <li> code-barre </li>
+                        <li> nom-produit </li>
+                        <li> prix-vente </li>
+                        <li> quantité-vendue </li> 
+                    </ul>
+                    <ul> ticket de caisse (Vendeur, Trésorier)
+                        <li> date-émission </li> 
+                        <li> code-barre </li>
+                        <li> prix-vente </li>
+                        <li> quantité-vendue </li> 
+                    </ul>
+                    <ul> contrat (Trésorier, Vendeur)
+                        <li> intitulé </li> 
+                        <li> nom-employé </li> 
+                        <li> adresse </li> 
+                        <li> date-naissance </li> 
+                        <li> date-début </li> 
+                        <li> date-fin </li> 
+                        <li> salaire </li>
+                    </ul>
+                    <ul> fiche de paye (Trésorier, Vendeur)
+                        <li> salaire </li>
+                        <li> date-paiement </li> 
+                        <li> prime </li>
+                    </ul>
+                    <ul> produits mis à la vente (Stock, Vendeur)
+                        <li> quantité-produit-stand </li> 
+                    </ul>
                     </small>
                 </section>
                 <section data-state="solution">
@@ -1323,32 +1323,32 @@
                 <section data-state="solution">
                     <h5> Modèle de Conceptuel de Communication : Tésorerie </h5>
                     <small class="mcc-detail">
-                	<ul> contrat (Trésorier, Vendeur/Boulanger)
-        				<li> intitulé </li> 
-        				<li> nom-employé </li> 
-        				<li> adresse </li> 
-        				<li> date-naissance </li> 
-        				<li> date-début </li> 
-        				<li> date-fin </li> 
-        				<li> salaire </li>
-                	</ul>
-                	<ul> fiche de paye (Trésorier, Vendeur/Boulanger)
-        				<li> salaire </li>
-        				<li> date-paiement </li> 
-        				<li> prime </li>
-                	</ul>
-                	<ul> ticket de caisse (Vendeur, Trésorier)
-        				<li> date-émission </li> 
-        				<li> code-barre </li>
-        				<li> prix-vente </li>
-        				<li> quantité-vendue </li> 
-                	</ul>
-                	<ul> facture (Stock/Créancier, Trésorerie)
-                		<li> id-créancier </li>
-        				<li> code-créancier-facture </li> 
-        				<li> date-facture </li> 
-        				<li> total-facture </li> 
-                	</ul>
+                    <ul> contrat (Trésorier, Vendeur/Boulanger)
+                        <li> intitulé </li> 
+                        <li> nom-employé </li> 
+                        <li> adresse </li> 
+                        <li> date-naissance </li> 
+                        <li> date-début </li> 
+                        <li> date-fin </li> 
+                        <li> salaire </li>
+                    </ul>
+                    <ul> fiche de paye (Trésorier, Vendeur/Boulanger)
+                        <li> salaire </li>
+                        <li> date-paiement </li> 
+                        <li> prime </li>
+                    </ul>
+                    <ul> ticket de caisse (Vendeur, Trésorier)
+                        <li> date-émission </li> 
+                        <li> code-barre </li>
+                        <li> prix-vente </li>
+                        <li> quantité-vendue </li> 
+                    </ul>
+                    <ul> facture (Stock/Créancier, Trésorerie)
+                        <li> id-créancier </li>
+                        <li> code-créancier-facture </li> 
+                        <li> date-facture </li> 
+                        <li> total-facture </li> 
+                    </ul>
                     </small>
                 </section>
                 <section data-state="solution">
@@ -1411,32 +1411,32 @@
                     <h5> Modèle de Organisationnel de Données : sites </h5>
                     <small>
                     <table> 
-                    	<thead> 
-                    		<tr>
-                    			<th> Sites </th>
-                    			<th> Acteurs </th>
-                			</tr>
-                		</thead>
-                			<tr> 
-                				<td class="top"> Boulangerie </td>
-                				<td> 
-                					<ul> 
-                						<li> Stock </li>
-                						<li> Trésorerie </li>
-                						<li> Boulanger </li>
-                						<li> Vendeur </li>
-            						</ul>
-                				</td>
-                			</tr>
-                			<tr> 
-                				<td class="top"> Stand </td>
-                				<td> 
-                					<ul> 
-                						<li> Vendeur </li>
-            						</ul>
-                				</td>
-                			</tr>
-                		</tbody>
+                        <thead> 
+                            <tr>
+                                <th> Sites </th>
+                                <th> Acteurs </th>
+                            </tr>
+                        </thead>
+                            <tr> 
+                                <td class="top"> Boulangerie </td>
+                                <td> 
+                                    <ul> 
+                                        <li> Stock </li>
+                                        <li> Trésorerie </li>
+                                        <li> Boulanger </li>
+                                        <li> Vendeur </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr> 
+                                <td class="top"> Stand </td>
+                                <td> 
+                                    <ul> 
+                                        <li> Vendeur </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                     </small>
                 </section>
@@ -1444,101 +1444,101 @@
                     <h5> Modèle de Organisationnel de Données : droits d'accès </h1>
                     <small>
                     <table> 
-                    	<thead> 
-                    		<tr>
-                    			<th> &nbsp; </th>
-                    			<th colspan="4"> Boulanger </th>
-                    			<th colspan="4"> Trésorerie </th>
-                    			<th colspan="4"> Vendeur </th>
-                    			<th colspan="4"> Stock </th>
-                			</tr>
-                    		<tr>
-                    			<th> Ent.-Rel. </th>
-                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                    			<th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                			</tr>
-                		</thead>
-                		<tbody>
-                    		<tr>
-                    			<td> Contrat </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                			</tr>
-                			<tr>
-                    			<td> Paye </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                			</tr>
-                			<tr>
-                    			<td> Facture </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                			</tr>
-                			<tr>
-                    			<td> Créancier </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                			</tr>
-                			<tr>
-                    			<td> Bon_Livraison </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                			</tr>
-                			<tr>
-                    			<td> Livrer </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                			</tr>
-                			<tr>
-                    			<td> Produit </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                			</tr>
-                			<tr>
-                    			<td> Stand </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                    			<td> - </td> <td> X </td> <td> X </td> <td> - </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                			</tr>
-                			<tr>
-                    			<td> Disposer </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                			</tr>
-                			<tr>
-                    			<td> Ticket_Caisse </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                			</tr>
-                			<tr>
-                    			<td> Vendre </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                    			<td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                    			<td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                    			<td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                			</tr>
-                		</tbody>
+                        <thead> 
+                            <tr>
+                                <th> &nbsp; </th>
+                                <th colspan="4"> Boulanger </th>
+                                <th colspan="4"> Trésorerie </th>
+                                <th colspan="4"> Vendeur </th>
+                                <th colspan="4"> Stock </th>
+                            </tr>
+                            <tr>
+                                <th> Ent.-Rel. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Contrat </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Paye </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Facture </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Créancier </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Bon_Livraison </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Livrer </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Produit </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Stand </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Disposer </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Ticket_Caisse </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Vendre </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                            </tr>
+                        </tbody>
                     </table>
                     </small>
                 </section>
@@ -1557,6 +1557,73 @@
                     <h1> Contrôle Continu </h1>
                     [<a href=exams/msi_cc115pr.pdf> Sujet 1 </a>] - [<a href=exams/msi_cc215pr.pdf> Sujet 2 </a>]
                 </section>
+                </section>
+
+                <section>
+                    <section>
+                    <h3> Résumé de la démarche (1/3) </h3>
+                    <ul> 
+                        <li> <u> Recueil des besoins </u>
+                            <ul> 
+                                <li> lister les données (DD) : classifier, typer, épurer </li>
+                                <li> lister les acteurs et les flux (MF/DF) : définir (émetteur, récepteur, nature), décomposer en sous-domaines </li>
+                                <li> assurer la cohérence DF / MF </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </section>
+                    <section>
+                    <h3> Résumé de la démarche (2/3) </h3>
+                    <small>
+                    <ul> 
+                        <li> Conception : <u> niveau conceptuel (quoi ?)</u>
+                            <ul> 
+                                <li> décrire les flux de données (MCC) : 
+                                    <ul> 
+                                        <li> décomposer les flux du DF en messages </li>
+                                        <li> détailler les messages avec les données du DD et les données calculées </li>
+                                        <li> assurer la cohérence DD / MCC </li>
+                                    </ul>
+                                </li>
+                                <li> définir la statique du système (MCD)
+                                    <ul>
+                                        <li> utiliser les messages du MCC détaillé pour définir les entités et les associations porteuses </li>
+                                        <li> ajouter les associations non porteuses et les cardinalités </li> 
+                                        <li> valider les formes normales sur le MCD </li>
+                                        <li> assurer la cohérence DD / propriétés du MCD </li>
+                                    </ul>
+                                </li>
+                                <li> définir la dynamique du système (MCT)
+                                    <ul>
+                                        <li> utiliser les acteurs du MCC pour définir les processus effectués par ceux-ci : événements, actions, résultats </li>
+                                        <li> valider le MCT : résultats exhaustifs, pas d'interruption des actions, pas de résultat intermédiaire des actions </li>
+                                        <li> assurer la présence de tous les messages du MCC dans le MCT </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </small>
+                    </section>
+                    <section>
+                    <h3> Résumé de la démarche (3/3) </h3>
+                    <ul>
+                        <li> Conception : <u> niveau organisationnel (qui ? où ?) </u>
+                            <ul>
+                                <li> définir les procédures du système (MOT) : postes de travail, ordre d'exécution et niveaux d'automatisation </li>
+                                <li> définir la visibilité des données (MOD) : sites, droits d'accès et répartition des données </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </small>
+                    </section>
+                </section>
+
+                <section>
+                    <h1> On a vu tout MERISE ? </h1>
+                    <p class="fragment"> <em>NON</em>, il manque la conception technique (MLD, MPD, MLT, MLPT) </p>
+                    <p class="fragment"> <em>NON</em>, il manque de nombreux détails (CIF, héritage, ...) </p>
+                    <p class="fragment"> <em>NON</em>, il manque la gestion globale du projet </p>
                 </section>
 
                 <section>
