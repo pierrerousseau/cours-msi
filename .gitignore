@@ -1,2 +1,4 @@
 *.sw?
 *~
+reveal.js
+node_modules
