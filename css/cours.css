@@ -1,3 +1,29 @@
+.reveal .slides > section.title {
+    margin: 0;
+    padding: 0;
+}
+.reveal .title h1 {
+    margin: 0;
+}
+.reveal .title img {
+    width: 192px;
+    height: auto;
+    margin: .5em 2em .5em 0;
+    vertical-align: middle;
+}
+.reveal .title p {
+    margin: .25em;
+    line-height: 1;
+    text-align: center;
+}
+
+.reveal .title em {
+    font-size: .7em;
+    font-style: normal;
+    font-weight: initial;
+}
+
+
 .later td {
     opacity: .8;
     font-style: italic;
