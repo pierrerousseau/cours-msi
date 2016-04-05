@@ -27,7 +27,7 @@
     font-weight: initial;
 }
 
-.information a {
+.reveal .information a, .reveal .system a {
     vertical-align: top;
     font-size: .5em;
 }
