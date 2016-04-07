@@ -1,3 +1,7 @@
+.reveal em {
+    font-weight: bolder;
+    color: #d57c1b;
+}
 .reveal strong {
     font-weight: bolder;
     color: #d57c1b;
@@ -92,11 +96,6 @@ small.mcc-detail ul {
 
 .reveal sup {
     font-size: .4em
-}
-
-.reveal em {
-    font-weight: bolder;
-    color: #d75f00;
 }
 
 .reveal .fog {
