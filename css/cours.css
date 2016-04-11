@@ -1,3 +1,6 @@
+.reveal a {
+    color: #77beee;
+}
 .reveal em {
     font-weight: bolder;
     color: #d57c1b;
@@ -5,6 +8,11 @@
 .reveal strong {
     font-weight: bolder;
     color: #d57c1b;
+}
+
+.exercise .reveal .slide-background.present {
+    background: #ae4a1d;
+    opacity: .25;
 }
 
 .reveal .slides > section.title {
@@ -44,10 +52,6 @@
     margin: 0;
 }
 
-
-}
-
-
 .later td {
     opacity: .8;
     font-style: italic;
@@ -66,10 +70,6 @@ small.mcc-detail ul {
 
 .solution .reveal section img {
     background: transparent;
-}
-
-.exercise .reveal .slide-background.present {
-    background: #add9e4;
 }
 
 .exercise .reveal section img {
