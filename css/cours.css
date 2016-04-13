@@ -39,7 +39,8 @@
     font-weight: initial;
 }
 
-.reveal .information a, .reveal .system a, .reveal .information-system a {
+.reveal .information a, .reveal .system a, .reveal .information-system a,
+.reveal .merise a {
     vertical-align: top;
     font-size: .5em;
 }
