@@ -53,6 +53,10 @@
     margin: 0;
 }
 
+.reveal .dd.example table {
+    font-size: smaller;
+}
+
 .later td {
     opacity: .8;
     font-style: italic;
