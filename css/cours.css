@@ -38,6 +38,9 @@
     font-style: normal;
     font-weight: initial;
 }
+.reveal .col-title td:first-child {
+    font-weight: bold;
+}
 
 .reveal .information a, .reveal .system a, .reveal .information-system a,
 .reveal .merise a {
