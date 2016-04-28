@@ -48,7 +48,7 @@
     font-size: .5em;
 }
 
-.reveal .systemic img, .reveal .df.formalism img {
+.reveal .systemic img, .reveal .df.formalism img, .reveal .df.example img {
     height: auto;
     max-height: 480px;
     width: auto;
