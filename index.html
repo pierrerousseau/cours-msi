@@ -42,63 +42,423 @@
             <!-- Any section element inside of this container is displayed as a slide -->
 
             <div class="slides">
-                <section class="title" data-markdown="slides/titre.md"></section>
-                <section class="information" data-markdown="slides/information.md"></section>
-                <section class="system" data-markdown="slides/systeme.md"></section>
-                <section class="information-system" data-markdown="slides/systeme_information.md"></section>
+                <section data-markdown class="title">
+                    <script type="text/template">
+                    # Modélisation des Systèmes d'Information
+
+                    ![Université Paris Ouest Nanterre La Défense](images/logo-paris-x.png)
+                    **MIAGE - L3**
+
+                    *[Pierre Rousseau][mail]*
+
+                    *https://pierrerousseau.github.io/cours-msi*
+
+                    [mail]: mailto:pierre.rousseau@u-paris10.fr
+                    </script>
+                </section>
+                <section data-markdown class="information">
+                    <script type="text/template">
+                    # Information
+
+                    > **Données** susceptibles d'être représentées à l'aide de conventions pour être 
+                    > conservées, traitées ou communiquées. [Larousse][larousse-information]
+
+                    ![données](images/database.svg) 
+                    ![données](images/folders.svg) 
+                    ![deviennent](images/rightleft.svg)
+                    ![informations](images/information.svg) 
+                    ![informations](images/news.svg) 
+
+                    [larousse-information]: http://www.larousse.fr/dictionnaires/francais/information/42993
+                    </script>
+                </section>
+                <section data-markdown class="system">
+                    <script type="text/template">
+                    # Système
+
+                    > Ensemble d'éléments considérés dans leurs **relations** à l'intérieur d'un 
+                    > tout fonctionnant de manière unitaire. [Larousse][larousse-systeme]
+
+                    ![système](images/system.svg) 
+
+                    [larousse-systeme]: http://www.larousse.fr/dictionnaires/francais/syst%C3%A8me/76262
+                    </script>
+                </section>
+                <section data-markdown class="information-system">
+                    <script type="text/template">
+                    # Système d'Information
+
+                    > Un système d'information (SI) est un ensemble organisé de ressources 
+                    > permettant de **collecter, stocker, traiter et diffuser** de l'information
+                    > [R. De Courcy][r-de-courcy]
+
+                    ![SI](images/information_system.svg) 
+
+                    [r-de-courcy]: https://fr.wikipedia.org/wiki/Système_d'information
+                    </script>
+                </section>
                 <section class="systemic">
-                	<section data-markdown="slides/systemique.md"></section>
-                	<section data-markdown="slides/systemique-2.md"></section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        # Analyse systémique
+
+                        Vue d'un ensemble (d'une organisation) sous forme de système
+
+                        * **complexe** : différentes parties
+                        * **cohérent** : parties organisées
+                        * **complet**  : pas de partie manquante
+                        * **récursif** : composé de sous-systèmes
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        # Analyse systémique
+
+                        ![systémique](images/systemique.svg) 
+                        </script>
+                    </section>
                 </section>
-                <section class="qualities" data-markdown="slides/qualites.md"></section>
-                <section class="parts" data-markdown="slides/composants.md"></section>
-                <section data-state="exercise" class="exercise" data-markdown="slides/exo-premiere-approche.md"></section>
-                <section class="problems" data-markdown="slides/problemes.md"></section>
-                <section>
-                    <section class="merise" data-markdown="slides/merise.md"></section>
-                    <section class="sections" data-markdown="slides/decouplage.md"></section>
-                    <section class="dimensions" data-markdown="slides/dimensions.md"></section>
-                    <section class="abstraction" data-markdown="slides/abstraction.md"></section>
-                    <section class="tools" data-markdown="slides/outils.md"></section>
+                <section data-markdown class="qualities">
+                    <script type="text/template">
+                    # Qualités du SI
+
+                    Aide à la *décision* (organiser, informer, interpréter, prévoir)
+
+                    * **pertinent** : information utile
+                    * **rapide** : réponse en temps utile
+                    * **fiable** : information disponible et de confiance
+                    * **sûr** : usage sécurisé
+                    * **ADAPTÉ** : ressources et buts de l'organisation
+                    </script>
+                </section>
+                <section data-markdown class="parts">
+                    <script type="text/template">
+                    # Composants du SI
+
+                    * **Outils** : logiciels, matériels, protocoles
+                    * **Infrastructure** : réseaux
+                    * **Procédures** : organisation interne
+                    * **Humains** : utilisateurs, acteurs
+                    </script>
+                </section>
+                <section data-markdown data-state="exercise" class="exercise">
+                    <script type="text/template">
+                    ### Exercice 1
+
+                    Décrire le système d'information d'une boulangerie
+                    </script>
+                </section>
+                <section data-markdown class="problems">
+                    <script type="text/template">
+                    # Des problèmes ?
+
+                    **&lt;** manque de temps, d'homogénéité, de structure, de communication, ...
+
+                    **&rArr;** besoin d'une *démarche*, de techniques et d'*outils*
+                    </script>
                 </section>
                 <section>
-                    <section class="needs" data-markdown="slides/besoins.md"></section>
-                    <section data-state="exercise" class="exercise" data-markdown="slides/exo-besoins.md"></section>
+                    <section data-markdown class="merise">
+                        <script type="text/template">
+                        # Merise
+
+                        > *Méthode* d'analyse, de conception et de gestion de projet informatique
+                        > [Wikipedia][wiki-merise]
+
+                        * niveaux d'abstraction </li>
+                        * méthodes, outils (formalismes) </li>
+                        * *lourdeur*
+
+                        -----
+
+                        ### Conseil : Adapter, choisir ce qui est utile
+
+                        [wiki-merise]: https://fr.wikipedia.org/wiki/Merise
+                        </script>
+                    </section>
+                    <section data-markdown class="sections">
+                        <script type="text/template">
+                        # Découplage
+
+                        * **données** : structures, relations
+                        * **traitements** : flux de données internes et externes, manipulation des données
+                        </script>
+                    </section>
+                    <section data-markdown class="dimensions">
+                        <script type="text/template">
+                        # Dimensions
+
+                        * Cycle de décision : résultats produits par le SI
+                        * Cycle de vie : conception, mise en oeuvre, maintenance, évolution d'un SI
+                        * Cycle d'*abstraction* : modélisation du SI
+                        </script>
+                    </section>
+                    <section data-markdown class="abstraction">
+                        <script type="text/template">
+                        # Cycle d'abstraction
+
+                        * Expression des **besoins**
+                        * niveau **Conceptuel** : fondamentaux, *stable*, indépendant
+                        * niveau **Organisationnel**  personnes, matériel
+                        * niveau **Logique** : outils, *indépendant*
+                        * niveau **Physique** : outils, technique
+                        </script>
+                    </section>
+                    <section data-markdown class="tools">
+                        <script type="text/template">
+                        # Outils
+
+                        |                 |            |         |       |         |
+                        | --------------- |:----------:|:-------:|:-----:|:-------:|
+                        | Besoins         |            | *DD*    |       | *DF/MF* |
+                        |                 |            |         | *MCC* |         |
+                        | Conceptuel      | Quoi ?     | *MCD*   |       | *MCT*   |
+                        | Organisationnel | Qui ? Où ? | *MOD*   |       | *MOT*   |
+                        | Logique         | Comment ?  | MLD     |       | MLT     |
+                        | Physique        | Comment ?  | MPD     |       | MPT     |
+                        </script>
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown class="needs">
+                        <script type="text/template">
+                        # Recueil des besoins
+
+                        lister les informations et leurs flux
+
+                        * Existant : collecter *les données* (documents, normes, entretiens)
+                        * Analyse : déterminer les entrées, les sorties et *les flux* des uns aux autres
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 2
+
+                        ## Recueillir les besoins du SI d'une boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 3
+
+                        ## Recueillir les besoins du SI d'une start-up souhaitant transformer les possesseurs de machine à pain en boulangerie de voisinage
+                        </script>
+                    </section>
                     <section data-state="exercise" class="exercise" data-markdown="slides/exo-besoins-2.md"></section>
                 </section>
+
                 <section>
-                    <section class="dd" data-markdown="slides/dd.md"></section>
-                    <section class="dd example" data-markdown="slides/dd-exemple.md"></section>
+                    <section data-markdown class="dd">
+                        <script type="text/template">
+                        # Dictionnaire de données (DD)
+
+                        *lister* les données
+
+                        * **Classifier** : *données élémentaires*, calculées, composées
+                        * **Typer** : définir les types et les formats des données
+                        * **Épurer** : supprimer les doublons, spécifier, déterminer les contraintes
+                        </script>
+                    </section>
+                    <section data-markdown class="dd example">
+                        <script type="text/template">
+                        # DD : exemple
+
+                        | Mnémonique      | Description                     | Type    | Format      | Divers     | Exemple                 |
+                        |:--------------- |:------------------------------- |:------- |:----------- |:---------- |:----------------------- |
+                        | id-produit      | identifiant d'un produit        | entier  | -           | séquentiel | 1                       |
+                        | nom-produit     | nom d'un produit                | texte   | 50 car. max | -          | boite de haricots verts |
+                        | prix-produit    | prix d'un produit               | décimal | -           | en euros   | 1.52                    |
+                        | date-péremption | date de péremption d'un produit | date    | jj/mm/aaaa  | -          | 06/10/2015              |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 4
+
+                        ## Écrire le dictionnaire de données de la boulangerie
+                        </script>
+                    </section>
                     <section data-state="exercise" class="exercise" data-markdown="slides/exo-dd.md"></section>
                 </section>
 
                 <section>
-                    <section class="mf" data-markdown="slides/mf.md"></section>
-                    <section class="mf example col-title" data-markdown="slides/mf-exemple.md"></section>
-                    <section data-state="exercise" class="exercise" data-markdown="slides/exo-mf.md"></section>
+                    <section data-markdown class="mf">
+                        <script type="text/template">
+                        # Matrice des flux (MF)
+
+                        *bilans* des activités des acteurs
+
+                        * **Définir** : émetteur, récepteur, nature
+                        * **Sélectionner** : les acteurs nécessaires (besoin d'un récepteur)
+                        </script>
+                    </section>
+                    <section data-markdown class="mf example col-title">
+                        <script type="text/template">
+                        # MF : exemple
+
+                        |                    | Fournisseur  | Gestion des achats | Gestion des stocks |
+                        |:------------------ |:------------:|:------------------:|:------------------:|
+                        | Fournisseur        |              | -                  | livrer             |
+                        | Gestion des achats | commander    |                    | -                  |
+                        | Gestion des stocks | -            | demande achats     |                    |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 5
+
+                        ## Écrire la matrice des flux de la boulangerie
+                        </script>
+                    </section>
                 </section>
 
                 <section>
-                    <section class="df" data-markdown="slides/df.md"></section>
-                    <section class="df formalism" data-markdown="slides/df-formalisme.md"></section>
-                    <section class="df example" data-markdown="slides/df-exemple.md"></section>
-                    <section class="df example" data-markdown="slides/df-exemple-2.md"></section>
-                    <section data-state="exercise" class="exercise" data-markdown="slides/exo-df.md"></section>
+                    <section data-markdown class="df">
+                        <script type="text/template">
+                        # Diagramme de flux (DF)
+
+                        *Décomposition* en domaines d'activité
+
+                        * **Domaine** : ensemble d'activités avec une finalité commune (gestion des stocks, vente, ...)
+                        * **Acteurs** : intervenants du système, émetteur ou récepteur de flux (interne/externe, domaine, ...)
+
+                        -----
+
+                        Décomposition en *sous-domaines*
+                        </script>
+                    </section>
+                    <section data-markdown class="df formalism">
+                        <script type="text/template">
+                        # DF : formalisme
+
+                        ![df-formalisme](images/df_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="df example">
+                        <script type="text/template">
+                        # DF : exemple
+
+                        ![df-exemple](images/df_exemple_global.svg)
+                        </script>
+                    </section>
+                    <section data-markdown class="df example">
+                        <script type="text/template">
+                        # DF : exemple
+
+                        ![df-exemple](images/df_exemple_detail.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 6
+
+                        ## Écrire les diagrammes de flux de la boulangerie
+                        </script>
+                    </section>
                 </section>
 
                 <section>
-                    <section class="mcc" data-markdown="slides/mcc.md"></section>
-                    <section class="mcc example" data-markdown="slides/mcc-exemple.md"></section>
-                    <section data-state="exercise" class="exercise" data-markdown="slides/exo-mcc.md"></section>
+                    <section data-markdown class="mcc">
+                        <script type="text/template">
+                        # Modèle Conceptuel de Communication (MCC)
+
+                        *Description* des flux de données
+
+                        *Réalisation* chronologique (assure la cohérence) et *exhaustive*
+
+                        * **Message** : transmission d'une information complète
+                        </script>
+                    </section>
+                    <section data-markdown class="mcc example">
+                        <script type="text/template">
+                        # MCC : exemple 
+
+                        ![df-exemple](images/mcc_exemple.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 7
+
+                        ## Écrire le MCC de la boulangerie
+                        </script>
+                    </section>
                 </section>
 
                 <section>
-                    <section class="mcd" data-markdown="slides/mcd.md"></section>
-                    <section class="mcd formalism" data-markdown="slides/mcd-formalisme.md"></section>
-                    <section class="mcd example" data-markdown="slides/mcd-exemple.md"></section>
-                    <section class="mcd" data-markdown="slides/mcd-propriete.md"></section>
-                    <section class="mcd" data-markdown="slides/mcd-entite.md"></section>
-                    <section class="mcd" data-markdown="slides/mcd-association.md"></section>
+                    <section data-markdown class="mcd">
+                        <script type="text/template">
+                        # Modèle Conceptuel de Données (MCD)
+
+                        Décrire les *entités* et les *associations* définissant les données
+
+                        * **Propriété** : donnée du SI *unique*
+                        * **Entité** : ensemble cohérent de propriétés
+                        * **Association** : lien entre entités
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd formalism">
+                        <script type="text/template">
+                        # MCD : formalisme
+
+                        ![mcd-formalisme](images/mcd_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd example">
+                        <script type="text/template">
+                        # MCD : exemple
+
+                        ![mcd-exemple](images/mcd_exemple.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd">
+                        <script type="text/template">
+                        # MCD : propriété
+
+                        Donnée élémentaire, atomique et *unique*
+
+                        * issue du DD
+                        * liée à une entité
+                        * peut être composée mais pas décomposable 
+                        * exemple : numéro de sécurité sociale
+                        * question : adresse ?
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd">
+                        <script type="text/template">
+                        # MCD : entité
+
+                        Élément *ayant une existence propre* et cohérent avec le SI
+
+                        * définie par un nom
+                        * possède *un identifiant unique*
+                        * est composée d'au moins une propriété
+                        * participe à au moins une association
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd">
+                        <script type="text/template">
+                        # MCD : association
+
+                        Élément perçu mais *sans existence propre*
+
+                        * définie par un verbe
+                        * liée à une (réflexive) ou plusieurs entités (binaires ou n-aires)
+                        * porteuse de *cardinalités*
+
+                        * occurrence minimale [0, 1] des entités associées
+                        * occurrences maximales [1, n] des entités associées
+
+                        * peut être composée de propriétés
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd example">
+                        <script type="text/template">
+                        # MCD : construction
+
+                        ![mcd-construction](images/mcc-mcd_exemple-1.svg) 
+                        </script>
+                    </section>
                     <section class="mcd example" data-markdown="slides/mcd-construction.md"></section>
 
                 <section>
@@ -108,7 +468,7 @@
 
                 <section>
                     <h1> MCD : validation </h1>
-                    <p> 
+                    <p>
                         <ul>
                             <li> Assurer la cohérence du MCD </li>
                             <li> éviter les redondances d'information </li>
@@ -122,11 +482,11 @@
                     <h1> MCD : normalisation </h1>
                     <p> Respect des 3 premières formes normales </p>
                     <ol>
-                        <li> aucune propriété n'est décomposable ou multiple 
+                        <li> aucune propriété n'est décomposable ou multiple
                             <ul> <li> <i> une seule valeur possible </i> </li> </ul>
                         </li>
                         <li> toute propriété dépend de la totalité de l'identifiant </li>
-                        <li> toute propriété dépend directement de l'identifiant 
+                        <li> toute propriété dépend directement de l'identifiant
                             <ul> <li> <i> pas de transitivité </i> </li> </ul>
                         </li>
                     </ol>
@@ -166,7 +526,7 @@
                 <section>
                     <h1> Modèle conceptuel de traitement (MCT) </h1>
                     <p> Décrire les <em> processus </em> du SI </p>
-                    <ul class="fragment"> 
+                    <ul class="fragment">
                         <li> <strong> Évènement </strong> : apport d'information <em> déclencheur </em> </li>
                         <li> <strong> Opération </strong> : suite <em> non-interruptible </em> d'actions d'une activité </li>
                         <li> <strong> Résultat </strong> :  information produite par l'opération </li>
@@ -186,7 +546,7 @@
                 <section>
                     <h1> MCT : construction </h1>
                     <p> à l'aide du MCC en respectant les règles suivantes : </p>
-                    <ol class="fragment"> 
+                    <ol class="fragment">
                         <li> une opération produit des résultats exhaustifs </li>
                         <li> une opération est une suite ininterrompue d'actions </li>
                         <li> une opération ne comporte pas de résultat intermédiaire conditionnel </li>
@@ -208,7 +568,7 @@
                 <section>
                     <h1> Modèle org. de traitement (MOT) </h1>
                     <p> Décrire les <em> procédures </em> du SI </p>
-                    <ul class="fragment"> 
+                    <ul class="fragment">
                         <li> Définir les <em> postes de travail </em> </li>
                         <li> Déterminer l'ordre d'exécution des <em> phases </em> </li>
                         <li> Déterminer les types d'automatisation (MA, TR, TD) </li>
@@ -228,13 +588,13 @@
                 <section>
                     <h1> MOT : construction </h1>
                     <p> à l'aide du MCT </p>
-                    <ul> 
+                    <ul>
                     <li> Plusieurs processus peuvent appartenir à une procédure, mais pas l'inverse </li>
                     <li> Les opérations du MCT peuvent être décomposées en une ou plusieurs phases </li>
                     </ul>
                 </section>
-                
-                
+
+
                 <section data-state="exercise">
                     <h3> Exercice 11 </h3>
                     <h2> Le boulanger ouvre des stands aux stations de métro :  écrire les MCC, MCT et MOT du nouveau SI </h2>
@@ -245,7 +605,7 @@
                 <section>
                     <h1> Modèle org. de données (MOD) </h1>
                     <p> Mettre en évidence <em> la visibilité </em> des données </p>
-                    <ul class="fragment"> 
+                    <ul class="fragment">
                         <li> Définir l'emplacement les <em> types de sites </em> </li>
                         <li> Déterminer la <em> répartition </em> des données par type de site </li>
                         <li> Déterminer les <em> droits d'accès </em> aux données </li>
@@ -263,27 +623,27 @@
 
                 <section>
                     <h1> MOD : sites </h1>
-                    <table> 
-                        <thead> 
+                    <table>
+                        <thead>
                             <tr>
                                 <th> Sites </th>
                                 <th> Acteurs </th>
                             </tr>
                         </thead>
-                            <tr> 
+                            <tr>
                                 <td class="top"> Siège </td>
-                                <td> 
-                                    <ul> 
+                                <td>
+                                    <ul>
                                         <li> Direction </li>
                                         <li> Secrétariat RH </li>
                                         <li> Service RH </li>
                                     </ul>
                                 </td>
                             </tr>
-                            <tr> 
+                            <tr>
                                 <td class="top"> R&D </td>
-                                <td> 
-                                    <ul> 
+                                <td>
+                                    <ul>
                                         <li> Direction technique </li>
                                         <li> Équipe de développement </li>
                                     </ul>
@@ -292,11 +652,11 @@
                         </tbody>
                     </table>
                 </section>
-                
+
                 <section>
                     <h1> MOD : droits d'accès </h1>
-                    <table> 
-                        <thead> 
+                    <table>
+                        <thead>
                             <tr>
                                 <th> &nbsp; </th>
                                 <th colspan="4"> Secrétariat RH </th>
@@ -326,7 +686,7 @@
                         </tbody>
                     </table>
                 </section>
-                
+
                 <section>
                     <h1> MOD : construction </h1>
                     <p> à l'aide du MCD </p>
@@ -335,12 +695,12 @@
                         <li> Ajout des données organisationnelles </li>
                     </ul>
                 </section>
-                
+
                 <section>
                     <h1> MOD : exemple </h1>
                     <img src="images/mcd-mod_exemple.svg" alt="du MCD aux MOD" class="big-diagram" />
                 </section>
-                
+
                 <section data-state="exercise">
                     <h3> Exercice 12 </h3>
                     <h2> Le boulanger ouvre des stands aux stations de métro : écrire les MCD et MOD du nouveau SI </h2>
@@ -351,8 +711,8 @@
                 <section data-state="exercise">
                     <h1> Exercice 13 </h1>
                     <small> Modélisez complètement le SI de la boulangerie et de ses stands </small>
-                    <small> 
-                        <table> 
+                    <small>
+                        <table>
                         <thead>
                         <tr> <th> Documents collectés </th> <th> Décisions </th> </tr>
                         <tbody> <tr> <td>
@@ -372,7 +732,7 @@
                             <li> Chaque stand est équipé d'un appareil pour imprimer les tickets de caisse mettant à jour le stock et les ventes effectuées </li>
                             <li> Les stands sont ravitaillés en début de service </li>
                             <li> Le boulanger voit les stocks en temps réel et décide s'il faut ou non ravitailler </li>
-                            <li> Le boulanger peut faire un bilan des dépenses et des gains pour la période de son choix à tout moment </li>    
+                            <li> Le boulanger peut faire un bilan des dépenses et des gains pour la période de son choix à tout moment </li>
                         </ul>
                         </td></tr></tbody></table>
                     </small>
@@ -825,33 +1185,33 @@
                     <h5> Modèle de Conceptuel de Communication : Gestion Stock </h5>
                     <small class="mcc-detail">
                     <ul> bon de livraison (Fournisseur, Stock)
-                        <li> nom-fournisseur </li> 
-                        <li> id-bon-livraison </li> 
-                        <li> code-fournisseur-bon-livraison </li> 
-                        <li> code-fournisseur-produit </li> 
-                        <li> nom-produit </li> 
-                        <li> quantité-produit </li> 
+                        <li> nom-fournisseur </li>
+                        <li> id-bon-livraison </li>
+                        <li> code-fournisseur-bon-livraison </li>
+                        <li> code-fournisseur-produit </li>
+                        <li> nom-produit </li>
+                        <li> quantité-produit </li>
                         <li class="later"> code-barre </li>
                     </ul>
                     <ul> facture (Fournisseur, Stock)
-                        <li> id-facture </li> 
-                        <li> code-créancier-facture </li> 
-                        <li> date-facture </li> 
-                        <li> total-facture </li> 
+                        <li> id-facture </li>
+                        <li> code-créancier-facture </li>
+                        <li> date-facture </li>
+                        <li> total-facture </li>
                     </ul>
                     <ul> produits utilisés / fabriqués (Boulanger, Stock)
-                        <li> quantité-produit-utilisée </li> 
-                        <li> quantité-produit-fabriquée </li> 
+                        <li> quantité-produit-utilisée </li>
+                        <li> quantité-produit-fabriquée </li>
                     </ul>
                     <ul> produits mis à la vente (Stock, Vendeur)
                         <li> code-barre </li>
-                        <li> quantité-produit-stand </li> 
+                        <li> quantité-produit-stand </li>
                     </ul>
                     <ul> facture (Stock, Trésorier)
                         <li> id-créancier </li>
-                        <li> code-créancier-facture </li> 
-                        <li> date-facture </li> 
-                        <li> total-facture </li> 
+                        <li> code-créancier-facture </li>
+                        <li> date-facture </li>
+                        <li> total-facture </li>
                     </ul>
                     </small>
                 </section>
@@ -863,34 +1223,34 @@
                     <h5> Modèle de Conceptuel de Communication : Ventes </h5>
                     <small class="mcc-detail">
                     <ul> ticket de caisse (Vendeur, Client)
-                        <li> date-émission </li> 
+                        <li> date-émission </li>
                         <li> code-barre </li>
                         <li> nom-produit </li>
                         <li> prix-vente </li>
-                        <li> quantité-vendue </li> 
+                        <li> quantité-vendue </li>
                     </ul>
                     <ul> ticket de caisse (Vendeur, Trésorier)
-                        <li> date-émission </li> 
+                        <li> date-émission </li>
                         <li> code-barre </li>
                         <li> prix-vente </li>
-                        <li> quantité-vendue </li> 
+                        <li> quantité-vendue </li>
                     </ul>
                     <ul> contrat (Trésorier, Vendeur)
-                        <li> intitulé </li> 
-                        <li> nom-employé </li> 
-                        <li> adresse </li> 
-                        <li> date-naissance </li> 
-                        <li> date-début </li> 
-                        <li> date-fin </li> 
+                        <li> intitulé </li>
+                        <li> nom-employé </li>
+                        <li> adresse </li>
+                        <li> date-naissance </li>
+                        <li> date-début </li>
+                        <li> date-fin </li>
                         <li> salaire </li>
                     </ul>
                     <ul> fiche de paye (Trésorier, Vendeur)
                         <li> salaire </li>
-                        <li> date-paiement </li> 
+                        <li> date-paiement </li>
                         <li> prime </li>
                     </ul>
                     <ul> produits mis à la vente (Stock, Vendeur)
-                        <li> quantité-produit-stand </li> 
+                        <li> quantité-produit-stand </li>
                     </ul>
                     </small>
                 </section>
@@ -902,30 +1262,30 @@
                     <h5> Modèle de Conceptuel de Communication : Tésorerie </h5>
                     <small class="mcc-detail">
                     <ul> contrat (Trésorier, Vendeur/Boulanger)
-                        <li> intitulé </li> 
-                        <li> nom-employé </li> 
-                        <li> adresse </li> 
-                        <li> date-naissance </li> 
-                        <li> date-début </li> 
-                        <li> date-fin </li> 
+                        <li> intitulé </li>
+                        <li> nom-employé </li>
+                        <li> adresse </li>
+                        <li> date-naissance </li>
+                        <li> date-début </li>
+                        <li> date-fin </li>
                         <li> salaire </li>
                     </ul>
                     <ul> fiche de paye (Trésorier, Vendeur/Boulanger)
                         <li> salaire </li>
-                        <li> date-paiement </li> 
+                        <li> date-paiement </li>
                         <li> prime </li>
                     </ul>
                     <ul> ticket de caisse (Vendeur, Trésorier)
-                        <li> date-émission </li> 
+                        <li> date-émission </li>
                         <li> code-barre </li>
                         <li> prix-vente </li>
-                        <li> quantité-vendue </li> 
+                        <li> quantité-vendue </li>
                     </ul>
                     <ul> facture (Stock/Créancier, Trésorerie)
                         <li> id-créancier </li>
-                        <li> code-créancier-facture </li> 
-                        <li> date-facture </li> 
-                        <li> total-facture </li> 
+                        <li> code-créancier-facture </li>
+                        <li> date-facture </li>
+                        <li> total-facture </li>
                     </ul>
                     </small>
                 </section>
@@ -988,17 +1348,17 @@
                 <section data-state="solution">
                     <h5> Modèle de Organisationnel de Données : sites </h5>
                     <small>
-                    <table> 
-                        <thead> 
+                    <table>
+                        <thead>
                             <tr>
                                 <th> Sites </th>
                                 <th> Acteurs </th>
                             </tr>
                         </thead>
-                            <tr> 
+                            <tr>
                                 <td class="top"> Boulangerie </td>
-                                <td> 
-                                    <ul> 
+                                <td>
+                                    <ul>
                                         <li> Stock </li>
                                         <li> Trésorerie </li>
                                         <li> Boulanger </li>
@@ -1006,10 +1366,10 @@
                                     </ul>
                                 </td>
                             </tr>
-                            <tr> 
+                            <tr>
                                 <td class="top"> Stand </td>
-                                <td> 
-                                    <ul> 
+                                <td>
+                                    <ul>
                                         <li> Vendeur </li>
                                     </ul>
                                 </td>
@@ -1021,8 +1381,8 @@
                 <section data-state="solution">
                     <h5> Modèle de Organisationnel de Données : droits d'accès </h1>
                     <small>
-                    <table> 
-                        <thead> 
+                    <table>
+                        <thead>
                             <tr>
                                 <th> &nbsp; </th>
                                 <th colspan="4"> Boulanger </th>
@@ -1140,9 +1500,9 @@
                 <section>
                     <section>
                     <h3> Résumé de la démarche (1/3) </h3>
-                    <ul> 
+                    <ul>
                         <li> <u> Recueil des besoins </u>
-                            <ul> 
+                            <ul>
                                 <li> lister les données (DD) : classifier, typer, épurer </li>
                                 <li> lister les acteurs et les flux (MF/DF) : définir (émetteur, récepteur, nature), décomposer en sous-domaines </li>
                                 <li> assurer la cohérence DF / MF </li>
@@ -1153,11 +1513,11 @@
                     <section>
                     <h3> Résumé de la démarche (2/3) </h3>
                     <small>
-                    <ul> 
+                    <ul>
                         <li> Conception : <u> niveau conceptuel (quoi ?)</u>
-                            <ul> 
-                                <li> décrire les flux de données (MCC) : 
-                                    <ul> 
+                            <ul>
+                                <li> décrire les flux de données (MCC) :
+                                    <ul>
                                         <li> décomposer les flux du DF en messages </li>
                                         <li> détailler les messages avec les données du DD et les données calculées </li>
                                         <li> assurer la cohérence DD / MCC </li>
@@ -1166,7 +1526,7 @@
                                 <li> définir la statique du système (MCD)
                                     <ul>
                                         <li> utiliser les messages du MCC détaillé pour définir les entités et les associations porteuses </li>
-                                        <li> ajouter les associations non porteuses et les cardinalités </li> 
+                                        <li> ajouter les associations non porteuses et les cardinalités </li>
                                         <li> valider les formes normales sur le MCD </li>
                                         <li> assurer la cohérence DD / propriétés du MCD </li>
                                     </ul>
