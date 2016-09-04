@@ -98,6 +98,7 @@ small.mcc-detail ul {
     margin: 1em .5em;
 }
 
+.reveal section.diagram img,
 .reveal section img.diagram {
     height: 256px;
     width: auto;
@@ -106,6 +107,7 @@ small.mcc-detail ul {
     margin: 0;
 }
 
+.reveal section .big-diagram img,
 .reveal section img.big-diagram {
     height: 512px;
     width: auto;
@@ -130,6 +132,11 @@ small.mcc-detail ul {
 
 .reveal table td.center {
     text-align: center;
+}
+
+.reveal section .summary ul {
+    font-size: .8em;
+    margin-bottom: .5em
 }
 
 text {

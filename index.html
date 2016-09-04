@@ -459,252 +459,274 @@
                         ![mcd-construction](images/mcc-mcd_exemple-1.svg) 
                         </script>
                     </section>
-                    <section class="mcd example" data-markdown="slides/mcd-construction.md"></section>
+                    <section data-markdown class="mcd example">
+                        <script type="text/template">
+                        # MCD : construction
 
-                <section>
-                    <h1> MCD : construction </h1>
-                    <img src="images/mcc-mcd_exemple-2.svg" alt="du MCC au MCD" class="big-diagram" />
-                </section>
+                        ![mcd-construction-2](images/mcc-mcd_exemple-2.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd validation">
+                        <script type="text/template">
+                        # MCD : validation
 
-                <section>
-                    <h1> MCD : validation </h1>
-                    <p>
-                        <ul>
-                            <li> Assurer la cohérence du MCD </li>
-                            <li> éviter les redondances d'information </li>
-                        </ul>
-                    </p>
-                    <p class="fragment"> par respect de l'<em>unicité des propriétés</em> </p>
-                    <p class="fragment"> par <em>normalisation</em> </p>
-                </section>
+                        * Assurer la cohérence du MCD
+                        * Éviter les redondances d'information
 
-                <section>
-                    <h1> MCD : normalisation </h1>
-                    <p> Respect des 3 premières formes normales </p>
-                    <ol>
-                        <li> aucune propriété n'est décomposable ou multiple
-                            <ul> <li> <i> une seule valeur possible </i> </li> </ul>
-                        </li>
-                        <li> toute propriété dépend de la totalité de l'identifiant </li>
-                        <li> toute propriété dépend directement de l'identifiant
-                            <ul> <li> <i> pas de transitivité </i> </li> </ul>
-                        </li>
-                    </ol>
-                </section>
+                          * par respect de l'*unicité des propriétés*
+                          * par *normalisation*
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd normalisation">
+                        <script type="text/template">
+                        # MCD : normalisation
 
-                <section>
-                    <h1> MCD : validation </h1>
-                    <p> Valeurs multiples </p>
-                    <img src="images/mcd_repetition.svg" alt="répétition" class="diagram" />
-                </section>
+                        Respect des 3 premières formes normales
 
-                <section>
-                    <h1> MCD : validation </h1>
-                    <p> Dépendance sur une partie de clé </p>
-                    <img src="images/mcd_partie-cle.svg" alt="dépendance partielle" class="diagram" />
-                </section>
+                        * aucune propriété n'est décomposable ou multiple
+                          * une seule valeur possible
 
-                <section>
-                    <h1> MCD : validation </h1>
-                    <p> Dépendance transitive </p>
-                    <img src="images/mcd_transitivite.svg" alt="dépendance transitive" class="diagram" />
-                </section>
+                        * toute propriété dépend de la totalité de l'identifiant
 
-                <section data-state="exercise">
-                    <h3> Exercice 8 </h3>
-                    <h2> Corriger la partie de MCD suivante </h2>
-                    <img src="images/mcd_exercice.svg" alt="excercice" class="diagram" />
-                </section>
+                        * toute propriété dépend directement de l'identifiant
+                          * pas de transitivité
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd validation diagram">
+                        <script type="text/template">
+                        # MCD : validation
+                        
+                        Valeurs multiples
 
-                <section data-state="exercise">
-                    <h3> Exercice 9 </h3>
-                    <h2> Écrire le MCD de notre boulangerie </h2>
-                </section>
-                </section>
+                        ![mcd-exemple](images/mcd_repetition.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd validation diagram">
+                        <script type="text/template">
+                        # MCD : validation
+                    
+                        Dépendance sur une partie de clé
 
-                <section>
-                <section>
-                    <h1> Modèle conceptuel de traitement (MCT) </h1>
-                    <p> Décrire les <em> processus </em> du SI </p>
-                    <ul class="fragment">
-                        <li> <strong> Évènement </strong> : apport d'information <em> déclencheur </em> </li>
-                        <li> <strong> Opération </strong> : suite <em> non-interruptible </em> d'actions d'une activité </li>
-                        <li> <strong> Résultat </strong> :  information produite par l'opération </li>
-                    </ul>
-                </section>
+                        ![mcd-exemple](images/mcd_partie-cle.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd validation diagram">
+                        <script type="text/template">
+                        # MCD : validation
 
-                <section>
-                    <h1> MCT : formalisme </h1>
-                    <img src="images/mct_formalisme.svg" alt="formalisme MCT" class="big-diagram" />
-                </section>
+                        Dépendance transitive
 
-                <section>
-                    <h1> MCT : exemple </h1>
-                    <img src="images/mct_exemple.svg" alt="exemple MCT" class="big-diagram" />
+                        ![mcd-exemple](images/mcd_transitivite.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise diagram">
+                        <script type="text/template">
+                        ### Exercice 8
+                        
+                        ## Corriger la partie de MCD suivante
+
+                        ![mcd-exemple](images/mcd_exercice.svg) 
+
+                        ## Écrire le MCC de la boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 9
+
+                        ## Écrire le MCD de notre boulangerie
+                        </script>
+                    </section>
                 </section>
 
                 <section>
-                    <h1> MCT : construction </h1>
-                    <p> à l'aide du MCC en respectant les règles suivantes : </p>
-                    <ol class="fragment">
-                        <li> une opération produit des résultats exhaustifs </li>
-                        <li> une opération est une suite ininterrompue d'actions </li>
-                        <li> une opération ne comporte pas de résultat intermédiaire conditionnel </li>
-                    </ol>
+                    <section data-markdown class="mct">
+                        <script type="text/template">
+                        # Modèle conceptuel de traitement (MCT)
+
+                        Décrire les **processus** du SI
+
+                        * **Évènement** : apport d'information *déclencheur*
+                        * **Opération** : suite *non-interruptible* d'actions d'une activité
+                        * **Résultat** :  information produite par l'opération
+                        </script>
+                    </section>
+                    <section data-markdown class="mct formalism">
+                        <script type="text/template">
+                        # MCT : formalisme
+
+                        ![mct-formalisme](images/mct_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mct example">
+                        <script type="text/template">
+                        # MCT : exemple
+
+                        ![mct-exemple](images/mct_exemple.svg) 
+                        </script>
+                    </section>
+
+                    <section data-markdown class="mcd construction">
+                        <script type="text/template">
+                        # MCT : construction
+
+                        à l'aide du MCC en respectant les règles suivantes :
+
+                        * une opération produit des résultats exhaustifs
+                        * une opération est une suite ininterrompue d'actions
+                        * une opération ne comporte pas de résultat intermédiaire conditionnel
+                        </script>
+                    </section>
+                    <section data-markdown class="mct construction big-diagram">
+                        <script type="text/template">
+                        # MCT : construction
+
+                        ![mct-construction](images/mcc-mct_exemple.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 10
+
+                        ## Écrire le MCT de notre boulangerie
+                        </script>
+                    </section>
                 </section>
 
                 <section>
-                    <h1> MCT : construction </h1>
-                    <img src="images/mcc-mct_exemple.svg" alt="exemple MCC vers MCT" class="big-diagram" />
-                </section>
+                    <section data-markdown class="mot">
+                        <script type="text/template">
+                        # Modèle org. de traitement (MOT)
 
-                <section data-state="exercise">
-                    <h3> Exercice 10 </h3>
-                    <h2> Écrire le MCT de notre boulangerie </h2>
-                </section>
-                </section>
+                        Décrire les *procédures* du SI
 
-                <section>
-                <section>
-                    <h1> Modèle org. de traitement (MOT) </h1>
-                    <p> Décrire les <em> procédures </em> du SI </p>
-                    <ul class="fragment">
-                        <li> Définir les <em> postes de travail </em> </li>
-                        <li> Déterminer l'ordre d'exécution des <em> phases </em> </li>
-                        <li> Déterminer les types d'automatisation (MA, TR, TD) </li>
-                    </ul>
-                </section>
+                        * Définir les *postes de travail*
+                        * Déterminer l'ordre d'exécution des *phases*
+                        * Déterminer les types d'automatisation (MA, TR, TD)
+                        </script>
+                    </section>
+                    <section data-markdown class="mot big-diagram">
+                        <script type="text/template">
+                        # MOT : formalisme
 
-                <section>
-                    <h1> MOT : formalisme </h1>
-                    <img src="images/mot_formalisme.svg" alt="formalisme MOT" class="big-diagram" />
-                </section>
+                        ![mot-fromalisme](images/mot_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mot example">
+                        <script type="text/template">
+                        # MOT : exemple
 
-                <section>
-                    <h1> MOT : exemple </h1>
-                    <img src="images/mot_exemple.svg" alt="exemple MOT" class="big-diagram" />
-                </section>
+                        ![mot-exemple](images/mot_exemple.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mot">
+                        <script type="text/template">
+                        # MOT : construction
 
-                <section>
-                    <h1> MOT : construction </h1>
-                    <p> à l'aide du MCT </p>
-                    <ul>
-                    <li> Plusieurs processus peuvent appartenir à une procédure, mais pas l'inverse </li>
-                    <li> Les opérations du MCT peuvent être décomposées en une ou plusieurs phases </li>
-                    </ul>
-                </section>
+                        À l'aide du MCT 
+                        
+                        * Plusieurs processus peuvent appartenir à une procédure, mais pas l'inverse
+                        * Les opérations du MCT peuvent être décomposées en une ou plusieurs phases
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 11
 
-
-                <section data-state="exercise">
-                    <h3> Exercice 11 </h3>
-                    <h2> Le boulanger ouvre des stands aux stations de métro :  écrire les MCC, MCT et MOT du nouveau SI </h2>
-                </section>
+                        ## Le boulanger ouvre des stands aux stations de métro :  écrire les MCC, MCT et MOT du nouveau SI
+                        </script>
+                    </section>
                 </section>
 
                 <section>
-                <section>
-                    <h1> Modèle org. de données (MOD) </h1>
-                    <p> Mettre en évidence <em> la visibilité </em> des données </p>
-                    <ul class="fragment">
-                        <li> Définir l'emplacement les <em> types de sites </em> </li>
-                        <li> Déterminer la <em> répartition </em> des données par type de site </li>
-                        <li> Déterminer les <em> droits d'accès </em> aux données </li>
-                    </ul>
-                </section>
+                    <section data-markdown class="mod">
+                        <script type="text/template">
+                        # MOD : Modèle org. de données (MOD)
+                    
+                        Mettre en évidence *la visibilité* des données
 
-                <section>
-                    <h1> MOD : formalisme </h1>
-                    <p> Identique au MCD, mais découplé par site </p>
-                    <ul class="fragment">
-                        <li> ajout d'un tableau de sites </li>
-                        <li> ajout d'un tableau de droits d'accès </li>
-                    </ul>
-                </section>
+                        * Définir l'emplacement les *types de sites* 
+                        * Déterminer la *répartition* des données par type de site 
+                        * Déterminer les *droits d'accès* aux données
+                        </script>
+                    </section>
+                    <section data-markdown class="mot">
+                        <script type="text/template">
+                        # MOD : formalisme
 
-                <section>
-                    <h1> MOD : sites </h1>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th> Sites </th>
-                                <th> Acteurs </th>
-                            </tr>
-                        </thead>
-                            <tr>
-                                <td class="top"> Siège </td>
-                                <td>
-                                    <ul>
-                                        <li> Direction </li>
-                                        <li> Secrétariat RH </li>
-                                        <li> Service RH </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="top"> R&D </td>
-                                <td>
-                                    <ul>
-                                        <li> Direction technique </li>
-                                        <li> Équipe de développement </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
+                        Identique au MCD, mais découplé par site
 
-                <section>
-                    <h1> MOD : droits d'accès </h1>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th> &nbsp; </th>
-                                <th colspan="4"> Secrétariat RH </th>
-                                <th colspan="4"> Dir. technique </th>
-                                <th colspan="4"> Service RH </th>
-                            </tr>
-                            <tr>
-                                <th> Ent.-Rel. </th>
-                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td> Contrat </td>
-                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
-                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                            </tr>
-                            <tr>
-                                <td> Offre </td>
-                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
-                                <td> - </td> <td> X </td> <td> X </td> <td> - </td>
-                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
+                        * ajout d'un tableau de sites
+                        * ajout d'un tableau de droits d'accès
+                        </script>
+                    </section>
+                    <section data-markdown class="mod example">
+                        <script type="text/template">
+                        # MOD : sites
 
-                <section>
-                    <h1> MOD : construction </h1>
-                    <p> à l'aide du MCD </p>
-                    <ul>
-                        <li> Création d'un MOD par site </li>
-                        <li> Ajout des données organisationnelles </li>
-                    </ul>
-                </section>
+                        | Sites              | Acteurs |
+                        |:------------------ |:--------|
+                        | Siège              | Direction <br /> Secrétariat RH <br /> Service RH  |
+                        | R&D                | Direction Technique <br /> Équipe de développement |
+                        </script>
+                    </section>
+                    <section>
+                        <h1> MOD : droits d'accès </h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> &nbsp; </th>
+                                    <th colspan="4"> Secrétariat RH </th>
+                                    <th colspan="4"> Dir. technique </th>
+                                    <th colspan="4"> Service RH </th>
+                                </tr>
+                                <tr>
+                                    <th> Ent.-Rel. </th>
+                                    <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                    <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                    <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> Contrat </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                </tr>
+                                <tr>
+                                    <td> Offre </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section data-markdown class="mod">
+                        <script type="text/template">
+                        # MOD : construction
+                        
+                        À l'aide du MCD
 
-                <section>
-                    <h1> MOD : exemple </h1>
-                    <img src="images/mcd-mod_exemple.svg" alt="du MCD aux MOD" class="big-diagram" />
-                </section>
+                        * Création d'un MOD par site
+                        * Ajout des données organisationnelles
+                        </script>
+                    </section>
+                    <section data-markdown class="mod big-diagram">
+                        <script type="text/template">
+                        # MOD : exemple
 
-                <section data-state="exercise">
-                    <h3> Exercice 12 </h3>
-                    <h2> Le boulanger ouvre des stands aux stations de métro : écrire les MCD et MOD du nouveau SI </h2>
-                </section>
+                        ![mod-exemple](images/mcd-mod_exemple.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 12
+
+                        ## Le boulanger ouvre des stands aux stations de métro : écrire les MCD et MOD du nouveau SI
+                        </script>
+                    </section>
                 </section>
 
                 <section>
@@ -737,7 +759,7 @@
                         </td></tr></tbody></table>
                     </small>
                 </section>
-                <section data-state="solution">
+                <!--section data-state="solution">
                     <h5> Dictionnaire de Données (1/4) </h5>
                     <small>
                     <table>
@@ -1487,87 +1509,97 @@
                 <section data-state="solution">
                     <h5> Modèle de Organisationnel de Données : stand </h5>
                     <img src="images/exo_13-18.svg" class="big-diagram" alt="MOD stand" />
-                </section>
-                </section>
-
-                <section>
-                <section data-state="exercise">
-                    <h1> Contrôle Continu </h1>
-                    [<a href=exams/msi_cc115pr.pdf> Sujet 1 </a>] - [<a href=exams/msi_cc215pr.pdf> Sujet 2 </a>]
-                </section>
+                </section -->
                 </section>
 
                 <section>
-                    <section>
-                    <h3> Résumé de la démarche (1/3) </h3>
-                    <ul>
-                        <li> <u> Recueil des besoins </u>
-                            <ul>
-                                <li> lister les données (DD) : classifier, typer, épurer </li>
-                                <li> lister les acteurs et les flux (MF/DF) : définir (émetteur, récepteur, nature), décomposer en sous-domaines </li>
-                                <li> assurer la cohérence DF / MF </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    </section>
-                    <section>
-                    <h3> Résumé de la démarche (2/3) </h3>
-                    <small>
-                    <ul>
-                        <li> Conception : <u> niveau conceptuel (quoi ?)</u>
-                            <ul>
-                                <li> décrire les flux de données (MCC) :
-                                    <ul>
-                                        <li> décomposer les flux du DF en messages </li>
-                                        <li> détailler les messages avec les données du DD et les données calculées </li>
-                                        <li> assurer la cohérence DD / MCC </li>
-                                    </ul>
-                                </li>
-                                <li> définir la statique du système (MCD)
-                                    <ul>
-                                        <li> utiliser les messages du MCC détaillé pour définir les entités et les associations porteuses </li>
-                                        <li> ajouter les associations non porteuses et les cardinalités </li>
-                                        <li> valider les formes normales sur le MCD </li>
-                                        <li> assurer la cohérence DD / propriétés du MCD </li>
-                                    </ul>
-                                </li>
-                                <li> définir la dynamique du système (MCT)
-                                    <ul>
-                                        <li> utiliser les acteurs du MCC pour définir les processus effectués par ceux-ci : événements, actions, résultats </li>
-                                        <li> valider le MCT : résultats exhaustifs, pas d'interruption des actions, pas de résultat intermédiaire des actions </li>
-                                        <li> assurer la présence de tous les messages du MCC dans le MCT </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    </small>
-                    </section>
-                    <section>
-                    <h3> Résumé de la démarche (3/3) </h3>
-                    <ul>
-                        <li> Conception : <u> niveau organisationnel (qui ? où ?) </u>
-                            <ul>
-                                <li> définir les procédures du système (MOT) : postes de travail, ordre d'exécution et niveaux d'automatisation </li>
-                                <li> définir la visibilité des données (MOD) : sites, droits d'accès et répartition des données </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    </small>
+                    <section data-markdown class="cc">
+                        <script type="text/template">
+                        # Contrôle Continu
+
+                        [ [Sujet 1](exams/msi_cc115pr.pdf) ] - [ [Sujet 2](exams/msi_cc215pr.pdf) ]
+                        </script>
                     </section>
                 </section>
 
                 <section>
-                    <h1> On a vu tout MERISE ? </h1>
-                    <p class="fragment"> <em>NON</em>, il manque la conception technique (MLD, MPD, MLT, MLPT) </p>
-                    <p class="fragment"> <em>NON</em>, il manque de nombreux détails (CIF, héritage, ...) </p>
-                    <p class="fragment"> <em>NON</em>, il manque la gestion globale du projet </p>
+                    <section data-markdown class="summary">
+                        <script type="text/template">
+                        ### Résumé de la démarche (1/3)
+
+                        ## Recueil des besoins
+
+                        * lister les données (DD) 
+                          * classifier
+                          * typer
+                          * épurer
+                        * lister les acteurs et les flux (MF/DF) 
+                          * définir (émetteur, récepteur, nature)
+                          * décomposer en sous-domaines
+                        * assurer la cohérence DF / MF
+                        </script>
+                    </section>
+                    <section data-markdown class="summary">
+                        <script type="text/template">
+                        ### Résumé de la démarche (2/3)
+
+                        ## Conception : quoi ?
+
+                        * décrire les flux de données (MCC) :
+                          * décomposer les flux du DF en messages </li>
+                          * détailler les messages avec les données du DD et les données calculées
+                          * assurer la cohérence DD / MCC
+                        * définir la statique du système (MCD)
+                          * utiliser les messages du MCC détaillé pour définir les entités et les associations porteuses
+                          * ajouter les associations non porteuses et les cardinalités
+                          * valider les formes normales sur le MCD
+                          * assurer la cohérence DD / propriétés du MCD
+                        * définir la dynamique du système (MCT)
+                          * utiliser les acteurs du MCC pour définir les processus effectués par ceux-ci : événements, actions, résultats
+                          * valider le MCT : résultats exhaustifs, pas d'interruption des actions, pas de résultat intermédiaire des actions
+                          * assurer la présence de tous les messages du MCC dans le MCT
+                        </script>
+                    </section>
+                    <section data-markdown class="summary">
+                        <script type="text/template">
+                        ### Résumé de la démarche (3/3)
+
+                        ## Conception : qui ? où ?
+
+                        * définir les procédures du système (MOT) 
+                          * postes de travail
+                          * ordre d'exécution 
+                          * niveaux d'automatisation
+                        * définir la visibilité des données (MOD)
+                          * sites
+                          * droits d'accès 
+                          * répartition des données
+                        </script>
+                    </section>
                 </section>
 
                 <section>
-                    <h1> Ressources </h1>
-                    <p> Slides faits avec <a href="http://lab.hakim.se/reveal-js/">Reveal.js</a> </p>
-                    <p> Icones par <a href="https://thenounproject.com/creativestall/">Creative Stall</a> et <a href="https://thenounproject.com/tgnsd/">Ben Rizzo</a></p>
+                    <section data-markdown class="lbnl">
+                        <script type="text/template">
+                        # On a vu tout MERISE ?
+
+                        * **NON**, il manque la conception technique (MLD, MPD, MLT, MLPT)
+                        * **NON**, il manque de nombreux détails (CIF, héritage, ...)
+                        * **NON**, il manque la gestion globale du système d'information
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="resources">
+                        <script type="text/template">
+                        # Ressources
+
+                        Slides faits avec [Reveal.js](http://lab.hakim.se/reveal-js/)
+                    
+                        Icones par [Creative Stall](https://thenounproject.com/creativestall/) et [Ben Rizzo](https://thenounproject.com/tgnsd/)
+                        </script>
+                    </section>
                 </section>
 
             </div>
