@@ -98,6 +98,15 @@ small.mcc-detail ul {
     margin: 1em .5em;
 }
 
+.reveal section .small-diagram img,
+.reveal section img.small-diagram {
+    height: 192px;
+    width: auto;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
 .reveal section.diagram img,
 .reveal section img.diagram {
     height: 256px;

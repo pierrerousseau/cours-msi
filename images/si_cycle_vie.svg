@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="14cm" height="6cm" viewBox="104 144 275 115" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="188" y1="152" x2="253.764" y2="152"/>
+    <polygon style="fill: #000000" points="261.264,152 251.264,157 253.764,152 251.264,147 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="261.264,152 251.264,157 253.764,152 251.264,147 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="104.5" y="159">
+    <tspan x="104.5" y="159">Conception</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="319.306" y1="177.505" x2="319.463" y2="218.264"/>
+    <polygon style="fill: #000000" points="319.491,225.764 314.453,215.783 319.463,218.264 324.453,215.745 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="319.491,225.764 314.453,215.783 319.463,218.264 324.453,215.745 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="279.5" y="158">
+    <tspan x="279.5" y="158">Mise en Oeuvre</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="285.3" y="256.1">
+    <tspan x="285.3" y="256.1">Maintenance</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="132.5" y="256">
+    <tspan x="132.5" y="256">Déclin</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="202.036" y1="251.436" x2="267.8" y2="251.436"/>
+    <polygon style="fill: #000000" points="194.536,251.436 204.536,246.436 202.036,251.436 204.536,256.436 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="194.536,251.436 204.536,246.436 202.036,251.436 204.536,256.436 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="145.426" y1="188.94" x2="145.583" y2="229.698"/>
+    <polygon style="fill: #000000" points="145.397,181.44 150.436,191.421 145.426,188.94 140.436,191.459 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="145.397,181.44 150.436,191.421 145.426,188.94 140.436,191.459 "/>
+  </g>
+</svg>

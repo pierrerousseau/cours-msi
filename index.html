@@ -117,45 +117,60 @@
                         ![systémique](images/systemique.svg) 
                         </script>
                     </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        # Analyse systémique
+
+                        Description abstraite de l'entreprise et non sa représentation organisationnelle (hiérarchique)
+
+                        * le système de **pilotage** : prise de décision
+                        * le système **opérant** : réalisation des tâches d'exécution
+                        * le système d'**information** : intermédiaire entre le système de pilotage et le système opérant
+
+
+                        </script>
+                    </section>
                 </section>
-                <section data-markdown class="qualities">
-                    <script type="text/template">
-                    # Qualités du SI
+                <section>
+                    <section data-markdown class="qualities">
+                        <script type="text/template">
+                        # Qualités du SI
 
-                    Aide à la *décision* (organiser, informer, interpréter, prévoir)
+                        Aide à la *décision* (organiser, informer, interpréter, prévoir)
 
-                    * **pertinent** : information utile
-                    * **rapide** : réponse en temps utile
-                    * **fiable** : information disponible et de confiance
-                    * **sûr** : usage sécurisé
-                    * **ADAPTÉ** : ressources et buts de l'organisation
-                    </script>
-                </section>
-                <section data-markdown class="parts">
-                    <script type="text/template">
-                    # Composants du SI
+                        * **pertinent** : information utile
+                        * **rapide** : réponse en temps utile
+                        * **fiable** : information disponible et de confiance
+                        * **sûr** : usage sécurisé
+                        * **ADAPTÉ** : ressources et buts de l'organisation
+                        </script>
+                    </section>
+                    <section data-markdown class="parts">
+                        <script type="text/template">
+                        # Composants du SI
 
-                    * **Outils** : logiciels, matériels, protocoles
-                    * **Infrastructure** : réseaux
-                    * **Procédures** : organisation interne
-                    * **Humains** : utilisateurs, acteurs
-                    </script>
-                </section>
-                <section data-markdown data-state="exercise" class="exercise">
-                    <script type="text/template">
-                    ### Exercice 1
+                        * **Outils** : logiciels, matériels, protocoles
+                        * **Infrastructure** : réseaux
+                        * **Procédures** : organisation interne
+                        * **Humains** : utilisateurs, acteurs
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 1
 
-                    Décrire le système d'information d'une boulangerie
-                    </script>
-                </section>
-                <section data-markdown class="problems">
-                    <script type="text/template">
-                    # Des problèmes ?
+                        Décrire le système d'information d'une boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown class="problems">
+                        <script type="text/template">
+                        # Des problèmes ?
 
-                    **&lt;** manque de temps, d'homogénéité, de structure, de communication, ...
+                        manque de temps, d'homogénéité, de structure, de communication, ...
 
-                    **&rArr;** besoin d'une *démarche*, de techniques et d'*outils*
-                    </script>
+                        **&rArr;** besoin d'une *démarche*, de techniques et d'*outils*
+                        </script>
+                    </section>
                 </section>
                 <section>
                     <section data-markdown class="merise">
@@ -171,25 +186,19 @@
 
                         -----
 
-                        ### Conseil : Adapter, choisir ce qui est utile
+                        ### Adapter, choisir ce qui est utile
 
                         [wiki-merise]: https://fr.wikipedia.org/wiki/Merise
                         </script>
                     </section>
-                    <section data-markdown class="sections">
-                        <script type="text/template">
-                        # Découplage
-
-                        * **données** : structures, relations
-                        * **traitements** : flux de données internes et externes, manipulation des données
-                        </script>
-                    </section>
-                    <section data-markdown class="dimensions">
+                    <section data-markdown class="dimensions small-diagram">
                         <script type="text/template">
                         # Dimensions
 
-                        * Cycle de décision : résultats produits par le SI
-                        * Cycle de vie : conception, mise en oeuvre, maintenance, évolution d'un SI
+                        ![si-cycle-vie](images/si_cycle_vie.svg) 
+
+                        * Cycle de vie : conception, mise en oeuvre, maintenance, déclin
+                        * Cycle de décision : choix fait pendant le cycle de vie
                         * Cycle d'*abstraction* : modélisation du SI
                         </script>
                     </section>
@@ -199,9 +208,21 @@
 
                         * Expression des **besoins**
                         * niveau **Conceptuel** : fondamentaux, *stable*, indépendant
-                        * niveau **Organisationnel**  personnes, matériel
-                        * niveau **Logique** : outils, *indépendant*
-                        * niveau **Physique** : outils, technique
+                        * niveau **Organisationnel** : personnes, matériel
+                        * niveau **Logique** : technique, *indépendant* des outils
+                        * niveau **Physique** : technique, adapté aux outils
+                        </script>
+                    </section>
+                    <section data-markdown class="sections">
+                        <script type="text/template">
+                        # Découplage
+
+                        * **données** : statique du système
+                          * structures
+                          * relations
+                        * **traitements** : dynamique du système
+                          * flux de données internes et externes
+                          * manipulation des données
                         </script>
                     </section>
                     <section data-markdown class="tools">
