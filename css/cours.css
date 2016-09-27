@@ -10,6 +10,14 @@
     color: #d57c1b;
 }
 
+.reveal section.small li {
+    font-size: smaller;
+}
+
+.reveal section img {
+    background-color: rgba(255, 255, 255, 0)
+}
+
 .exercise .reveal .slide-background.present {
     background: #ae4a1d;
     opacity: .25;

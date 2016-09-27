@@ -279,6 +279,19 @@
                         * **Épurer** : supprimer les doublons, spécifier, déterminer les contraintes
                         </script>
                     </section>
+                    <section data-markdown class="dd">
+                        <script type="text/template">
+                        # DD : construction
+
+                        * pour chaque document et chaque besoin identifié
+                          * ajouter les données identifiées au DD
+                          * définir les données (identifiant, description, type, format, ...)
+
+                        * une fois la liste établie
+                          * supprimer les doublons
+                          * supprmier les données calculées ou composées
+                        </script>
+                    </section>
                     <section data-markdown class="dd example">
                         <script type="text/template">
                         # DD : exemple
@@ -301,49 +314,15 @@
                 </section>
 
                 <section>
-                    <section data-markdown class="mf">
-                        <script type="text/template">
-                        # Matrice des flux (MF)
-
-                        *bilans* des activités des acteurs
-
-                        * **Définir** : émetteur, récepteur, nature
-                        * **Sélectionner** : les acteurs nécessaires (besoin d'un récepteur)
-                        </script>
-                    </section>
-                    <section data-markdown class="mf example col-title">
-                        <script type="text/template">
-                        # MF : exemple
-
-                        |                    | Fournisseur  | Gestion des achats | Gestion des stocks |
-                        |:------------------ |:------------:|:------------------:|:------------------:|
-                        | Fournisseur        |              | -                  | livrer             |
-                        | Gestion des achats | commander    |                    | -                  |
-                        | Gestion des stocks | -            | demande achats     |                    |
-                        </script>
-                    </section>
-                    <section data-markdown data-state="exercise" class="exercise">
-                        <script type="text/template">
-                        ### Exercice 5
-
-                        ## Écrire la matrice des flux de la boulangerie
-                        </script>
-                    </section>
-                </section>
-
-                <section>
                     <section data-markdown class="df">
                         <script type="text/template">
                         # Diagramme de flux (DF)
 
                         *Décomposition* en domaines d'activité
 
+                        * **Activité** : ensemble de traitements qui manipule les données
                         * **Domaine** : ensemble d'activités avec une finalité commune (gestion des stocks, vente, ...)
                         * **Acteurs** : intervenants du système, émetteur ou récepteur de flux (interne/externe, domaine, ...)
-
-                        -----
-
-                        Décomposition en *sous-domaines*
                         </script>
                     </section>
                     <section data-markdown class="df formalism">
@@ -351,6 +330,28 @@
                         # DF : formalisme
 
                         ![df-formalisme](images/df_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="df">
+                        <script type="text/template">
+                        # DF : construction
+
+                        * établir le DF de la *vue globale* du SI (diagramme de contexte)
+                          * voir le SI comme une boite noire 
+                          * ne prendre en compte que ses acteurs externes
+                        * établir un nouveau DF à partir des *domaines d'activité* du SI
+                          * étendre le diagramme de contexte
+                        * établir le DF final 
+                          * lister les sous-domaines et acteurs des domaines d'activité
+                          * recommencer jusqu'à n'avoir plus que des acteurs
+
+                        </script>
+                    </section>
+                    <section data-markdown class="df example">
+                        <script type="text/template">
+                        # DF : exemple
+
+                        ![df-exemple](images/df_exemple_ext.svg)
                         </script>
                     </section>
                     <section data-markdown class="df example">
@@ -377,22 +378,77 @@
                 </section>
 
                 <section>
+                    <section data-markdown class="mf">
+                        <script type="text/template">
+                        # Matrice des flux (MF)
+
+                        * **vérification** des activités des acteurs
+                        * **bilans** des activités des acteurs
+
+                        </script>
+                    </section>
+                    <section data-markdown class="mf example col-title">
+                        <script type="text/template">
+                        # MF : exemple
+
+                        |                    | Fournisseur  | Gestion des achats | Gestion des stocks |
+                        |:------------------ |:------------:|:------------------:|:------------------:|
+                        | Fournisseur        |              | -                  | livrer             |
+                        | Gestion des achats | commander    |                    | -                  |
+                        | Gestion des stocks | -            | demande achats     |                    |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 5
+
+                        ## Écrire la matrice des flux de la boulangerie
+                        </script>
+                    </section>
+                </section>
+
+                <section>
                     <section data-markdown class="mcc">
                         <script type="text/template">
                         # Modèle Conceptuel de Communication (MCC)
 
                         *Description* des flux de données
 
-                        *Réalisation* chronologique (assure la cohérence) et *exhaustive*
-
                         * **Message** : transmission d'une information complète
                         </script>
                     </section>
+                    <section data-markdown class="mcc">
+                        <script type="text/template">
+                        # MCC : construction
+
+                        chronologique (assure la cohérence) et *exhaustive*
+
+                        * pour chaque flux du DF
+                          * décomposer le flux en messages
+                        * pour obtenir le MCC détaillé, pour chaque message
+                          * intégrer les données du DD (et des données calculées) 
+                        </script>
+                    </section>
+
                     <section data-markdown class="mcc example">
                         <script type="text/template">
                         # MCC : exemple 
 
                         ![df-exemple](images/mcc_exemple.svg)
+                        </script>
+                    </section>
+                    <section data-markdown class="mcc example small">
+                        <script type="text/template">
+                        # MCC : exemple 
+
+                        * bon de livraison (Fournisseur, Stock)
+                          * nom-fournisseur
+                          * id-bon-livraison
+                          * code-fournisseur-bon-livraison
+                          * code-fournisseur-produit
+                          * nom-produit
+                          * quantité-produit
+                          * code-barre
                         </script>
                     </section>
                     <section data-markdown data-state="exercise" class="exercise">
@@ -463,12 +519,23 @@
 
                         * définie par un verbe
                         * liée à une (réflexive) ou plusieurs entités (binaires ou n-aires)
-                        * porteuse de *cardinalités*
 
-                        * occurrence minimale [0, 1] des entités associées
-                        * occurrences maximales [1, n] des entités associées
+                        * porteuse de *cardinalités*
+                          * occurrence minimale [0, 1] des entités associées
+                          * occurrences maximales [1, n] des entités associées
 
                         * peut être composée de propriétés
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd example">
+                        <script type="text/template">
+                        # MCD : construction
+
+                        * à partir des *messages du MCC*
+                        * pour chaque message
+                          * on se demande si on a besoin d'une nouvelle entité
+                          * les données élémentaires du message deviennent des propriétés d'une entité
+                        * on *valide* le modèle entité-association créé
                         </script>
                     </section>
                     <section data-markdown class="mcd example">
@@ -503,7 +570,7 @@
                         Respect des 3 premières formes normales
 
                         * aucune propriété n'est décomposable ou multiple
-                          * une seule valeur possible
+                          * une seule valeur possible (à un instant t)
 
                         * toute propriété dépend de la totalité de l'identifiant
 
@@ -545,8 +612,6 @@
                         ## Corriger la partie de MCD suivante
 
                         ![mcd-exemple](images/mcd_exercice.svg) 
-
-                        ## Écrire le MCC de la boulangerie
                         </script>
                     </section>
                     <section data-markdown data-state="exercise" class="exercise">
