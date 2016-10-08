@@ -1,6 +1,9 @@
 .reveal a {
     color: #77beee;
 }
+.reveal .exercise a {
+    color: #559ccc;
+}
 .reveal em {
     font-weight: bolder;
     color: #d57c1b;

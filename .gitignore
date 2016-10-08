@@ -2,3 +2,6 @@
 *~
 reveal.js
 node_modules
+*.out
+*.log
+*.aux
