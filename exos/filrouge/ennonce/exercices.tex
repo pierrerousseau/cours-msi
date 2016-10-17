@@ -3,8 +3,7 @@
 Le recueil des besoin de la modélisation du système d'information d'une boulangerie a donné les informations suivantes :
 
 \begin{itemize}
-    \item Le boulanger veut connaître ses bénéfices mensuels (ventes - salaires - factures)
-    \item Le boulanger veut savoir à tout moment ce qui est en stock et ce qui est commandé\\
+    \item Le boulanger veut connaître ses bénéfices sur la période qu'il désire et archiver ses bilans (ventes - salaires - factures)
 \end{itemize}
 
 Lors de ce recueil d'information, les documents suivants ont été jugés utiles :
@@ -18,6 +17,13 @@ Lors de ce recueil d'information, les documents suivants ont été jugés utiles
     \item Facture (nom du fournisseur, référence du fournisseur, date, prix) \\
 \end{itemize}
 
+Autres informations utiles :
+
+\begin{itemize}
+    \item on considère qu'une commande est toujours livrée complètement
+\end{itemize}
+
+
 À partir de ces informations le dictionnaire de données et le diagramme de flux suivants ont été élaborés :\\
 
 \begin{figure}[!h]
@@ -26,27 +32,33 @@ Lors de ce recueil d'information, les documents suivants ont été jugés utiles
     \textbf{mnémonique} & \textbf{desc.} & \textbf{type} & \textbf{format} & \textbf{divers} & \textbf{exemple} \\
     ref-ticket                    & -                & entier  & -            & séquentielle & 1337 \\
     date-ticket                   & -                & date    & jj/mm/aaaa   & -            & 08/10/2016 \\
-    nom-produit                   & -                & texte   & 50 car. max. & -            & pain au chocolat \\
-    prix-produit                  & -                & décimal & en euros     & -            & 1,20 \\
+    nom-produit-vendu             & -                & texte   & 50 car. max. & -            & pain au chocolat \\
+    prix-produit-vendu            & -                & décimal & en euros     & -            & 1,20 \\
+    quantité-produit-vendu        & -                & décimal & -            & -            & 5.00 \\
     ref-fiche-paye                & -                & entier  & -            & séquentielle & 4237 \\
     nom-employé                   & -                & texte   & 50 car. max. & -            & Jean Dupond \\
     date-naissance-employé        & -                & date    & jj/mm/aaaa   & -            & 06/10/1985 \\
     adresse-employé               & -                & texte   & 75 car. max. & -            & 36 rue des petits pains\\
                                   &                  &         &              &              & 92000 Nanterre \\
     salaire-employé               & -                & décimal & en euros     & -            & 1200,00 \\
+    date-paye                     & -                & date    & jj/mm/aaaa   & -            & 08/10/2016 \\
     nom-fournisseur               & -                & texte   & 50 car. max. & -            & Farinin Corp. \\
     date-commande                 & -                & date    & jj/mm/aaaa   & -            & 06/10/2016 \\
     ref-commande-fournisseur      & -                & texte   & 50 car. max. & -            & FC-6102 \\
     adresse-fournisseur           & -                & texte   & 75 car. max. & -            & 120 route de la poudreuse\\
                                   &                  &         &              &              & 92000 Nanterre \\
+    nom-produit-acheté            & -                & texte   & 50 car. max. & -            & farine \\
+    prix-produit-acheté           & -                & décimal & en euros     & -            & 12,0 \\
+    quantité-produit-acheté       & -                & décimal & -            & -            & 50.0 \\
     ref-produit-fournisseur       & -                & texte   & 50 car. max. & -            & FC-6102-farine \\
     date-livraison                & -                & date    & jj/mm/aaaa   & -            & 07/10/2016 \\
     ref-bon-livraison-fournisseur & -                & texte   & 50 car. max. & -            & FC-6102-farine-10 \\
     date-retour                   & -                & date    & jj/mm/aaaa   & -            & 08/10/2016 \\
-    ref-bon-facture-fournisseur   & -                & texte   & 50 car. max. & -            & FC-6102-farine-10-fac \\
+    ref-facture-fournisseur       & -                & texte   & 50 car. max. & -            & FC-6102-farine-10-fac \\
     date-facturation              & -                & date    & jj/mm/aaaa   & -            & 08/10/2016 \\
-    prix-facture                  & -                & décimal & en euros     & -            & 1200,00 \\
     date-paiement                 & -                & date    & jj/mm/aaaa   & -            & 08/10/2016 \\
+    date-début                    & -                & date    & jj/mm/aaaa   & -            & 08/10/2015 \\
+    date-fin                      & -                & date    & jj/mm/aaaa   & -            & 08/10/2016 \\
 %
 \end{tabular}
     \caption{\label{DD} Dictionnaire de données}
@@ -55,8 +67,10 @@ Lors de ce recueil d'information, les documents suivants ont été jugés utiles
 \newpage
 
 \begin{figure}[!h]
+    \begin{center}
     \includegraphics[height=10cm]{images/dd_exo.eps} 
     \caption{\label{DF} Diagramme de Flux}
+    \end{center}
 \end{figure}
 
 À partir de ces éléments élaborez le modèle conceptuel de communication détaillé (MCC détaillé) puis le modèle conceptuel de données (MCD). Attention, certaines des données utiles peuvent apparaître lors de l'élaboration du modèle conceptuel de données (notamment les références internes des différents éléments).\\
