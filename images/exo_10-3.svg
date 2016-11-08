@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="18cm" height="37cm" viewBox="-199 -337 358 733" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-88.9" y="-0.8" width="52.1" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-62.85" y="22.1">
+      <tspan x="-62.85" y="22.1">refus</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-116.682,-298.8 -29.7866,-298.8 -29.7866,-267.536 "/>
+    <polygon style="fill: #000000" points="-29.7866,-260.036 -34.7866,-270.036 -29.7866,-267.536 -24.7866,-270.036 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-29.7866,-260.036 -34.7866,-270.036 -29.7866,-267.536 -24.7866,-270.036 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -48.224 -257.8 L 25.526,-257.8 L 25.526,-225.8 L -11.349,-217.8 L -48.224,-225.8 L -48.224,-257.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-11.349" y="-237.8">
+      <tspan x="-11.349" y="-237.8"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-198.282" y="-336.8" width="163.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-116.682" y="-313.9">
+      <tspan x="-116.682" y="-313.9">demande client</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-108.065" y="-217.268" width="173.583" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-21.2737" y="-179.468">
+      <tspan x="-21.2737" y="-179.468">Service client</tspan>
+      <tspan x="-21.2737" y="-163.468">Vérification</tspan>
+      <tspan x="-21.2737" y="-147.468">paiement</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-61.141" y1="-62.8" x2="-62.5817" y2="-10.5324"/>
+    <polygon style="fill: #000000" points="-62.7884,-3.03522 -67.5109,-13.1692 -62.5817,-10.5324 -57.5147,-12.8937 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-62.7884,-3.03522 -67.5109,-13.1692 -62.5817,-10.5324 -57.5147,-12.8937 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-107.1" y="-116.8" width="91.918" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-61.141" y="-93.9">
+      <tspan x="-61.141" y="-93.9">vente</tspan>
+      <tspan x="-61.141" y="-77.9">impossible</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-15.682" y="-116.8" width="81.582" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="25.109" y="-85.9">
+      <tspan x="25.109" y="-85.9">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="45.5045" y1="-62.8" x2="44.6094" y2="-22.5337"/>
+    <polygon style="fill: #000000" points="44.4427,-15.0355 39.6662,-25.1442 44.6094,-22.5337 49.6637,-24.9219 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="44.4427,-15.0355 39.6662,-25.1442 44.6094,-22.5337 49.6637,-24.9219 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="75.768,39.2 19.6885,39.2 19.6885,93.4647 "/>
+    <polygon style="fill: #000000" points="19.6885,100.965 14.6885,90.9647 19.6885,93.4647 24.6885,90.9647 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="19.6885,100.965 14.6885,90.9647 19.6885,93.4647 24.6885,90.9647 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -35.624 103.201 L 38.126,103.201 L 38.126,135.201 L 1.251,143.201 L -35.624,135.201 L -35.624,103.201"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1.251" y="123.201">
+      <tspan x="1.251" y="123.201"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="13.018" y="-12.8" width="125.5" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="75.768" y="9.1">
+      <tspan x="75.768" y="9.1">ticket de</tspan>
+      <tspan x="75.768" y="25.1">caisse</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-99.725" y="342.668" width="116.95" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-41.25" y="364.568">
+      <tspan x="-41.25" y="364.568">besoin de</tspan>
+      <tspan x="-41.25" y="380.568">ravaitaillement</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-86.4654" y="143.2" width="173.583" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="0.326267" y="189">
+      <tspan x="0.326267" y="189">Vérification</tspan>
+      <tspan x="0.326267" y="205">produits en vente</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-40.541" y1="296.668" x2="-41.1" y2="332.933"/>
+    <polygon style="fill: #000000" points="-41.2155,340.432 -46.0608,330.356 -41.1,332.933 -36.062,330.51 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-41.2155,340.432 -46.0608,330.356 -41.1,332.933 -36.062,330.51 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-86.5" y="242.668" width="91.918" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-40.541" y="265.568">
+      <tspan x="-40.541" y="265.568">produit</tspan>
+      <tspan x="-40.541" y="281.568">manquant</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="5.918" y="242.668" width="81.582" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="46.709" y="273.568">
+      <tspan x="46.709" y="273.568">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="67.1045" y1="296.668" x2="65.43" y2="333.942"/>
+    <polygon style="fill: #000000" points="65.0934,341.434 60.5472,331.22 65.43,333.942 70.5371,331.669 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="65.0934,341.434 60.5472,331.22 65.43,333.942 70.5371,331.669 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="33.618" y="343.668" width="125.5" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="96.368" y="373.568">
+      <tspan x="96.368" y="373.568">client suivant</tspan>
+    </text>
+  </g>
+</svg>

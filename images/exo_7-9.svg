@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="5cm" viewBox="-1026 -924 418 87" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-968.561" cy="-875.377" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-968.561" y="-871.477">
+      <tspan x="-968.561" y="-871.477">Tésorerie</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-665.621" cy="-875.377" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-665.621" y="-871.477">
+      <tspan x="-665.621" y="-871.477">Vendeur</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="-849.357" y="-923.378" width="106.75" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-795.982" y="-900.478">
+      <tspan x="-795.982" y="-900.478">fiche de paye</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-912.124" y1="-875.377" x2="-731.793" y2="-875.377"/>
+    <polygon style="fill: #000000" points="-724.293,-875.377 -734.293,-870.377 -731.793,-875.377 -734.293,-880.377 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-724.293,-875.377 -734.293,-870.377 -731.793,-875.377 -734.293,-880.377 "/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="22cm" height="9cm" viewBox="-243 -406 430 173" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-185.263" cy="-313.269" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-185.263" y="-309.369">
+      <tspan x="-185.263" y="-309.369">Vendeur</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="129.737" cy="-313.269" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="129.737" y="-309.369">
+      <tspan x="129.737" y="-309.369">Client</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 89.83,-339.509 A 267.54,267.54 0 0 0 -136.54,-343.627"/>
+    <polygon style="fill: #000000" points="-143.348,-340.492 -136.564,-349.378 -136.612,-343.788 -132.168,-340.396 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-143.348,-340.492 -136.564,-349.378 -136.612,-343.788 -132.168,-340.396 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="-149.248" y="-405.378" width="80.5" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-108.998" y="-382.478">
+      <tspan x="-108.998" y="-382.478">demande</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -136.183,-293.543 A 331.737,331.737 0 0 0 68.4181,-295.828"/>
+    <polygon style="fill: #000000" points="75.4986,-298.293 67.8521,-290.136 68.4637,-295.693 64.3854,-299.516 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="75.4986,-298.293 67.8521,-290.136 68.4637,-295.693 64.3854,-299.516 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="-39.938" y="-270.378" width="119.25" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="19.687" y="-247.478">
+      <tspan x="19.687" y="-247.478">ticket de caisse</tspan>
+    </text>
+  </g>
+</svg>

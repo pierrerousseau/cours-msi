@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="22cm" height="7cm" viewBox="317 240 431 127" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="22cm" height="9cm" viewBox="317 188 431 177" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="373" cy="277.999" rx="54.6261" ry="27.3131"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="373" y="281.899">
@@ -8,14 +8,14 @@
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="427.626" y1="278" x2="609.766" y2="278.269"/>
-    <polygon style="fill: #000000" points="617.266,278.28 607.259,283.265 609.766,278.269 607.273,273.265 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="617.266,278.28 607.259,283.265 609.766,278.269 607.273,273.265 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="427.626" y1="278" x2="609.766" y2="278.268"/>
+    <polygon style="fill: #000000" points="617.266,278.279 607.259,283.264 609.766,278.268 607.273,273.264 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="617.266,278.279 607.259,283.264 609.766,278.268 607.273,273.264 "/>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="477.3" y="240.7" width="64.7" height="37.3"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="509.65" y="263.25">
-      <tspan x="509.65" y="263.25">livrer</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="529.3" y="239.7" width="64.7" height="37.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="561.65" y="262.25">
+      <tspan x="561.65" y="262.25">livrer</tspan>
     </text>
   </g>
   <g>
@@ -25,14 +25,25 @@
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="470.3" y="328.7" width="106.15" height="38.3"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="523.375" y="351.75">
-      <tspan x="523.375" y="351.75">commander</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="388.3" y="188.7" width="106.15" height="38.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="441.375" y="211.75">
+      <tspan x="441.375" y="211.75">commander</tspan>
     </text>
   </g>
   <g>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="683.251,307.566 683.251,328.566 373,328.566 373,315.048 "/>
     <polygon style="fill: #000000" points="373,307.548 378,317.548 373,315.048 368,317.548 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="373,307.548 378,317.548 373,315.048 368,317.548 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="683.251,249 683.251,228 373,228 373,239.943 "/>
+    <polygon style="fill: #000000" points="373,247.443 368,237.443 373,239.943 378,237.443 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="373,247.443 368,237.443 373,239.943 378,237.443 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke-dasharray: 20; stroke: #000000" x="389.075" y="328.2" width="106.15" height="37.3"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="442.15" y="350.75">
+      <tspan x="442.15" y="350.75">payer facture</tspan>
+    </text>
   </g>
 </svg>

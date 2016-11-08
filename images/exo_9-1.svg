@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="62cm" height="43cm" viewBox="244 -137 1232 859" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #81d8d0" x="473.226" y="264.1" width="172.3" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="473.226" y="264.1" width="172.3" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="559.376" y="278.1">Fournisseur</text>
+    <rect style="fill: #81d8d0" x="473.226" y="282.1" width="172.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="473.226" y="282.1" width="172.3" height="52"/>
+    <polygon style="fill: #000000" points="476.226,292.1 478.226,295.1 480.226,292.1 478.226,289.1 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="482.226" y="298.1">id-fournisseur</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="482.226" y1="299.7" x2="638.526" y2="299.7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="478.226" cy="308.1" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="482.226" y="314.1">nom-fournisseur</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="478.226" cy="324.1" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="482.226" y="330.1">adresse-fournisseur</text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="918.852" y="264.1" width="210.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="918.852" y="264.1" width="210.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1024.25" y="278.1">Commande</text>
+    <rect style="fill: #81d8d0" x="918.852" y="282.1" width="210.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="918.852" y="282.1" width="210.8" height="52"/>
+    <polygon style="fill: #000000" points="921.852,292.1 923.852,295.1 925.852,292.1 923.852,289.1 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="927.852" y="298.1">id-commande</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="927.852" y1="299.7" x2="1122.65" y2="299.7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="923.852" cy="308.1" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="927.852" y="314.1">date-commande</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="923.852" cy="324.1" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="927.852" y="330.1">ref-commande-fournisseur</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="645.526,292.1 684.126,292.1 684.126,291.855 722.726,291.855 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="649.526" y="288.1">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="918.852,292.1 878.389,292.1 878.389,291.855 837.926,291.855 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="914.852" y="288.1">1,1</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="905.45" y1="443.905" x2="1143.05" y2="443.905"/>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 741.926 266.1 L 818.726,266.1 C 829.33,266.1 837.926,277.631 837.926,291.855 C 837.926,306.078 829.33,317.609 818.726,317.609 L 741.926,317.609 C 731.322,317.609 722.726,306.078 722.726,291.855 C 722.726,277.631 731.322,266.1 741.926,266.1"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="780.326" y="295.855">
+      <tspan x="780.326" y="295.855">Passer</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="922.702" y="635.2" width="203.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="922.702" y="635.2" width="203.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1024.25" y="649.2">Produit-acheté</text>
+    <rect style="fill: #81d8d0" x="922.702" y="653.2" width="203.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="922.702" y="653.2" width="203.1" height="68"/>
+    <polygon style="fill: #000000" points="925.702,663.2 927.702,666.2 929.702,663.2 927.702,660.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="931.702" y="669.2">id-produit-acheté</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="931.702" y1="670.8" x2="1118.8" y2="670.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="927.702" cy="679.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="931.702" y="685.2">nom-produit-acheté</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="927.702" cy="695.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="931.702" y="701.2">prix-produit-acheté</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="927.702" cy="711.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="931.702" y="717.2">ref-produit-fournisseur</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 945.05 414.2 L 1103.45,414.2 C 1125.32,414.2 1143.05,427.499 1143.05,443.905 C 1143.05,460.31 1125.32,473.609 1103.45,473.609 L 945.05,473.609 C 923.18,473.609 905.45,460.31 905.45,443.905 C 905.45,427.499 923.18,414.2 945.05,414.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1024.25" y="431.905">
+      <tspan x="1024.25" y="431.905">Acheter</tspan>
+      <tspan x="1024.25" y="447.905"></tspan>
+      <tspan x="1024.25" y="463.905">quantité-produit-acheté</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="683.226" y="86.2" width="203.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="683.226" y="86.2" width="203.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="784.776" y="100.2">Facture</text>
+    <rect style="fill: #81d8d0" x="683.226" y="104.2" width="203.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="683.226" y="104.2" width="203.1" height="68"/>
+    <polygon style="fill: #000000" points="686.226,114.2 688.226,117.2 690.226,114.2 688.226,111.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="692.226" y="120.2">id-facture</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="692.226" y1="121.8" x2="879.326" y2="121.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="688.226" cy="130.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="692.226" y="136.2">ref-facture-fournisseur</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="688.226" cy="146.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="692.226" y="152.2">date-facturation</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="688.226" cy="162.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="692.226" y="168.2">date-paiement</text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="1221.73" y="414.2" width="249.3" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1221.73" y="414.2" width="249.3" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1346.38" y="428.2">Livraison</text>
+    <rect style="fill: #81d8d0" x="1221.73" y="432.2" width="249.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1221.73" y="432.2" width="249.3" height="68"/>
+    <polygon style="fill: #000000" points="1224.73,442.2 1226.73,445.2 1228.73,442.2 1226.73,439.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1230.73" y="448.2">id-livraison</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1230.73" y1="449.8" x2="1464.03" y2="449.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1226.73" cy="458.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1230.73" y="464.2">date-livraison</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1226.73" cy="474.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1230.73" y="480.2">ref-bon-livraison-fournisseur</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1226.73" cy="490.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1230.73" y="496.2">date-retour</text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="305.526" y="376.2" width="110.7" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="305.526" y="376.2" width="110.7" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="360.876" y="390.2">Ticket</text>
+    <rect style="fill: #81d8d0" x="305.526" y="394.2" width="110.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="305.526" y="394.2" width="110.7" height="36"/>
+    <polygon style="fill: #000000" points="308.526,404.2 310.526,407.2 312.526,404.2 310.526,401.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="314.526" y="410.2">ref-ticket</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="314.526" y1="411.8" x2="409.226" y2="411.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="310.526" cy="420.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="314.526" y="426.2">date-ticket</text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="278.576" y="645.2" width="164.6" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="278.576" y="645.2" width="164.6" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="360.876" y="659.2">Produit-vendu</text>
+    <rect style="fill: #81d8d0" x="278.576" y="663.2" width="164.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="278.576" y="663.2" width="164.6" height="52"/>
+    <polygon style="fill: #000000" points="281.576,673.2 283.576,676.2 285.576,673.2 283.576,670.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="287.576" y="679.2">id-produit-vendu</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="287.576" y1="680.8" x2="436.176" y2="680.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="283.576" cy="689.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="287.576" y="695.2">nom-produit-vendu</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="283.576" cy="705.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="287.576" y="711.2">prix-produit-vendu</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 283.825 507.2 L 437.925,507.2 C 459.202,507.2 476.45,519.288 476.45,534.2 C 476.45,549.112 459.202,561.2 437.925,561.2 L 283.825,561.2 C 262.548,561.2 245.3,549.112 245.3,534.2 C 245.3,519.288 262.548,507.2 283.825,507.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="360.875" y="522.2">
+      <tspan x="360.875" y="522.2">Vendre</tspan>
+      <tspan x="360.875" y="538.2"></tspan>
+      <tspan x="360.875" y="554.2">quantité-produit-vendu</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="687.226" y="-136.8" width="195.4" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="687.226" y="-136.8" width="195.4" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="784.926" y="-122.8">Employé</text>
+    <rect style="fill: #81d8d0" x="687.226" y="-118.8" width="195.4" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="687.226" y="-118.8" width="195.4" height="68"/>
+    <polygon style="fill: #000000" points="690.226,-108.8 692.226,-105.8 694.226,-108.8 692.226,-111.8 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="696.226" y="-102.8">id-employé</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="696.226" y1="-101.2" x2="875.626" y2="-101.2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="692.226" cy="-92.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="696.226" y="-86.8">nom-employé</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="692.226" cy="-76.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="696.226" y="-70.8">date-naissance-employé</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="692.226" cy="-60.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="696.226" y="-54.8">adresse-employé</text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="290.126" y="-120.8" width="141.5" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="290.126" y="-120.8" width="141.5" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="360.876" y="-106.8">Fiche de paye</text>
+    <rect style="fill: #81d8d0" x="290.126" y="-102.8" width="141.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="290.126" y="-102.8" width="141.5" height="36"/>
+    <polygon style="fill: #000000" points="293.126,-92.8 295.126,-89.8 297.126,-92.8 295.126,-95.8 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="299.126" y="-86.8">ref-fiche-paye</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="299.126" y1="-85.2" x2="424.626" y2="-85.2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="295.126" cy="-76.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="299.126" y="-70.8">salaire-employé</text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="285.376" y="102.81" width="149.2" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="285.376" y="102.81" width="149.2" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="359.976" y="116.81">Bilan</text>
+    <rect style="fill: #81d8d0" x="285.376" y="120.81" width="149.2" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="285.376" y="120.81" width="149.2" height="52"/>
+    <polygon style="fill: #000000" points="288.376,130.81 290.376,133.81 292.376,130.81 290.376,127.81 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="294.376" y="136.81">id-bilan</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="294.376" y1="138.41" x2="427.576" y2="138.41"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="290.376" cy="146.81" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="294.376" y="152.81">date-début-bilan</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="290.376" cy="162.81" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="294.376" y="168.81">date-fin-bilan</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1024.25,334.1 1024.25,374.15 1024.25,374.15 1024.25,414.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1028.25" y="346.1">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1024.25,473.609 1024.25,473.609 1024.25,635.2 1024.25,635.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1028.25" y="631.2">1,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1307.98 265.809 L 1384.78,265.809 C 1395.38,265.809 1403.98,277.34 1403.98,291.564 C 1403.98,305.787 1395.38,317.318 1384.78,317.318 L 1307.98,317.318 C 1297.37,317.318 1288.78,305.787 1288.78,291.564 C 1288.78,277.34 1297.37,265.809 1307.98,265.809"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1346.38" y="295.564">
+      <tspan x="1346.38" y="295.564">Livrer</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1129.65,292.1 1209.21,292.1 1209.21,291.564 1288.78,291.564 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1133.65" y="288.1">0,1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1346.38,317.318 1347.3,317.318 1347.3,414.2 1346.38,414.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1350.38" y="410.2">1,1</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 987.3 104.81 L 1064.1,104.81 C 1074.7,104.81 1083.3,116.341 1083.3,130.565 C 1083.3,144.788 1074.7,156.319 1064.1,156.319 L 987.3,156.319 C 976.696,156.319 968.1,144.788 968.1,130.565 C 968.1,116.341 976.696,104.81 987.3,104.81"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1025.7" y="134.565">
+      <tspan x="1025.7" y="134.565">Facturer</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1025.7,156.318 1025.1,156.318 1025.1,264.1 1024.25,264.1 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1028.25" y="260.1">0,1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="968.1,130.564 927.214,130.564 927.214,130.2 886.326,130.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="890.326" y="126.2">1,1</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 511.751 -118.554 L 588.651,-118.554 C 599.268,-118.554 607.876,-107.023 607.876,-92.7995 C 607.876,-78.5756 599.268,-67.0449 588.651,-67.0449 L 511.751,-67.0449 C 501.133,-67.0449 492.526,-78.5756 492.526,-92.7995 C 492.526,-107.023 501.133,-118.554 511.751,-118.554"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="550.201" y="-88.7995">
+      <tspan x="550.201" y="-88.7995">Rémunérer</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="431.626,-92.8 431.451,-92.8 431.451,-92.8 492.526,-92.8 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="488.526" y="-96.8">1,1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="607.876,-92.8 652.076,-92.8 652.076,-92.8 687.226,-92.8 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="683.226" y="-96.8">0,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 493.053 104.81 L 569.953,104.81 C 580.571,104.81 589.178,116.341 589.178,130.565 C 589.178,144.788 580.571,156.319 569.953,156.319 L 493.053,156.319 C 482.435,156.319 473.828,144.788 473.828,130.565 C 473.828,116.341 482.435,104.81 493.053,104.81"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="531.503" y="126.565">
+      <tspan x="531.503" y="126.565">Soustraire</tspan>
+      <tspan x="531.503" y="142.565">Facture</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 322.426 -7.19 L 399.326,-7.19 C 409.943,-7.19 418.551,4.34069 418.551,18.5645 C 418.551,32.7884 409.943,44.3191 399.326,44.3191 L 322.426,44.3191 C 311.808,44.3191 303.201,32.7884 303.201,18.5645 C 303.201,4.34069 311.808,-7.19 322.426,-7.19"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="360.876" y="14.5645">
+      <tspan x="360.876" y="14.5645">Soustraire</tspan>
+      <tspan x="360.876" y="30.5645">Paye</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="360.876,430.2 360.876,468.7 360.875,468.7 360.875,507.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="364.876" y="442.2">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="360.876,561.2 361.028,561.2 361.028,645.2 360.876,645.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="364.876" y="641.2">0,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 322.426 255.809 L 399.326,255.809 C 409.943,255.809 418.551,267.34 418.551,281.564 C 418.551,295.787 409.943,307.318 399.326,307.318 L 322.426,307.318 C 311.808,307.318 303.201,295.787 303.201,281.564 C 303.201,267.34 311.808,255.809 322.426,255.809"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="360.876" y="277.564">
+      <tspan x="360.876" y="277.564">Ajouter</tspan>
+      <tspan x="360.876" y="293.564">Vente</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="360.876,-66.8 361.028,-66.8 361.028,-7.19 360.876,-7.19 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="364.876" y="-11.19">0,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="360.876,44.318 360.028,44.318 360.028,102.81 359.976,102.81 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="363.976" y="98.81">0,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="474.156,130.564 442.528,130.564 442.528,130.81 434.576,130.81 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="438.576" y="126.81">0,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="683.226,130.2 633.48,130.2 633.48,130.564 589.178,130.564 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="679.226" y="126.2">0,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="359.976,172.81 360.528,172.81 360.528,255.809 360.876,255.809 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="356.876" y="251.809">0,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="360.876,307.318 357.38,307.318 357.38,376.2 360.876,376.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="356.876" y="372.2">0,n</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="245.3" y1="534.2" x2="476.451" y2="534.2"/>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 557.6 646.2 L 720.15,646.2 C 742.593,646.2 760.788,658.288 760.788,673.2 C 760.788,688.112 742.593,700.2 720.15,700.2 L 557.6,700.2 C 535.157,700.2 516.963,688.112 516.963,673.2 C 516.963,658.288 535.157,646.2 557.6,646.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="638.875" y="661.2">
+      <tspan x="638.875" y="661.2">Fournir</tspan>
+      <tspan x="638.875" y="677.2"></tspan>
+      <tspan x="638.875" y="693.2">quantité-produit-fourni</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="564.3" y="510.2" width="172.3" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="564.3" y="510.2" width="172.3" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="650.45" y="524.2">Ravitaillement</text>
+    <rect style="fill: #81d8d0" x="564.3" y="528.2" width="172.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="564.3" y="528.2" width="172.3" height="36"/>
+    <polygon style="fill: #000000" points="567.3,538.2 569.3,541.2 571.3,538.2 569.3,535.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="573.3" y="544.2">id-ravitaillement</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="573.3" y1="545.8" x2="729.6" y2="545.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="569.3" cy="554.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="573.3" y="560.2">date-ravitaillement</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="650.45,564.2 637.5,564.2 637.5,646.2 638.875,646.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="634.875" y="642.2">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="516.963,673.2 480.5,673.2 480.5,673.2 443.176,673.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="447.176" y="669.2">1,n</text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1271.94 652.2 L 1434.49,652.2 C 1456.93,652.2 1475.13,664.288 1475.13,679.2 C 1475.13,694.112 1456.93,706.2 1434.49,706.2 L 1271.94,706.2 C 1249.49,706.2 1231.3,694.112 1231.3,679.2 C 1231.3,664.288 1249.49,652.2 1271.94,652.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1353.21" y="667.2">
+      <tspan x="1353.21" y="667.2">Prélever</tspan>
+      <tspan x="1353.21" y="683.2"></tspan>
+      <tspan x="1353.21" y="699.2">quantité-produit-prélevé</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #81d8d0" x="1278.3" y="542.2" width="149.2" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1278.3" y="542.2" width="149.2" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1352.9" y="556.2">Prélèvement</text>
+    <rect style="fill: #81d8d0" x="1278.3" y="560.2" width="149.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1278.3" y="560.2" width="149.2" height="36"/>
+    <polygon style="fill: #000000" points="1281.3,570.2 1283.3,573.2 1285.3,570.2 1283.3,567.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1287.3" y="576.2">id-prélèvement</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1287.3" y1="577.8" x2="1420.5" y2="577.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1283.3" cy="586.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1287.3" y="592.2">date-prélèvement</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1352.9,596.2 1353.5,596.2 1353.5,652.2 1353.21,652.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1357.21" y="648.2">1,n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1231.3,679.2 1181.62,679.2 1181.62,679.2 1125.8,679.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1129.8" y="675.2">0,n</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="516.963" y1="673.2" x2="760.788" y2="673.2"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1231.3" y1="679.2" x2="1475.13" y2="679.2"/>
+</svg>

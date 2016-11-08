@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="36cm" height="33cm" viewBox="108 -654 714 654" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="233.8,-280.919 298.695,-280.919 298.695,-250.654 "/>
+    <polygon style="fill: #000000" points="298.695,-243.154 293.695,-253.154 298.695,-250.654 303.695,-253.154 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="298.695,-243.154 293.695,-253.154 298.695,-250.654 303.695,-253.154 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 280.258 -240.918 L 354.008,-240.918 L 354.008,-208.918 L 317.133,-200.918 L 280.258,-208.918 L 280.258,-240.918"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="317.133" y="-220.918">
+      <tspan x="317.133" y="-220.918"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="161.8" y="-318.919" width="144" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="233.8" y="-296.019">
+      <tspan x="233.8" y="-296.019">besoin de produit</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="242.417" y="-199.386" width="152.3" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="318.567" y="-153.586">
+      <tspan x="318.567" y="-153.586">Trouver fournisseur</tspan>
+      <tspan x="318.567" y="-137.586">Préparer commande</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="249.307" y="-38.5863" width="140.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="319.332" y="-15.6863">
+      <tspan x="319.332" y="-15.6863">bon de commande</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="318.567" y1="-99.5863" x2="319.21" y2="-48.3216"/>
+    <polygon style="fill: #000000" points="319.304,-40.8222 314.179,-50.7587 319.21,-48.3216 324.178,-50.8841 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="319.304,-40.8222 314.179,-50.7587 319.21,-48.3216 324.178,-50.8841 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="180.018,-613.919 266.913,-613.919 266.913,-582.654 "/>
+    <polygon style="fill: #000000" points="266.913,-575.154 261.913,-585.154 266.913,-582.654 271.913,-585.154 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="266.913,-575.154 261.913,-585.154 266.913,-582.654 271.913,-585.154 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 248.476 -572.918 L 322.226,-572.918 L 322.226,-540.918 L 285.351,-532.918 L 248.476,-540.918 L 248.476,-572.918"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="285.351" y="-552.918">
+      <tspan x="285.351" y="-552.918"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="108.018" y="-651.919" width="144" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180.018" y="-629.019">
+      <tspan x="180.018" y="-629.019">prélèvement</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="188.635" y="-532.386" width="173.583" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="275.426" y="-486.586">
+      <tspan x="275.426" y="-486.586">Vérification</tspan>
+      <tspan x="275.426" y="-470.586">état des stocks</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="232.293" y1="-377.919" x2="233.551" y2="-328.652"/>
+    <polygon style="fill: #000000" points="233.743,-321.154 228.489,-331.023 233.551,-328.652 238.486,-331.279 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="233.743,-321.154 228.489,-331.023 233.551,-328.652 238.486,-331.279 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="188.493" y="-431.919" width="87.6" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="232.293" y="-409.019">
+      <tspan x="232.293" y="-409.019">produit</tspan>
+      <tspan x="232.293" y="-393.019">manquant</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="276.018" y="-431.919" width="87.6" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="319.818" y="-409.019">
+      <tspan x="319.818" y="-409.019">tout est</tspan>
+      <tspan x="319.818" y="-393.019">disponible</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="341.718" y1="-377.919" x2="343.32" y2="-325.651"/>
+    <polygon style="fill: #000000" points="343.55,-318.154 338.246,-327.996 343.32,-325.651 348.241,-328.303 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="343.55,-318.154 338.246,-327.996 343.32,-325.651 348.241,-328.303 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="309.218" y="-315.919" width="68.8" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="343.618" y="-293.019">
+      <tspan x="343.618" y="-293.019">repos</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="554.802" y="-319.919" width="144" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="626.802" y="-297.019">
+      <tspan x="626.802" y="-297.019">bon de retour</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="597.02,-615.919 683.915,-615.919 683.915,-584.654 "/>
+    <polygon style="fill: #000000" points="683.915,-577.154 678.915,-587.154 683.915,-584.654 688.915,-587.154 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="683.915,-577.154 678.915,-587.154 683.915,-584.654 688.915,-587.154 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 665.478 -574.918 L 739.228,-574.918 L 739.228,-542.918 L 702.353,-534.918 L 665.478,-542.918 L 665.478,-574.918"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="702.353" y="-554.918">
+      <tspan x="702.353" y="-554.918"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="525.02" y="-653.919" width="144" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="597.02" y="-631.019">
+      <tspan x="597.02" y="-631.019">bon de livraison</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="605.637" y="-534.386" width="173.583" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="692.428" y="-488.586">
+      <tspan x="692.428" y="-488.586">Vérification</tspan>
+      <tspan x="692.428" y="-472.586">livraison</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="627.395" y1="-379.919" x2="626.898" y2="-329.655"/>
+    <polygon style="fill: #000000" points="626.824,-322.155 621.923,-332.204 626.898,-329.655 631.923,-332.105 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="626.824,-322.155 621.923,-332.204 626.898,-329.655 631.923,-332.105 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="605.495" y="-433.919" width="87.6" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="649.295" y="-411.019">
+      <tspan x="649.295" y="-411.019">produit</tspan>
+      <tspan x="649.295" y="-395.019">manquant</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="693.02" y="-433.919" width="85.718" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="735.879" y="-411.019">
+      <tspan x="735.879" y="-411.019">tout est</tspan>
+      <tspan x="735.879" y="-395.019">livré</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="757.309" y1="-379.919" x2="760.024" y2="-335.637"/>
+    <polygon style="fill: #000000" points="760.483,-328.151 754.88,-337.826 760.024,-335.637 764.862,-338.438 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="760.483,-328.151 754.88,-337.826 760.024,-335.637 764.862,-338.438 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="699.52" y="-325.919" width="122.2" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="760.62" y="-304.019">
+      <tspan x="760.62" y="-304.019">bon de livraison</tspan>
+      <tspan x="760.62" y="-288.019">validé</tspan>
+    </text>
+  </g>
+</svg>

@@ -84,6 +84,10 @@ small.mcc-detail ul {
     width: 40%;
     margin: .5em;
 }
+.reveal .solution {
+    background: #81d8d0;
+    font-size: 60%;
+}
 .solution .reveal .slide-background.present {
     background: #81d8d0;
 }

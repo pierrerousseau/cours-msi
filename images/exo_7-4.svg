@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="5cm" viewBox="157 -90 415 82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="515.287" cy="-47.6491" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="515.287" y="-43.7491">
+      <tspan x="515.287" y="-43.7491">Trésorier</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="219.237" cy="-48.649" rx="60.4085" ry="39.7208"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="219.237" y="-52.749">
+      <tspan x="219.237" y="-52.749">Gestionnaire</tspan>
+      <tspan x="219.237" y="-36.749">de stock</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="299.9" y="-87.8" width="140.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="369.925" y="-64.9">
+      <tspan x="369.925" y="-64.9">bon de livraison</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="279.645" y1="-48.649" x2="449.114" y2="-47.7033"/>
+    <polygon style="fill: #000000" points="456.614,-47.6615 446.586,-42.7174 449.114,-47.7033 446.642,-52.7172 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="456.614,-47.6615 446.586,-42.7174 449.114,-47.7033 446.642,-52.7172 "/>
+  </g>
+</svg>

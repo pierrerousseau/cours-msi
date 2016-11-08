@@ -162,6 +162,88 @@
                         Décrire le système d'information d'une boulangerie
                         </script>
                     </section>
+                    <section data-state="solution">
+                    <h5> Dictionnaire de Données  </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-bon-livraison </td>
+                            <td> identifiant d'un bon de livraison </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-fournisseur </td>
+                            <td> nom d'un fournisseur </td>
+                            <td> texte </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> Farines Inc. </td>
+                        </tr>
+                        <tr>
+                            <td> code-fournisseur-bon-livraison </td>
+                            <td> identifiant fournisseur d'un bon de livraison </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> 421337-OXO </td>
+                        </tr>
+                        <tr>
+                            <td> date-livraison </td>
+                            <td> date de livraison </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> code-fournisseur-produit </td>
+                            <td> identifiant fournisseur d'un produit </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> #81d8d0 </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-livrée </td>
+                            <td> quantité livrée d'un produit </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> unité selon produit </td>
+                            <td> 12.00 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-produit </td>
+                            <td> nom d'un produit </td>
+                            <td> texte </td>
+                            <td> 70 car. </td>
+                            <td> - </td>
+                            <td> Farine </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-produit </td>
+                            <td> quantité d'un produit en stock </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> unité selon produit </td>
+                            <td> 12.00 </td>
+                        </tr>
+                    </table>
+                    </small>
+                </section>
                     <section data-markdown class="problems">
                         <script type="text/template">
                         # Des problèmes ?
@@ -251,18 +333,33 @@
                         * Analyse : déterminer les entrées, les sorties et *les flux* des uns aux autres
                         </script>
                     </section>
-                    <section data-markdown data-state="exercise" class="exercise">
+                    <section data-markdown data-state="exercise" class="needs exercise">
                         <script type="text/template">
                         ### Exercice 2
 
-                        ## Recueillir les besoins du SI d'une boulangerie
+                        ## Recueillir les besoins du SI d'une boulangerie d'une manière informelle
                         </script>
                     </section>
-                    <section data-markdown data-state="exercise" class="exercise">
+                    <section data-markdown data-state="solution" class="needs solution">
                         <script type="text/template">
-                        ### Exercice 3
-
-                        ## Recueillir les besoins du SI d'une start-up souhaitant transformer les possesseurs de machine à pain en boulangerie de voisinage
+                        ### Exercice 2 : solution (1/2)
+                        Les besoins séléctionnés pour la suite sont :
+                        * Le boulanger veut connaître ses bénéfices (ventes - salaires - factures) sur une période donnée
+                        * Il veut pouvoir archiver ces bilans
+                        * Il désire connaitre l'état de ses stocks de matière première à tout instant
+                        * Il désire connaitre l'état de ses stocks de produits en vente à tout instant
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="needs solution">
+                        <script type="text/template">
+                        ### Exercice 2 : solution (2/2)
+                        Les documents jugés utiles sont :
+                        * Ticket de caisse (référence, date, produits, prix)
+                        * Fiche de paye (référence, nom, date de naissance et adresse de l'employé, salaire brut)
+                        * Bon de commande (nom du fournisseur, date, référence du fournisseur, adresse du fournisseur, produits)
+                        * Bon de livraison (nom du fournisseur, date, référence de commande du fournisseur, référence de livraison du fournisseur, produits)
+                        * Bon de retour (nom du fournisseur, date, date de livraison, référence de livraison du fournisseur, produits)
+                        * Facture (nom du fournisseur, référence du fournisseur, date, prix)
                         </script>
                     </section>
                 </section>
@@ -304,11 +401,63 @@
                         | date-péremption | date de péremption d'un produit | date    | jj/mm/aaaa  | -          | 06/10/2015              |
                         </script>
                     </section>
-                    <section data-markdown data-state="exercise" class="exercise">
+                    <section data-markdown data-state="exercise" class="dd exercise">
                         <script type="text/template">
                         ### Exercice 4
 
                         ## Écrire le dictionnaire de données de la boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="dd solution">
+                        <script type="text/template">
+                        ### Exercice 4 : solution (1/3)
+                        | Mnémonique                    | Desc. | Type    | Format       | Divers     | Exemple                   |
+                        |:----------------------------- |:----- |:------- |:------------ |:---------- |:------------------------- |
+                        | ref-ticket                    | -     | entier  | -            | séquentiel | 1337                      |
+                        | date-ticket                   | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | nom-produit-vendu             | -     | texte   | 50 car. max. | -          | pain au chocolat          |
+                        | prix-produit-vendu            | -     | décimal | en euros     | -          | 1,20                      |
+                        | quantité-produit-vendu        | -     | décimal | -            | -          | 5.00                      |
+                        | ref-fiche-paye                | -     | entier  | -            | séquentiel | 4237                      |
+                        | nom-employé                   | -     | texte   | 50 car. max. | -          | Jean Dupond               |
+                        | date-naissance-employé        | -     | date    | jj/mm/aaaa   | -          | 06/10/1985                |
+                        | adresse-employé               | -     | texte   | 75 car. max. | -          | 36 rue des petits pains 92000 Nanterre |
+                        | salaire-employé               | -     | décimal | en euros     | -          | 1200,00                   |
+                        | date-paye                     | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="dd solution">
+                        <script type="text/template">
+                        ### Exercice 4 : solution (2/3)
+                        | Mnémonique                    | Desc. | Type    | Format       | Divers     | Exemple                   |
+                        |:----------------------------- |:----- |:------- |:------------ |:---------- |:------------------------- |
+                        | nom-fournisseur               | -     | texte   | 50 car. max. | -          | Farinin Corp.             |
+                        | date-commande                 | -     | date    | jj/mm/aaaa   | -          | 06/10/2016                |
+                        | ref-commande-fournisseur      | -     | texte   | 50 car. max. | -          | FC-6102                   |
+                        | adresse-fournisseur           | -     | texte   | 75 car. max. | -          | 120 route de la poudreuse 92000 Nanterre |
+                        | nom-produit-acheté            | -     | texte   | 50 car. max. | -          | farine                    |
+                        | prix-produit-acheté           | -     | décimal | en euros     | -          | 12,0                      |
+                        | quantité-produit-acheté       | -     | décimal | -            | -          | 50.0                      |
+                        | ref-produit-fournisseur       | -     | texte   | 50 car. max. | -          | FC-6102-farine            |
+                        | date-livraison                | -     | date    | jj/mm/aaaa   | -          | 07/10/2016                |
+                        | ref-bon-livraison-fournisseur | -     | texte   | 50 car. max. | -          | FC-6102-farine-10         |
+                        | date-retour                   | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | ref-facture-fournisseur       | -     | texte   | 50 car. max. | -          | FC-6102-farine-10-fac     |
+                        | date-facturation              | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | date-paiement                 | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="dd solution">
+                        <script type="text/template">
+                        ### Exercice 4 : solution (3/3)
+                        | Mnémonique                    | Desc. | Type    | Format       | Divers     | Exemple                   |
+                        |:----------------------------- |:----- |:------- |:------------ |:---------- |:------------------------- |
+                        | quantité-produit-prélevé      | -     | décimal | -            | -          | 50.0                      |
+                        | date-prélèvement              | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | quantité-produit-fourni       | -     | décimal | -            | -          | 50.0                      |
+                        | date-ravitaillement           | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | date-début-bilan              | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | date-fin-bilan                | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
                         </script>
                     </section>
                 </section>
@@ -368,12 +517,36 @@
                         ![df-exemple](images/df_exemple_detail.svg)
                         </script>
                     </section>
-                    <section data-markdown data-state="exercise" class="exercise">
+                    <section data-markdown data-state="exercise" class="df exercise">
                         <script type="text/template">
-                        ### Exercice 6
+                        ### Exercice 5
 
-                        ## Écrire les diagrammes de flux de la boulangerie
+                        ## Écrire les diagrammes de contexte, d'activités et de flux de la boulangerie
                         </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="df solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 5 : solution (1/3)
+                        ### Diagramme de contexte
+
+                        ![df-solution-1](images/exo_5-1.svg)
+                    </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="df solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 5 : solution (2/3)
+                        ### Diagramme d'activités
+
+                        ![df-solution-2](images/exo_5-2.svg)
+                    </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="df solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 5 : solution (3/3)
+                        ### Diagramme de flux
+
+                        ![df-solution-3](images/exo_5-3.svg)
+                    </script>
                     </section>
                 </section>
 
@@ -391,19 +564,34 @@
                         <script type="text/template">
                         # MF : exemple
 
-                        |                    | Fournisseur  | Gestion des achats | Gestion des stocks |
-                        |:------------------ |:------------:|:------------------:|:------------------:|
-                        | Fournisseur        |              | -                  | livrer             |
-                        | Gestion des achats | commander    |                    | -                  |
-                        | Gestion des stocks | -            | demande achats     |                    |
+                        | -                       | Fournisseur  | Gestionnaire des achats | Gestionnaire de stocks  |
+                        |:----------------------- |:------------:|:-----------------------:|:-----------------------:|
+                        | Fournisseur             | -            | -                       | livrer                  |
+                        | Gestionnaire des achats | commander    | -                       | -                       |
+                        | Gestionnaire des stocks | -            | demande achats          | -                       |
+
                         </script>
                     </section>
                     <section data-markdown data-state="exercise" class="exercise">
                         <script type="text/template">
-                        ### Exercice 5
+                        ### Exercice 6
 
                         ## Écrire la matrice des flux de la boulangerie
                         </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mf solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution
+                        | -                       | Gestionnaire de stocks | Boulanger | Trésorier         | Vendeur       | Fournisseur   | Client |
+                        |:----------------------- |:----------------------:|:---------:|:-----------------:|:-------------:|:-------------:|:------:|
+                        | Gestionnaire de stock   | -                      | -         | avertir commande  | -             | commander     | -      |
+                        | -                       | -                      | -         | avertir livraison |               | -             | -      |
+                        | Boulanger               | prévlever              | -         | -                 | ravitailler   | -             | -      |
+                        | Trésorier               | -                      | -         | faire un bilan    | payer salaire | payer facture | -      |
+                        | Vendeur                 | -                      | -         | informer ventes   | -             | -             | -      |
+                        | Fournisseur             | livrer                 | -         | -                 | -             | -             | -      |
+                        | Client                  | -                      | -         | -                 | acheter       | -             | -      |
+                    </script>
                     </section>
                 </section>
 
@@ -456,6 +644,279 @@
                         ### Exercice 7
 
                         ## Écrire le MCC de la boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (1/28)
+                        ### MCC : commander
+
+                        ![mcc-solution-1](images/exo_7-1.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (2/28)
+                        ### MCC : avertir d'une commande
+
+                        ![mcc-solution-2](images/exo_7-2.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (3/28)
+                        ### MCC : livrer
+
+                        ![mcc-solution-3](images/exo_7-3.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (4/28)
+                        ### MCC : avertir d'une livraison
+
+                        ![mcc-solution-4](images/exo_7-4.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (5/28)
+                        ### MCC : payer facture
+
+                        ![mcc-solution-5](images/exo_7-5.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (6/28)
+                        ### MCC : prélever
+
+                        ![mcc-solution-6](images/exo_7-6.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (7/28)
+                        ### MCC : fournir
+
+                        ![mcc-solution-10](images/exo_7-10.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (8/28)
+                        ### MCC : acheter
+
+                        ![mcc-solution-7](images/exo_7-7.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (9/28)
+                        ### MCC : informer sur les ventes
+
+                        ![mcc-solution-8](images/exo_7-8.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (10/28)
+                        ### MCC : payer salaire
+
+                        ![mcc-solution-9](images/exo_7-9.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (11/28)
+                        ### MCC : faire un bilan
+
+                        ![mcc-solution-10](images/exo_7-11.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (12/28)
+
+                        #### MCC détaillé : bon de commande(Gestionnaire de stock, Fournisseur)
+                        * nom-fournisseur
+                        * date-commande
+                        * ref-commande-fournisseur
+                        * adresse-fournisseur
+                        * nom-produit-acheté
+                        * prix-produit-acheté
+                        * quantité-produit-acheté
+                        * ref-produit-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (13/28)
+
+                        #### MCC détaillé : bon de commande validé(Fournisseur, Gestionnaire de stock)
+                        * nom-fournisseur
+                        * ref-commande-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (14/28)
+
+                        #### MCC détaillé : bon de commande(Gestionnaire de stock, Trésorier)
+                        * nom-fournisseur
+                        * date-commande
+                        * ref-commande-fournisseur
+                        * adresse-fournisseur
+                        * nom-produit-acheté
+                        * prix-produit-acheté
+                        * quantité-produit-acheté
+                        * ref-produit-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (15/28)
+
+                        #### MCC détaillé : bon de livraison(Fournisseur, Gestionnaire de stock)
+                        * nom-fournisseur
+                        * date-livraison
+                        * ref-bon-livraison-fournisseur
+                        * ref-commande-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (16/28)
+
+                        #### MCC détaillé : bon de livraison validé(Gestionnaire de stock, Fournisseur)
+                        * nom-fournisseur
+                        * adresse-fournisseur
+                        * ref-bon-livraison-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (17/28)
+
+                        #### MCC détaillé : bon de retour(Gestionnaire de stock, Fournisseur)
+                        * nom-fournisseur
+                        * adresse-fournisseur
+                        * ref-bon-livraison-fournisseur
+                        * date-retour
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (18/28)
+
+                        #### MCC détaillé : bon de livraison(Gestionnaire de stock, Trésorier)
+                        * nom-fournisseur
+                        * date-livraison
+                        * ref-bon-livraison-fournisseur
+                        * ref-commande-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (19/28)
+
+                        #### MCC détaillé : facture(Fournisseur, Trésorier)
+                        * nom-fournisseur
+                        * ref-facture-fournisseur
+                        * ref-commande-fournisseur
+                        * date-facturation
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (20/28)
+
+                        #### MCC détaillé : paiement(Trésorier, Fournisseur)
+                        * ref-facture-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (21/28)
+
+                        #### MCC détaillé : reçu(Fournisseur, Trésorier)
+                        * ref-facture-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (22/28)
+
+                        #### MCC détaillé : prélèvement(Boulanger, Gestionnaire de stock)
+                        * quantité-produit-prélevé
+                        * nom-produit-acheté
+                        * date-prélèvement
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (23/28)
+
+                        #### MCC détaillé : ravitaillement(Boulanger, Vendeur)
+                        * quantité-produit-fourni
+                        * nom-produit-vendu
+                        * date-ravitaillement
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (24/28)
+
+                        #### MCC détaillé : demande(Client, Vendeur)
+                        * nom-produit-vendu
+                        * quantité-produit-vendu
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (25/28)
+
+                        #### MCC détaillé : ticket de caisse(Vendeur, Client)
+                        * ref-ticket
+                        * date-ticket
+                        * nom-produit-vendu
+                        * prix-produit-vendu
+                        * quantité-produit-vendu
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (26/28)
+
+                        #### MCC détaillé : tickets de caisse(Vendeur, Trésorier)
+                        * ref-ticket
+                        * date-ticket
+                        * nom-produit-vendu
+                        * prix-produit-vendu
+                        * quantité-produit-vendu
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (27/28)
+
+                        #### MCC détaillé : fiche de paye(Trésorier, Vendeur)
+                        * ref-fiche-paye
+                        * date-paye
+                        * nom-employé
+                        * date-naissance-employé
+                        * adresse-employé
+                        * salaire-employé
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 7 : solution (28/28)
+
+                        #### MCC détaillé : bilan(Trésorier, Trésorier)
+                        * ref-fiche-paye
+                        * date-début-bilan
+                        * date-fin-bilan
                         </script>
                     </section>
                 </section>
@@ -621,8 +1082,13 @@
                         ### Exercice 9
 
                         ## Écrire le MCD de notre boulangerie
-                        [ [énnoncé](exos/filrouge/ennonce/msi_exo16pr.pdf) ]
-                        [ [correction](exos/filrouge/correction/msi_exo_corr16pr.pdf) ]
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcd solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 9 : solution
+
+                        ![mcd-solution](images/exo_9-1.svg) 
                         </script>
                     </section>
                 </section>
@@ -680,6 +1146,38 @@
                         ### Exercice 10
 
                         ## Écrire le MCT de notre boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mct solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (1/)
+                        ### Gestionnaire de stock
+
+                        ![mct-solution-1](images/exo_10-1.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mct solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (2/)
+                        ### Boulanger
+
+                        ![mct-solution-2](images/exo_10-2.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mct solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (3/)
+                        ### Vendeur
+
+                        ![mct-solution-3](images/exo_10-3.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mct solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (4/)
+                        ### Trésorier
+
+                        ![mct-solution-4](images/exo_10-4.svg) 
                         </script>
                     </section>
                 </section>
@@ -821,7 +1319,7 @@
                 </section>
 
                 <section>
-                <section data-state="exercise">
+                <!-- section data-state="exercise">
                     <h1> Exercice 13 </h1>
                     <small> Modélisez complètement le SI de la boulangerie et de ses stands </small>
                     <small>
@@ -1601,7 +2099,7 @@
                     <h5> Modèle de Organisationnel de Données : stand </h5>
                     <img src="images/exo_13-18.svg" class="big-diagram" alt="MOD stand" />
                 </section>
-                </section>
+                </section -->
 
                 <section>
                     <section data-markdown class="summary">
