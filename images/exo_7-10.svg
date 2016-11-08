@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="20cm" height="5cm" viewBox="-38 -92 397 82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="20cm" height="7cm" viewBox="-38 -106 397 137" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="20.2866" cy="-50.6491" rx="56.4366" ry="37.1091"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="20.2866" y="-46.7491">
@@ -14,14 +14,26 @@
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="99.475" y="-88.8" width="125.85" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="162.4" y="-65.9">
-      <tspan x="162.4" y="-65.9">ravitaillement</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="88.475" y="-6.8" width="125.85" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="151.4" y="16.1">
+      <tspan x="151.4" y="16.1">ravitaillement</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="76.7232" y1="-50.6491" x2="228.092" y2="-50.649"/>
-    <polygon style="fill: #000000" points="235.592,-50.649 225.592,-45.649 228.092,-50.649 225.592,-55.649 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="235.592,-50.649 225.592,-45.649 228.092,-50.649 225.592,-55.649 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="86.4593" y1="-50.649" x2="237.828" y2="-50.649"/>
+    <polygon style="fill: #000000" points="78.9593,-50.649 88.9593,-55.649 86.4593,-50.649 88.9593,-45.649 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="78.9593,-50.649 88.9593,-55.649 86.4593,-50.649 88.9593,-45.649 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 60.1933,-24.4089 A 218.317,218.317 0 0 0 233.751,-31.0459"/>
+    <polygon style="fill: #000000" points="240.455,-34.3924 234.002,-25.2623 233.845,-30.8503 229.279,-34.0768 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="240.455,-34.3924 234.002,-25.2623 233.845,-30.8503 229.279,-34.0768 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="97.5" y="-105.053" width="115.45" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="155.225" y="-83.1531">
+      <tspan x="155.225" y="-83.1531">besoin de </tspan>
+      <tspan x="155.225" y="-67.1531">ravitaillement</tspan>
+    </text>
   </g>
 </svg>
