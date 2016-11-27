@@ -68,7 +68,9 @@
     margin: 0;
 }
 
-.reveal .dd.example table {
+.reveal .dd.example table,
+.reveal .mod.solution table
+{
     font-size: smaller;
 }
 

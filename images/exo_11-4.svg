@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="28cm" viewBox="-878 -1874 449 559" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-876.894" y="-1872.8" width="446.2" height="556.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-653.794" y="-1590.5">
+      <tspan x="-653.794" y="-1590.5"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-876.894" y="-1872.8" width="446.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-653.794" y="-1849.9">
+      <tspan x="-653.794" y="-1849.9">Bureau du comptable</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-793.394" y="-1677.8" width="42.05" height="48.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-772.369" y="-1649.5">
+      <tspan x="-772.369" y="-1649.5">1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-793.394" y="-1628.8" width="42.05" height="50.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-772.369" y="-1599.5">
+      <tspan x="-772.369" y="-1599.5">TD</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-735.119,-1759.8 -683.115,-1759.8 -683.115,-1728.54 "/>
+    <polygon style="fill: #000000" points="-683.115,-1721.04 -688.115,-1731.04 -683.115,-1728.54 -678.115,-1731.04 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-683.115,-1721.04 -688.115,-1731.04 -683.115,-1728.54 -678.115,-1731.04 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -701.552 -1718.8 L -627.802,-1718.8 L -627.802,-1686.8 L -664.677,-1678.8 L -701.552,-1686.8 L -701.552,-1718.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-664.677" y="-1698.8">
+      <tspan x="-664.677" y="-1698.8"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-787.394" y="-1797.8" width="104.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-735.119" y="-1774.9">
+      <tspan x="-735.119" y="-1774.9">date de bilan</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-751.394" y="-1678.27" width="173.583" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-664.602" y="-1648.47">
+      <tspan x="-664.602" y="-1648.47">Choix de la période</tspan>
+      <tspan x="-664.602" y="-1632.47">Calcul des ventes</tspan>
+      <tspan x="-664.602" y="-1616.47">Calcul des achats</tspan>
+      <tspan x="-664.602" y="-1600.47">Calcul des salaires</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-664.602" y1="-1578.47" x2="-663.684" y2="-1506.54"/>
+    <polygon style="fill: #000000" points="-663.589,-1499.04 -668.716,-1508.97 -663.684,-1506.54 -658.717,-1509.1 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-663.589,-1499.04 -668.716,-1508.97 -663.684,-1506.54 -658.717,-1509.1 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-726.31" y="-1496.8" width="125.5" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-663.56" y="-1466.9">
+      <tspan x="-663.56" y="-1466.9">bilan</tspan>
+    </text>
+  </g>
+</svg>
