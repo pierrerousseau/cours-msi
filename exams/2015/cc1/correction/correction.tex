@@ -102,37 +102,37 @@ On place affecte maintenant chaque donnée du dictionnaire de données dans le m
     \item lieu-naissance
 \end{itemize}
 
-\subsubsection*{carte d'adhérent(Accueil, Adhérent)}
+\subsubsection*{carte d'adhérent(Agent d'accueil, Adhérent)}
 \begin{itemize}
     \item no-adhérent
     \item année-validité-carte
 \end{itemize}
 
-\subsubsection*{recherche livre(Adhérent, Service de recherche)}
+\subsubsection*{recherche livre(Adhérent, Documentaliste)}
 \begin{itemize}
     \item titre-livre
     \item nom-éditeur
     \item nom-auteur
 \end{itemize}
 
-\subsubsection*{localisation(Service de recherche, Adhérent)}
+\subsubsection*{localisation(Documentaliste, Adhérent)}
 \begin{itemize}
     \item nom-bibliothèqie
     \item emplacement-livre
 \end{itemize}
 
-\subsubsection*{emprunt livre(Adhérent, Service des prêts)}
+\subsubsection*{emprunt livre(Adhérent, Bibliothécaire)}
 \begin{itemize}
     \item code-livre
     \item date-emprunt
 \end{itemize}
 
-\subsubsection*{retour livre(Adhérent, Service des prêts)}
+\subsubsection*{retour livre(Adhérent, Bibliothécaire)}
 \begin{itemize}
     \item code-livre
 \end{itemize}
 
-\subsubsection*{courrier de rappel(Secrétariat, Adhérent)}
+\subsubsection*{courrier de rappel(Secrétaire, Adhérent)}
 \begin{itemize}
     \item no-adhérent
     \item nom-adhérent
@@ -141,7 +141,7 @@ On place affecte maintenant chaque donnée du dictionnaire de données dans le m
     \item date-emprunt
 \end{itemize}
 
-\subsubsection*{courrier de remboursement(Secrétariat, Adhérent)}
+\subsubsection*{courrier de remboursement(Secrétaire, Adhérent)}
 \begin{itemize}
     \item no-adhérent
     \item nom-adhérent
@@ -151,12 +151,12 @@ On place affecte maintenant chaque donnée du dictionnaire de données dans le m
     \item date-emprunt
 \end{itemize}
 
-\subsubsection*{remboursement(Adhérent, Secrétariat)}
+\subsubsection*{remboursement(Adhérent, Secrétaire)}
 \begin{itemize}
     \item code-livre
 \end{itemize}
 
-\subsubsection*{courrier radiation(Secrétariat, Adhérent)}
+\subsubsection*{courrier radiation(Secrétaire, Adhérent)}
 \begin{itemize}
     \item no-adhérent
     \item nom-adhérent
@@ -260,10 +260,10 @@ On commence par déterminer les différents sites de notre système d'informatio
 \begin{tabular}{l l}
 %
     \textbf{Sites} & \textbf{Acteurs} \\
-    Bibliothèque & Accueil \\
-                 & Service des recherches \\
-                 & Service des prêts \\
-    Secrétariat  & Secrétariat \\
+    Bibliothèque & Agent d'accueil \\
+                 & Documentaliste \\
+                 & Bibliothécaire \\
+    Secrétariat  & Secrétaire \\
 %
 \end{tabular}
     \caption{\label{sites} Sites}
@@ -275,7 +275,7 @@ On détermine ensuite les droits d'accès pour les entités et les asssociations
 \begin{tabular}{| l | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c |}
 %
    \hline
-                  & \multicolumn{4}{| c |}{Accueil} & \multicolumn{4}{| c |}{Service des recherches} & \multicolumn{4}{| c |}{Service des prêts} & \multicolumn{4}{| c |}{Secrétariat} \\
+                  & \multicolumn{4}{| c |}{Agent d'accueil} & \multicolumn{4}{| c |}{Documentaliste} & \multicolumn{4}{| c |}{Bibliothécaire} & \multicolumn{4}{| c |}{Secrétaire} \\
    \hline
                   & C & R & U & D & C & R & U & D & C & R & U & D & C & R & U & D \\
    \hline
