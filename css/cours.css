@@ -33,6 +33,9 @@
 .reveal .title h1 {
     margin: 0;
 }
+.reveal h1 {
+    font-size: 3em;
+}
 .reveal .title img {
     width: 192px;
     height: auto;
@@ -66,6 +69,10 @@
     border: none;
     box-shadow: none;
     margin: 0;
+}
+
+.reveal table {
+    font-size: smaller;
 }
 
 .reveal .dd.example table,
