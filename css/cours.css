@@ -175,3 +175,7 @@ small.mcc-detail ul {
 text {
     visibility: hidden;
 }
+
+.reveal section.information img {
+   margin: 1em .25em; 
+}

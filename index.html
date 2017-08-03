@@ -20,14 +20,14 @@
         <!-- Code syntax highlighting -->
         <link rel="stylesheet" href="lib/css/zenburn.css">
 
-	<!-- Printing and PDF exports -->
-	<script>
-	    var link = document.createElement( 'link' );
-	    link.rel = 'stylesheet';
-	    link.type = 'text/css';
-	    link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-	    document.getElementsByTagName( 'head' )[0].appendChild( link );
-	</script>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
 
         <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
@@ -56,46 +56,48 @@
                     [mail]: mailto:pierre.rousseau@u-paris10.fr
                     </script>
                 </section>
-                <section data-markdown class="information">
-                    <script type="text/template">
-                    # Information
+                <section>
+                    <section data-markdown class="information">
+                        <script type="text/template">
+                        # Information
 
-                    > **Données** susceptibles d'être représentées à l'aide de conventions pour être 
-                    > conservées, traitées ou communiquées. [Larousse][larousse-information]
+                        > **Données** susceptibles d'être représentées à l'aide de conventions pour être 
+                        > conservées, traitées ou communiquées. [Larousse][larousse-information]
 
-                    ![données](images/database.svg) 
-                    ![données](images/folders.svg) 
-                    ![deviennent](images/rightleft.svg)
-                    ![informations](images/information.svg) 
-                    ![informations](images/news.svg) 
+                        ![données](images/database.svg) 
+                        ![données](images/folders.svg) 
+                        ![deviennent](images/rightleft.svg)
+                        ![informations](images/information.svg) 
+                        ![informations](images/news.svg) 
 
-                    [larousse-information]: http://www.larousse.fr/dictionnaires/francais/information/42993
-                    </script>
-                </section>
-                <section data-markdown class="system">
-                    <script type="text/template">
-                    # Système
+                        [larousse-information]: http://www.larousse.fr/dictionnaires/francais/information/42993
+                        </script>
+                    </section>
+                    <section data-markdown class="system">
+                        <script type="text/template">
+                        # Système
 
-                    > Ensemble d'éléments considérés dans leurs **relations** à l'intérieur d'un 
-                    > tout fonctionnant de manière unitaire. [Larousse][larousse-systeme]
+                        > Ensemble d'éléments considérés dans leurs **relations** à l'intérieur d'un 
+                        > tout fonctionnant de manière unitaire. [Larousse][larousse-systeme]
 
-                    ![système](images/system.svg) 
+                        ![système](images/system.svg) 
 
-                    [larousse-systeme]: http://www.larousse.fr/dictionnaires/francais/syst%C3%A8me/76262
-                    </script>
-                </section>
-                <section data-markdown class="information-system">
-                    <script type="text/template">
-                    # Système d'Information
+                        [larousse-systeme]: http://www.larousse.fr/dictionnaires/francais/syst%C3%A8me/76262
+                        </script>
+                    </section>
+                    <section data-markdown class="information-system">
+                        <script type="text/template">
+                        # Système d'Information
 
-                    > Un système d'information (SI) est un ensemble organisé de ressources 
-                    > permettant de **collecter, stocker, traiter et diffuser** de l'information
-                    > [R. De Courcy][r-de-courcy]
+                        > Un système d'information (SI) est un ensemble organisé de ressources 
+                        > **permettant** de collecter, stocker, traiter et diffuser de l'information
+                        > [R. De Courcy][r-de-courcy]
 
-                    ![SI](images/information_system.svg) 
+                        ![SI](images/information_system.svg) 
 
-                    [r-de-courcy]: https://fr.wikipedia.org/wiki/Système_d'information
-                    </script>
+                        [r-de-courcy]: https://fr.wikipedia.org/wiki/Système_d'information
+                        </script>
+                    </section>
                 </section>
                 <section class="systemic">
                     <section data-markdown>
@@ -136,7 +138,9 @@
                         <script type="text/template">
                         # Qualités du SI
 
-                        Aide à la *décision* (organiser, informer, interpréter, prévoir)
+                        Aide à la *décision* 
+
+                        (organiser, informer, interpréter, prévoir)
 
                         * **pertinent** : information utile
                         * **rapide** : réponse en temps utile
@@ -162,88 +166,6 @@
                         Décrire le système d'information d'une boulangerie
                         </script>
                     </section>
-                    <section data-state="solution">
-                    <h5> Dictionnaire de Données  </h5>
-                    <small>
-                    <table>
-                        <thead>
-                        <tr>
-                            <th> Mnémonique </th>
-                            <th> Description </th>
-                            <th> Type </th>
-                            <th> Format </th>
-                            <th> Divers </th>
-                            <th> Exemple </th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr class="later">
-                            <td> id-bon-livraison </td>
-                            <td> identifiant d'un bon de livraison </td>
-                            <td> entier </td>
-                            <td> - </td>
-                            <td> séquentiel </td>
-                            <td> 1 </td>
-                        </tr>
-                        <tr>
-                            <td> nom-fournisseur </td>
-                            <td> nom d'un fournisseur </td>
-                            <td> texte </td>
-                            <td> - </td>
-                            <td> - </td>
-                            <td> Farines Inc. </td>
-                        </tr>
-                        <tr>
-                            <td> code-fournisseur-bon-livraison </td>
-                            <td> identifiant fournisseur d'un bon de livraison </td>
-                            <td> texte </td>
-                            <td> 50 car. </td>
-                            <td> - </td>
-                            <td> 421337-OXO </td>
-                        </tr>
-                        <tr>
-                            <td> date-livraison </td>
-                            <td> date de livraison </td>
-                            <td> date </td>
-                            <td> - </td>
-                            <td> - </td>
-                            <td> 01/01/2015 </td>
-                        </tr>
-                        <tr>
-                            <td> code-fournisseur-produit </td>
-                            <td> identifiant fournisseur d'un produit </td>
-                            <td> texte </td>
-                            <td> 50 car. </td>
-                            <td> - </td>
-                            <td> #81d8d0 </td>
-                        </tr>
-                        <tr>
-                            <td> quantité-livrée </td>
-                            <td> quantité livrée d'un produit </td>
-                            <td> décimal </td>
-                            <td> - </td>
-                            <td> unité selon produit </td>
-                            <td> 12.00 </td>
-                        </tr>
-                        <tr>
-                            <td> nom-produit </td>
-                            <td> nom d'un produit </td>
-                            <td> texte </td>
-                            <td> 70 car. </td>
-                            <td> - </td>
-                            <td> Farine </td>
-                        </tr>
-                        <tr>
-                            <td> quantité-produit </td>
-                            <td> quantité d'un produit en stock </td>
-                            <td> décimal </td>
-                            <td> - </td>
-                            <td> unité selon produit </td>
-                            <td> 12.00 </td>
-                        </tr>
-                    </table>
-                    </small>
-                </section>
                     <section data-markdown class="problems">
                         <script type="text/template">
                         # Des problèmes ?
