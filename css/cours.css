@@ -34,7 +34,7 @@
     margin: 0;
 }
 .reveal h1 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 .reveal .title img {
     width: 192px;
@@ -95,7 +95,7 @@ small.mcc-detail ul {
 }
 .reveal .solution {
     background: #81d8d0;
-    font-size: 60%;
+    font-size: 70%;
 }
 .solution .reveal .slide-background.present {
     background: #81d8d0;
@@ -177,5 +177,9 @@ text {
 }
 
 .reveal section.information img {
-   margin: 1em .25em; 
+    margin: 1em .25em; 
+}
+
+.reveal section {
+    font-size: 95%;
 }
