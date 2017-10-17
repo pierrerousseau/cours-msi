@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="20cm" height="12cm" viewBox="-38 -170 397 230" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="20cm" height="5cm" viewBox="-38 -96 397 86" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="20.2866" cy="-50.6491" rx="56.4366" ry="37.1091"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="20.2866" y="-46.7491">
@@ -15,37 +15,14 @@
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="161.475" y="22.2" width="125.85" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="224.4" y="45.1">
-      <tspan x="224.4" y="45.1">prélèvement</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="127.475" y="-95.8" width="101.4" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="178.175" y="-72.9">
+      <tspan x="178.175" y="-72.9">prélèvement</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="86.4593" y1="-50.649" x2="237.828" y2="-50.649"/>
-    <polygon style="fill: #000000" points="78.9593,-50.649 88.9593,-55.649 86.4593,-50.649 88.9593,-45.649 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="78.9593,-50.649 88.9593,-55.649 86.4593,-50.649 88.9593,-45.649 "/>
-  </g>
-  <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 266.743,-92.2954 A 217.334,217.334 0 0 0 41.884,-84.9334"/>
-    <polygon style="fill: #000000" points="273.22,-88.5265 262.087,-89.5584 266.85,-92.4855 267.366,-98.0518 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.22,-88.5265 262.087,-89.5584 266.85,-92.4855 267.366,-98.0518 "/>
-  </g>
-  <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 41.884,-16.3647 A 301.705,301.705 0 0 0 266.047,-10.4286"/>
-    <polygon style="fill: #000000" points="273.048,-13.1088 265.671,-4.70779 266.101,-10.2813 261.901,-13.97 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.048,-13.1088 265.671,-4.70779 266.101,-10.2813 261.901,-13.97 "/>
-  </g>
-  <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="98.15" y="-86.4947" width="63" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="129.65" y="-64.5947">
-      <tspan x="129.65" y="-64.5947">accord</tspan>
-    </text>
-  </g>
-  <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="199.3" y="-169.495" width="125.85" height="52"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="262.225" y="-147.595">
-      <tspan x="262.225" y="-147.595">demande de</tspan>
-      <tspan x="262.225" y="-131.595">prélèvement</tspan>
-    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="76.7232" y1="-50.649" x2="228.092" y2="-50.649"/>
+    <polygon style="fill: #000000" points="235.592,-50.649 225.592,-45.649 228.092,-50.649 225.592,-55.649 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="235.592,-50.649 225.592,-45.649 228.092,-50.649 225.592,-55.649 "/>
   </g>
 </svg>

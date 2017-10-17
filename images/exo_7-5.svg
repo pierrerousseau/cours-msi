@@ -1,49 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="20cm" height="10cm" viewBox="-648 -921 390 189" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="20cm" height="8cm" viewBox="-648 -904 390 155" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="-315.499" cy="-827.91" rx="56.4366" ry="37.1091"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-315.499" y="-824.01">
-      <tspan x="-315.499" y="-824.01">Fournisseur</tspan>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="-315.499" cy="-827.911" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-315.499" y="-824.011">
+      <tspan x="-315.499" y="-824.011">Fournisseur</tspan>
     </text>
   </g>
   <g>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-589.763" cy="-827.91" rx="56.4366" ry="37.1091"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-589.763" y="-824.01">
-      <tspan x="-589.763" y="-824.01">Trésorier</tspan>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-589.763" cy="-827.911" rx="56.4366" ry="37.1091"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-589.763" y="-824.011">
+      <tspan x="-589.763" y="-824.011">Trésorier</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="-566" y="-920.884" width="70.99" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-530.505" y="-897.984">
-      <tspan x="-530.505" y="-897.984">facture</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="-543" y="-903.884" width="70.99" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-507.505" y="-881.984">
+      <tspan x="-507.505" y="-881.984">facture</tspan>
     </text>
   </g>
   <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -355.406,-854.15 A 187.195,187.195 0 0 0 -541.417,-858.985"/>
-    <polygon style="fill: #000000" points="-547.946,-855.312 -541.997,-864.778 -541.537,-859.207 -536.804,-856.233 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-547.946,-855.312 -541.997,-864.778 -541.537,-859.207 -536.804,-856.233 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-540.12" y1="-854.15" x2="-355.406" y2="-854.15"/>
+    <polygon style="fill: #000000" points="-547.62,-854.15 -537.62,-859.15 -540.12,-854.15 -537.62,-849.15 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-547.62,-854.15 -537.62,-859.15 -540.12,-854.15 -537.62,-849.15 "/>
   </g>
   <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -542.653,-795.147 A 139.564,139.564 0 0 0 -355.406,-801.67"/>
-    <polygon style="fill: #000000" points="-548.252,-800.113 -537.595,-796.733 -542.872,-794.888 -544.561,-789.559 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-548.252,-800.113 -537.595,-796.733 -542.872,-794.888 -544.561,-789.559 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-549.857" y1="-801.671" x2="-365.142" y2="-801.671"/>
+    <polygon style="fill: #000000" points="-357.642,-801.671 -367.642,-796.671 -365.142,-801.671 -367.642,-806.671 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-357.642,-801.671 -367.642,-796.671 -365.142,-801.671 -367.642,-806.671 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-533.327" y1="-827.91" x2="-381.672" y2="-827.91"/>
-    <polygon style="fill: #000000" points="-374.172,-827.91 -384.172,-822.91 -381.672,-827.91 -384.172,-832.91 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-374.172,-827.91 -384.172,-822.91 -381.672,-827.91 -384.172,-832.91 "/>
-  </g>
-  <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="-477.154" y="-823.802" width="80.9" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-436.704" y="-800.902">
-      <tspan x="-436.704" y="-800.902">paiement</tspan>
-    </text>
-  </g>
-  <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="-588.338" y="-770.802" width="70.99" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-552.843" y="-747.902">
-      <tspan x="-552.843" y="-747.902">reçu</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="-462.154" y="-787.802" width="80.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-421.704" y="-764.902">
+      <tspan x="-421.704" y="-764.902">paiement</tspan>
     </text>
   </g>
 </svg>
