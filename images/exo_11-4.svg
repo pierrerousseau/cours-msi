@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="23cm" height="28cm" viewBox="-878 -1874 449 559" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="23cm" height="24cm" viewBox="-878 -1874 449 469" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-876.894" y="-1872.8" width="446.2" height="556.8"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-653.794" y="-1590.5">
-      <tspan x="-653.794" y="-1590.5"></tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-876.894" y="-1872.8" width="446.2" height="466.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-653.794" y="-1635.5">
+      <tspan x="-653.794" y="-1635.5"></tspan>
     </text>
   </g>
   <g>
@@ -26,9 +26,9 @@
     </text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-735.119,-1759.8 -683.115,-1759.8 -683.115,-1728.54 "/>
-    <polygon style="fill: #000000" points="-683.115,-1721.04 -688.115,-1731.04 -683.115,-1728.54 -678.115,-1731.04 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-683.115,-1721.04 -688.115,-1731.04 -683.115,-1728.54 -678.115,-1731.04 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-735.12,-1759.8 -683.114,-1759.8 -683.114,-1728.54 "/>
+    <polygon style="fill: #000000" points="-683.114,-1721.04 -688.114,-1731.04 -683.114,-1728.54 -678.114,-1731.04 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-683.114,-1721.04 -688.114,-1731.04 -683.114,-1728.54 -678.114,-1731.04 "/>
   </g>
   <g>
     <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -701.552 -1718.8 L -627.802,-1718.8 L -627.802,-1686.8 L -664.677,-1678.8 L -701.552,-1686.8 L -701.552,-1718.8"/>
