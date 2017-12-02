@@ -1,3 +1,6 @@
+.reveal .slides {
+    width: 90% !important;
+}
 .reveal a {
     color: #77beee;
 }
