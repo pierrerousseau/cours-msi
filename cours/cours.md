@@ -172,19 +172,19 @@ La solution donnée pour cet exercice pourrait être tout autre. Elle a été ch
 
 Comme nous l'avons vu, l'élément de base d'une information est la donnée. Avant de pouvoir la structurer et analyser ses flux, il faut connaître les "atomes" composant notre SI.
 
-La première étape de la modélisation consiste donc à lister les données récoltées lors de l'analyse préalable de manière à les avoir sous la main pour la suite. On construit ce que l'on appelle le dictionnaire de données (noté DD).
+La première étape de la modélisation consiste donc à lister les données récoltées lors de l'analyse préalable de manière à les avoir sous la main pour la suite. Pour cela, on construit ce que l'on appelle le dictionnaire de données (noté DD).
 Pour simplifier cette étape, on ne se demande pas comment ces données se structurent ni même comment elles vont être utilisées.
 
 Le plus simple est de commencer par les documents et lister les données qui s'y trouvent. Dans une modélisation réelle, il serait important de se poser la question de la pertinence de ces données : sont-elles encore utiles, y en a-t-il qui sont manquantes, mais toujours en se basant sur la connaissance métier des utilisateurs. Dans les exercices de ce cours, ce ne sera pas le cas. 
 Ensuite il peut être utile de réfléchir sur les autres éléments de l'étude préalable, voir si des informations ne sont pas échangées informellement ou si de nouveaux besoins ne sont pas décelables.
 
-Une fois la collecte effectuée, toutes les données ne sont pas conservées dans le DD. En effet, ce sont les données que nous allons stocker, ce qui peut être coûteux et fouillis. Pour pallier cela, il faut classifier les données et ne conserver que les données dites élémentaires, c'est à dire qui ne sont pas calculées ou composées à partir d'autres données. 
+Une fois la collecte effectuée, toutes les données ne sont pas conservées dans le DD. En effet, ce sont les données que nous allons stocker, on ne veut pas que cela soit coûteux ou fouilli. Pour pallier cela, il faut classifier les données et ne conserver que les données dites élémentaires, c'est à dire qui ne sont pas calculées ou composées à partir d'autres données. 
 
 Ensuite, on va préciser ces données de manière assez technique, en définissant le type et le format des données. Ce point pouvant être finalisé plus tard. Cela peut une autre manière de définir la donnée, en tout cas, cela nous aide à préciser concrètement une donnée.
 
 Enfin, on épure les données en supprimant les doublons (on n'essaye de ne pas le faire lors de la collecte, de manière à se concentrer sur une tache à chaque fois : la collecte, puis la classification, puis la réflexion sur les doublons).
 
-Note : lors des examens, ne détaillez que quelques données. Le but sera de montrer que vous savez remplir chaque colonne. S'il est important d'être rigoureux, le temps d'un examen est réellement trop court pour cette tache fastidieuse la réaliser complètement ne montrera que peu de chose sur ce que vous avez compris.
+Note : lors des examens, ne détaillez que quelques données. Le but sera de montrer que vous savez remplir chaque colonne. S'il est important d'être rigoureux, le temps d'un examen est réellement trop court pour cette tache fastidieuse et la réaliser complètement ne montrera que peu de chose sur ce que vous avez compris.
 
 
 ## Diagramme de Flux (DF)
