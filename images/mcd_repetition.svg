@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="45cm" height="6cm" viewBox="161 82 899 102" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="38cm" height="4cm" viewBox="212 98 753 71" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
-    <rect style="fill: #fdf6e3" x="161.8" y="82.2" width="149.2" height="18"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="161.8" y="82.2" width="149.2" height="18"/>
-    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="236.4" y="96.2">Livre</text>
-    <rect style="fill: #fdf6e3" x="161.8" y="100.2" width="149.2" height="84"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="161.8" y="100.2" width="149.2" height="84"/>
-    <polygon style="fill: #000000" points="164.8,110.2 166.8,113.2 168.8,110.2 166.8,107.2 "/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="116.2">id-livre</text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="170.8" y1="117.8" x2="304" y2="117.8"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="126.2" rx="2" ry="2"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="132.2">nom</text>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="142.2" rx="2" ry="2"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="148.2">auteur</text>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="158.2" rx="2" ry="2"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="164.2">éditeur</text>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="166.8" cy="174.2" rx="2" ry="2"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170.8" y="180.2">date-publication</text>
+    <rect style="fill: #fdf6e3" x="212.8" y="98.2" width="87.6" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="212.8" y="98.2" width="87.6" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="256.6" y="112.2">Livre</text>
+    <rect style="fill: #fdf6e3" x="212.8" y="116.2" width="87.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="212.8" y="116.2" width="87.6" height="52"/>
+    <polygon style="fill: #000000" points="215.8,126.2 217.8,129.2 219.8,126.2 217.8,123.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="221.8" y="132.2">id-livre</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="221.8" y1="133.8" x2="293.4" y2="133.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="217.8" cy="142.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="221.8" y="148.2">titre</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="217.8" cy="158.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="221.8" y="164.2">auteurs</text>
   </g>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="348" y1="131" x2="420.264" y2="131"/>
@@ -25,45 +21,41 @@
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="427.764,131 417.764,136 420.264,131 417.764,126 "/>
   </g>
   <g>
-    <rect style="fill: #fdf6e3" x="467.8" y="82.2" width="149.2" height="18"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="467.8" y="82.2" width="149.2" height="18"/>
-    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="542.4" y="96.2">Livre</text>
-    <rect style="fill: #fdf6e3" x="467.8" y="100.2" width="149.2" height="68"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="467.8" y="100.2" width="149.2" height="68"/>
-    <polygon style="fill: #000000" points="470.8,110.2 472.8,113.2 474.8,110.2 472.8,107.2 "/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="476.8" y="116.2">id-livre</text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="476.8" y1="117.8" x2="610" y2="117.8"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="472.8" cy="126.2" rx="2" ry="2"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="476.8" y="132.2">nom</text>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="472.8" cy="142.2" rx="2" ry="2"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="476.8" y="148.2">éditeur</text>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="472.8" cy="158.2" rx="2" ry="2"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="476.8" y="164.2">date-publication</text>
+    <rect style="fill: #fdf6e3" x="464.8" y="98.2" width="87.6" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="464.8" y="98.2" width="87.6" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="508.6" y="112.2">Livre</text>
+    <rect style="fill: #fdf6e3" x="464.8" y="116.2" width="87.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="464.8" y="116.2" width="87.6" height="36"/>
+    <polygon style="fill: #000000" points="467.8,126.2 469.8,129.2 471.8,126.2 469.8,123.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="473.8" y="132.2">id-livre</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="473.8" y1="133.8" x2="545.4" y2="133.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="469.8" cy="142.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="473.8" y="148.2">titre</text>
   </g>
   <g>
-    <rect style="fill: #fdf6e3" x="964.8" y="98.2" width="95.3" height="18"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="964.8" y="98.2" width="95.3" height="18"/>
-    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1012.45" y="112.2">Auteur</text>
-    <rect style="fill: #fdf6e3" x="964.8" y="116.2" width="95.3" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="964.8" y="116.2" width="95.3" height="36"/>
-    <polygon style="fill: #000000" points="967.8,126.2 969.8,129.2 971.8,126.2 969.8,123.2 "/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="973.8" y="132.2">id-auteur</text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="973.8" y1="133.8" x2="1053.1" y2="133.8"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="969.8" cy="142.2" rx="2" ry="2"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="973.8" y="148.2">nom</text>
+    <rect style="fill: #fdf6e3" x="869.8" y="98.2" width="95.3" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="869.8" y="98.2" width="95.3" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="917.45" y="112.2">Auteur</text>
+    <rect style="fill: #fdf6e3" x="869.8" y="116.2" width="95.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="869.8" y="116.2" width="95.3" height="36"/>
+    <polygon style="fill: #000000" points="872.8,126.2 874.8,129.2 876.8,126.2 874.8,123.2 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="878.8" y="132.2">id-auteur</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="878.8" y1="133.8" x2="958.1" y2="133.8"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="874.8" cy="142.2" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="878.8" y="148.2">nom</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="617,126.2 691.5,126.2 691.5,126.2 707.8,126.2 "/>
-    <text font-size="9.59961" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="621" y="122.2">1,n</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="552.4,126.2 624,126.2 624,126.2 649.8,126.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="556.4" y="122.2">1,n</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="964.8,126.2 953.3,126.2 953.3,126.2 852.8,126.2 "/>
-    <text font-size="9.59961" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="960.8" y="122.2">1,n</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="869.8,126.2 831,126.2 831,126.2 794.8,126.2 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="865.8" y="122.2">1,n</text>
   </g>
   <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 731.967 106.2 L 828.633,106.2 C 841.98,106.2 852.8,115.154 852.8,126.2 C 852.8,137.246 841.98,146.2 828.633,146.2 L 731.967,146.2 C 718.62,146.2 707.8,137.246 707.8,126.2 C 707.8,115.154 718.62,106.2 731.967,106.2"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="780.3" y="130.2">
-      <tspan x="780.3" y="130.2">Ecrire</tspan>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 673.967 106.2 L 770.633,106.2 C 783.98,106.2 794.8,115.154 794.8,126.2 C 794.8,137.246 783.98,146.2 770.633,146.2 L 673.967,146.2 C 660.62,146.2 649.8,137.246 649.8,126.2 C 649.8,115.154 660.62,106.2 673.967,106.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="722.3" y="130.2">
+      <tspan x="722.3" y="130.2">Ecrire</tspan>
     </text>
   </g>
 </svg>

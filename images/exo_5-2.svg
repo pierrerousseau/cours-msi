@@ -55,8 +55,8 @@
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="740.428" y="0.6" width="128.6" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="804.728" y="23.5">
-      <tspan x="804.728" y="23.5">boulangerie</tspan>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="804.728" y="23.5">
+      <tspan x="804.728" y="23.5">Boulangerie</tspan>
     </text>
   </g>
   <g>
@@ -94,9 +94,9 @@
     </text>
   </g>
   <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 250.592,161.504 A 632.961,632.961 0 0 0 506.378,296.71"/>
-    <polygon style="fill: #000000" points="244.966,156.547 255.745,159.514 250.543,161.561 249.06,166.951 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="244.966,156.547 255.745,159.514 250.543,161.561 249.06,166.951 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="506.378" y1="296.71" x2="251.874" y2="159.668"/>
+    <polygon style="fill: #000000" points="245.271,156.112 256.446,156.451 251.874,159.668 251.705,165.256 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="245.271,156.112 256.446,156.451 251.874,159.668 251.705,165.256 "/>
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="204.8" y="187.2" width="76.55" height="52"/>
@@ -106,9 +106,9 @@
     </text>
   </g>
   <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 522.172,92.551 A 435.481,435.481 0 0 0 271.513,89.809"/>
-    <polygon style="fill: #000000" points="264.325,91.9449 272.375,84.1859 271.483,89.7045 275.362,93.7293 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="264.325,91.9449 272.375,84.1859 271.483,89.7045 275.362,93.7293 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 522.172,92.551 A 435.478,435.478 0 0 0 271.514,89.8089"/>
+    <polygon style="fill: #000000" points="264.326,91.9448 272.376,84.1859 271.484,89.7044 275.363,93.7293 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="264.326,91.9448 272.376,84.1859 271.484,89.7044 275.363,93.7293 "/>
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="398.05" y="34.2" width="97.05" height="38"/>
@@ -122,9 +122,9 @@
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="521.611,268.649 511.736,263.405 517.259,262.54 519.881,257.603 "/>
   </g>
   <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 607.453,261.988 A 118.929,118.929 0 0 0 601.986,145.031"/>
-    <polygon style="fill: #000000" points="603.89,268.563 604.85,257.424 607.808,262.168 613.377,262.648 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.89,268.563 604.85,257.424 607.808,262.168 613.377,262.648 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="601.986" y1="145.031" x2="602.665" y2="260.734"/>
+    <polygon style="fill: #000000" points="602.709,268.234 597.65,258.263 602.665,260.734 607.65,258.205 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="602.709,268.234 597.65,258.263 602.665,260.734 607.65,258.205 "/>
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="411.674" y="174.2" width="91.8" height="68"/>
@@ -135,14 +135,14 @@
     </text>
   </g>
   <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 753.873,153.965 A 163.241,163.241 0 0 0 618.516,118.791"/>
-    <polygon style="fill: #000000" points="759.514,158.89 748.809,155.663 754.059,153.742 755.673,148.39 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="759.514,158.89 748.809,155.663 754.059,153.742 755.673,148.39 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="618.516" y1="118.791" x2="751.794" y2="157.697"/>
+    <polygon style="fill: #000000" points="758.994,159.798 747.993,161.796 751.794,157.697 750.795,152.196 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="758.994,159.798 747.993,161.796 751.794,157.697 750.795,152.196 "/>
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="706.8" y="86.2" width="97.05" height="38"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="755.325" y="109.1">
-      <tspan x="755.325" y="109.1">fournir</tspan>
+      <tspan x="755.325" y="109.1">ravitailler</tspan>
     </text>
   </g>
   <g>

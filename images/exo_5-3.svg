@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="48cm" height="29cm" viewBox="161 -137 959 572" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="48cm" height="29cm" viewBox="161 -137 959 573" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x="398.5" y="-105" width="260" height="260"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="528.5" y="28.9">
-      <tspan x="528.5" y="28.9"></tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x="397.5" y="-135.8" width="470" height="569.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="632.5" y="153">
+      <tspan x="632.5" y="153"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x="397.5" y="-99" width="260" height="260"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="527.5" y="34.9">
+      <tspan x="527.5" y="34.9"></tspan>
     </text>
   </g>
   <g>
@@ -42,12 +48,6 @@
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x="397.5" y="-135.8" width="470" height="569.8"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="632.5" y="153">
-      <tspan x="632.5" y="153"></tspan>
-    </text>
-  </g>
-  <g>
     <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="558.542" cy="112.377" rx="64.9582" ry="38.6234"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="558.542" y="108.277">
       <tspan x="558.542" y="108.277">Gestionnaire</tspan>
@@ -56,7 +56,7 @@
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="738.428" y="-136.4" width="128.6" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="802.728" y="-113.5">
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="802.728" y="-113.5">
       <tspan x="802.728" y="-113.5">Boulangerie</tspan>
     </text>
   </g>
@@ -159,20 +159,20 @@
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="398.3" y="-95.8" width="67.2" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="431.9" y="-72.9">
-      <tspan x="431.9" y="-72.9">Stock</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="399.3" y="-98.8" width="67.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="432.9" y="-75.9">
+      <tspan x="432.9" y="-75.9">Stock</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="612.812" y1="-31.4666" x2="755.185" y2="152.722"/>
-    <polygon style="fill: #000000" points="759.772,158.656 749.7,153.802 755.185,152.722 757.612,147.686 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="759.772,158.656 749.7,153.802 755.185,152.722 757.612,147.686 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="612.812" y1="-31.4666" x2="755.186" y2="152.722"/>
+    <polygon style="fill: #000000" points="759.772,158.656 749.701,153.802 755.186,152.722 757.613,147.686 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="759.772,158.656 749.701,153.802 755.186,152.722 757.613,147.686 "/>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="741.125" y="86.2" width="80.9" height="38"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="781.575" y="109.1">
-      <tspan x="781.575" y="109.1">ravitailler</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="741.124" y="86.2" width="80.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="781.574" y="109.1">
+      <tspan x="781.574" y="109.1">ravitailler</tspan>
     </text>
   </g>
   <g>
@@ -190,6 +190,30 @@
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="525.3" y="372.1">
       <tspan x="525.3" y="372.1">faire un</tspan>
       <tspan x="525.3" y="388.1">bilan</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x="397.8" y="249.2" width="222.2" height="185"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="508.9" y="345.6">
+      <tspan x="508.9" y="345.6"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="397.25" y="396.2" width="84.3" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="439.4" y="419.1">
+      <tspan x="439.4" y="419.1">Trésorerie</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x="684.999" y="139.19" width="182" height="185.016"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="775.999" y="235.598">
+      <tspan x="775.999" y="235.598"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="799" y="279.2" width="67.6" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="832.8" y="302.1">
+      <tspan x="832.8" y="302.1">Caisse</tspan>
     </text>
   </g>
 </svg>
