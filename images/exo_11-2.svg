@@ -93,17 +93,19 @@
     </text>
   </g>
   <g>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-696.894" y="-1655.27" width="173.583" height="99.8"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-610.102" y="-1617.47">
-      <tspan x="-610.102" y="-1617.47">Vérification</tspan>
-      <tspan x="-610.102" y="-1601.47">correspondance</tspan>
-      <tspan x="-610.102" y="-1585.47">facture / commande</tspan>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-696.894" y="-1656.37" width="173.583" height="102"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-610.102" y="-1633.47">
+      <tspan x="-610.102" y="-1633.47">* Vérification</tspan>
+      <tspan x="-610.102" y="-1617.47">correspondance</tspan>
+      <tspan x="-610.102" y="-1601.47">facture / commande</tspan>
+      <tspan x="-610.102" y="-1585.47">* Enregistrement</tspan>
+      <tspan x="-610.102" y="-1569.47">paiement</tspan>
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-650.97" y1="-1500.8" x2="-650.042" y2="-1469.53"/>
-    <polygon style="fill: #000000" points="-649.819,-1462.04 -655.114,-1471.88 -650.042,-1469.53 -645.118,-1472.18 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-649.819,-1462.04 -655.114,-1471.88 -650.042,-1469.53 -645.118,-1472.18 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-650.97" y1="-1500.8" x2="-650.041" y2="-1469.53"/>
+    <polygon style="fill: #000000" points="-649.818,-1462.04 -655.113,-1471.88 -650.041,-1469.53 -645.118,-1472.18 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-649.818,-1462.04 -655.113,-1471.88 -650.041,-1469.53 -645.118,-1472.18 "/>
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-696.928" y="-1554.8" width="91.918" height="54"/>
@@ -118,9 +120,9 @@
     </text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-563.719" y1="-1500.8" x2="-562.993" y2="-1470.53"/>
-    <polygon style="fill: #000000" points="-562.814,-1463.04 -568.052,-1472.91 -562.993,-1470.53 -558.055,-1473.15 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-562.814,-1463.04 -568.052,-1472.91 -562.993,-1470.53 -558.055,-1473.15 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-563.718" y1="-1500.8" x2="-562.993" y2="-1470.53"/>
+    <polygon style="fill: #000000" points="-562.814,-1463.04 -568.052,-1472.91 -562.993,-1470.53 -558.054,-1473.15 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-562.814,-1463.04 -568.052,-1472.91 -562.993,-1470.53 -558.054,-1473.15 "/>
   </g>
   <g>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-603.21" y="-1460.8" width="80.9" height="52"/>
@@ -129,7 +131,7 @@
     </text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-538.253,-1740.8 -581.74,-1740.8 -581.74,-1705.54 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-538.252,-1740.8 -581.74,-1740.8 -581.74,-1705.54 "/>
     <polygon style="fill: #000000" points="-581.74,-1698.04 -586.74,-1708.04 -581.74,-1705.54 -576.74,-1708.04 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-581.74,-1698.04 -586.74,-1708.04 -581.74,-1705.54 -576.74,-1708.04 "/>
   </g>
