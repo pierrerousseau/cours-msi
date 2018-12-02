@@ -1,0 +1,31 @@
+no-ticket
+date-ticket
+nb-clients-ticket
+date-debut-bilan-mensuel
+date-fin-bilan-mensuel
+no-employé
+salaire
+prime
+nb-jours
+nb-soirs
+
+
+client paye
+    nb-clients-tickets
+ticket
+    no-ticket
+    no-employé
+    date-ticket
+    nb-clients-tickets
+venue
+    nom-employé
+    date-venue
+    soirée
+fiche de paye
+    no-fiche-de-paye
+    no-employé
+    nom-employé
+    date-paye
+    salaire
+    prime
+bilan
