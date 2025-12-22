@@ -1,0 +1,23 @@
+\section*{Exercice}
+Un gérant d'hôtel cherche à mieux gérer son système de promotion. Aider le à modéliser cette partie de son système d'information.
+
+\subsubsection*{les besoins et précisions suivantes vous sont communiqués :}
+\begin{itemize}
+    \item S'ils le désirent les clients peuvent s'enregistrer auprès de la réception de l'hôtel pour bénéficier de réductions. Ils reçoivent alors une copie de leur fiche client.
+    \item Pour chaque chambre, une ou plusieurs promotions sont disponibles (en fonction du nombre de fois où cette chambre a été réservée). Ces promotions sont décidées au début de l'année par le directeur de l'hôtel.
+    \item Lors de la location, un client enregistré peut accepter une promotion ou la refuser et attendre d'en avoir une meilleure.
+    \item Lorsqu'un client accepte une promotion, ses locations précédant cette date pour cette chambre ne comptent plus (mais on les conserve pour historique).
+\end{itemize}
+
+\subsubsection*{les documents et données jugés utiles :}
+\begin{itemize}
+    \item Fiche client (nom, numéro de téléphone, nombre de locations par chambre, dates des demandes de promotion par chambre)
+    \item Fiche Location (chambre louée, prix, date de location)
+    \item Fiche Promotion (chambre associée, nombre de locations pour obtention, réduction, année)
+\end{itemize}
+
+\subsubsection*{notes :}
+\begin{itemize}
+    \item On se base sur les dates d'acceptation de promotion et de location pour compter le nombre de locations en cours
+    \item On considère qu'un client ne peut pas obtenir deux fois la même promotion.
+\end{itemize}

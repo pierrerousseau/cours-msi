@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="44cm" height="20cm" viewBox="-191 -350 862 381" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-97.3" y="-21.8" width="68.8" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-62.9" y="8.1">
+      <tspan x="-62.9" y="8.1">attente</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-109.466,-293.8 -29.7866,-293.8 -29.7866,-267.536 "/>
+    <polygon style="fill: #000000" points="-29.7866,-260.036 -34.7866,-270.036 -29.7866,-267.536 -24.7866,-270.036 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-29.7866,-260.036 -34.7866,-270.036 -29.7866,-267.536 -24.7866,-270.036 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -48.224 -257.8 L 25.526,-257.8 L 25.526,-225.8 L -11.349,-217.8 L -48.224,-225.8 L -48.224,-257.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-11.349" y="-237.8">
+      <tspan x="-11.349" y="-237.8">A ou B</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-190.066" y="-345.8" width="161.2" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-109.466" y="-323.9">
+      <tspan x="-109.466" y="-323.9">A : bon de livraison</tspan>
+      <tspan x="-109.466" y="-307.9">validé</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-108.065" y="-217.268" width="173.583" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-21.2737" y="-179.468">
+      <tspan x="-21.2737" y="-179.468">Vérification</tspan>
+      <tspan x="-21.2737" y="-163.468">correspondance</tspan>
+      <tspan x="-21.2737" y="-147.468">facture / commande</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-62.141" y1="-62.8" x2="-62.7198" y2="-31.5344"/>
+    <polygon style="fill: #000000" points="-62.8586,-24.0357 -67.6727,-34.1265 -62.7198,-31.5344 -57.6744,-33.9414 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-62.8586,-24.0357 -67.6727,-34.1265 -62.7198,-31.5344 -57.6744,-33.9414 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-108.1" y="-116.8" width="91.918" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-62.141" y="-85.9">
+      <tspan x="-62.141" y="-85.9">manquant</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-15.682" y="-116.8" width="81.582" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="25.109" y="-85.9">
+      <tspan x="25.109" y="-85.9">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="25.109" y1="-62.8" x2="25.0322" y2="-30.536"/>
+    <polygon style="fill: #000000" points="25.0143,-23.0361 20.0381,-33.0479 25.0322,-30.536 30.0381,-33.0241 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="25.0143,-23.0361 20.0381,-33.0479 25.0322,-30.536 30.0381,-33.0241 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-17.5" y="-20.8" width="85.018" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="25.009" y="9.1">
+      <tspan x="25.009" y="9.1">paiement</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="48.575,-300.8 7.0885,-300.8 7.0885,-267.536 "/>
+    <polygon style="fill: #000000" points="7.0885,-260.036 2.0885,-270.036 7.0885,-267.536 12.0885,-270.036 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="7.0885,-260.036 2.0885,-270.036 7.0885,-267.536 12.0885,-270.036 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="5.3" y="-338.8" width="86.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="48.575" y="-315.9">
+      <tspan x="48.575" y="-315.9">B : facture</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="243.509,-301.8 295.514,-301.8 295.514,-270.536 "/>
+    <polygon style="fill: #000000" points="295.514,-263.036 290.514,-273.036 295.514,-270.536 300.514,-273.036 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="295.514,-263.036 290.514,-273.036 295.514,-270.536 300.514,-273.036 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 277.076 -260.8 L 350.826,-260.8 L 350.826,-228.8 L 313.951,-220.8 L 277.076,-228.8 L 277.076,-260.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="313.951" y="-240.8">
+      <tspan x="313.951" y="-240.8"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="191.234" y="-339.8" width="104.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="243.509" y="-316.9">
+      <tspan x="243.509" y="-316.9">date de paye</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="217.234" y="-220.268" width="173.583" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.026" y="-174.468">
+      <tspan x="304.026" y="-174.468">Calcul salaire</tspan>
+      <tspan x="304.026" y="-158.468">Calcul charges</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="304.026" y1="-120.468" x2="303.182" y2="-48.5354"/>
+    <polygon style="fill: #000000" points="303.094,-41.0359 298.212,-51.0939 303.182,-48.5354 308.211,-50.9766 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="303.094,-41.0359 298.212,-51.0939 303.182,-48.5354 308.211,-50.9766 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="240.318" y="-38.8" width="125.5" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="303.068" y="-8.9">
+      <tspan x="303.068" y="-8.9">fiche de paye</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="515.575,-311.8 567.579,-311.8 567.579,-280.536 "/>
+    <polygon style="fill: #000000" points="567.579,-273.036 562.579,-283.036 567.579,-280.536 572.579,-283.036 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="567.579,-273.036 562.579,-283.036 567.579,-280.536 572.579,-283.036 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 549.142 -270.8 L 622.892,-270.8 L 622.892,-238.8 L 586.017,-230.8 L 549.142,-238.8 L 549.142,-270.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="586.017" y="-250.8">
+      <tspan x="586.017" y="-250.8"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="463.3" y="-349.8" width="104.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="515.575" y="-326.9">
+      <tspan x="515.575" y="-326.9">date de bilan</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="497.3" y="-230.268" width="173.583" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="584.092" y="-200.468">
+      <tspan x="584.092" y="-200.468">Choix de la période</tspan>
+      <tspan x="584.092" y="-184.468">Calcul des ventes</tspan>
+      <tspan x="584.092" y="-168.468">Calcul des achats</tspan>
+      <tspan x="584.092" y="-152.468">Calcul des salaires</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="584.092" y1="-130.468" x2="586.772" y2="-58.5293"/>
+    <polygon style="fill: #000000" points="587.051,-51.0345 581.682,-60.8415 586.772,-58.5293 591.675,-61.2137 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="587.051,-51.0345 581.682,-60.8415 586.772,-58.5293 591.675,-61.2137 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="524.384" y="-48.8" width="125.5" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="587.134" y="-18.9">
+      <tspan x="587.134" y="-18.9">bilan</tspan>
+    </text>
+  </g>
+</svg>

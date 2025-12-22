@@ -1,0 +1,254 @@
+\section*{Dictionnaire de données}
+
+On identifie les données utiles au système d'information à partir du recueil informel des besoins.
+
+\begin{figure}[!h]
+\begin{tabular}{l l l l l l}
+%
+    \textbf{mnémonique} & \textbf{desc.} & \textbf{type} & \textbf{format} & \textbf{divers} & \textbf{exemple} \\
+    no-bibliothèque      & - & entier  & -          & séquentiel & 12 \\
+    no-carte             & - & entier  & -          & séquentiel & 1 \\
+    nom-étudiant         & - & texte   & 50 car.    & -          & Arthur Hugo \\
+    date-emprunt         & - & date    & jj/mm/aaaa & -          & 01/01/2001 \\
+    id-livre             & - & entier  & -          & séquentiel & 1 \\
+    code                 & - & entier  & -          & -          & 1256124 \\
+    titre                & - & texte   & 50 car.    & -          & MSI Pratique \\
+    code-auteur          & - & entier  & -          & -          & 56 \\
+    nom-auteur           & - & texte   & 50 car.    & -          & Jean Neymar \\
+    principal            & - & booleen & -          & -          & Vrai \\
+    id-édition           & - & entier  & -          & séquentiel & 1 \\
+    nom-éditeur          & - & texte   & 50 car.    & -          & Jean Nezplein \\
+    date-édition         & - & date    & jj/mm/aaaa & -          & 01/01/2001 \\
+
+\end{tabular}
+    \caption{\label{DD} Dictionnaire de données}
+\end{figure}
+
+\newpage
+\section*{Diagramme de Flux}
+
+On identifie les flux d'information en fonction du recueil informel des besoins.
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[width=9cm]{images/cc2_df1.eps}
+    \caption{\label{cc2_df1} Diagramme de contexte}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[width=12cm]{images/cc2_df2.eps}
+    \caption{\label{cc2_df3} Diagramme de flux}
+    \end{center}
+\end{figure}
+
+\section*{Matrice des Flux}
+
+À faire à partir du diagramme de flux.
+
+\newpage
+\section*{Modèle Concptuel de Communication}
+
+Pour chaque flux d'information du diagramme de flux, on détaille les messages échangés.
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[width=6cm]{images/cc2_mcc1.eps}
+    \caption{\label{cc2_mcc1} s'inscrire}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[width=6cm]{images/cc2_mcc2.eps}
+    \caption{\label{cc2_mcc2} emprunter}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[width=6cm]{images/cc2_mcc3.eps}
+    \caption{\label{cc2_mcc3} acheter}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[width=6cm]{images/cc2_mcc4.eps}
+    \caption{\label{cc2_mcc4} informer sur les emprunts}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[width=6cm]{images/cc2_mcc5.eps}
+    \caption{\label{cc2_mcc5} placer livre}
+    \end{center}
+\end{figure}
+
+\newpage
+\section*{Modèle Concptuel de Communication détaillé}
+
+On place affecte maintenant chaque donnée du dictionnaire de données dans le message qui la contient.
+
+\subsubsection*{demande d'inscription (Étudiant, Bibliothécaire)}
+\begin{itemize}
+    \item nom-étudiant
+\end{itemize}
+
+\subsubsection*{carte d'étudiant (Bibliothécaire, Étudiant)}
+\begin{itemize}
+    \item no-carte
+    \item nom-étudiant
+    \item no-biblothèque
+\end{itemize}
+
+\subsubsection*{demande d'emprunt (Étudiant, Bibliothécaire)}
+\begin{itemize}
+    \item titre
+    \item nom-auteur
+\end{itemize}
+
+\subsubsection*{livre (Bibliothécaire, Étudiant)}
+\begin{itemize}
+    \item titre
+    \item nom-auteur
+    \item nom-éditeur
+    \item code
+\end{itemize}
+
+\subsubsection*{livre (Éditeur, Gestionnaire)}
+\begin{itemize}
+    \item titre
+    \item nom-auteur
+    \item nom-éditeur
+    \item date-édition
+    \item auteur-principal
+\end{itemize}
+
+\subsubsection*{liste des emprunts (Bibliothécaire, Gestionnaire)}
+\begin{itemize}
+    \item id-livre
+    \item no-biblothèque
+\end{itemize}
+
+\subsubsection*{placement livres (Gestionnaire, Bibliothécaire)}
+\begin{itemize}
+    \item titre
+    \item code
+    \item nom-auteur
+    \item code-auteur
+\end{itemize}
+
+\newpage
+\section*{Modèle Conceptuel de Données}
+
+En suivant l'ordre des messages du MCC, on place chaque donnée véhiculée par un message dans le MCD. Pour chaque donnée, on se pose la question de l'existance d'une nouvelle entité. Une fois toutes les données placées, on valide notre MCD (formes normales).
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[width=11.5cm]{images/cc2_mcd.eps}
+    \caption{\label{cc2_mcd} MCD}
+    \end{center}
+\end{figure}
+
+\newpage
+\section*{Modèle Conceptuel de Traitements}
+
+Pour chaque acteur, on se demande les actions qu'il effectue sur notre système d'information.
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[height=5cm]{images/cc2_mct1.eps}
+    \caption{\label{cc2_mct1} S'inscrire}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[height=5cm]{images/cc2_mct2.eps}
+    \caption{\label{cc2_mct2} Emprunter un livre}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    \includegraphics[height=7cm]{images/cc2_mct3.eps}
+    \caption{\label{cc2_mct3} Placer les livres}
+    \end{center}
+\end{figure}
+
+\newpage
+\section*{Modèle Organisationel de Traitements}
+
+On commence par déterminer les différents postes de travail d'utilisation de notre système d'information :\\
+
+\begin{itemize}
+    \item 
+    %\item Bureau du club
+    %\item Bureau des homologation
+    %\item Bureau de classement
+\end{itemize}
+
+\begin{figure}[!htb]
+    \begin{center}
+    %\includegraphics[height=5cm]{images/cc2_mot1.eps}
+    %\caption{\label{cc2_mot1} Bureau d'homologation}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    %\includegraphics[height=8cm]{images/cc2_mot2.eps}
+    %\caption{\label{cc2_mot2} Bureau du club et bureau de classement}
+    \end{center}
+\end{figure}
+
+
+\newpage
+\section*{Modèle Organisationel de Données}
+
+On commence par déterminer les différents sites de notre système d'information :\\
+
+\begin{figure}[!h]
+\begin{tabular}{l l}
+%
+%
+\end{tabular}
+    %\caption{\label{sites} Sites}
+\end{figure}
+
+\newpage
+On détermine ensuite les droits d'accès pour les entités et les asssociations porteuses de données :\\
+
+\begin{figure}[!htb]
+\begin{tabular}{| l | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c |}
+%
+   \hline
+                  & \multicolumn{4}{| c |}{Sec. du club} & \multicolumn{4}{| c |}{Org. de compét.} & \multicolumn{4}{| c |}{Gest. des homolog.} & \multicolumn{4}{| c |}{Gest. du class.} \\
+   \hline
+                  & C & L & E & S & C & L & E & S & C & L & E & S & C & L & E & S \\
+   \hline
+%
+\end{tabular}
+    \caption{\label{droits} Droits}
+\end{figure}
+
+\newpage
+On en déduit les modèles d'organisations de données suivants : \\
+
+\begin{figure}[!htb]
+    \begin{center}
+    %\includegraphics[width=11.5cm]{images/cc2_mod1.eps}
+    %\caption{\label{cc2_mod1} MOD Salle du club}
+    \end{center}
+\end{figure}
+
+\begin{figure}[!htb]
+    \begin{center}
+    %\includegraphics[width=11.5cm]{images/cc2_mod2.eps}
+    %\caption{\label{cc2_mod2} MOD Siège de la fédération}
+    \end{center}
+\end{figure}
+

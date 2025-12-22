@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="20cm" height="25cm" viewBox="-1268 -1874 390 492" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1266.08" y="-1835.67" width="387.55" height="452.333"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1072.3" y="-1605.6">
+      <tspan x="-1072.3" y="-1605.6"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1100.7,-1719.13 -1039.85,-1719.13 -1039.85,-1704.2 "/>
+    <polygon style="fill: #000000" points="-1039.85,-1696.7 -1044.85,-1706.7 -1039.85,-1704.2 -1034.85,-1706.7 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1039.85,-1696.7 -1044.85,-1706.7 -1039.85,-1704.2 -1034.85,-1706.7 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -1058.29 -1694.46 L -984.539,-1694.46 L -984.539,-1662.46 L -1021.41,-1654.46 L -1058.29,-1662.46 L -1058.29,-1694.46"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1021.41" y="-1674.46">
+      <tspan x="-1021.41" y="-1674.46"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-1166.75" y="-1757.13" width="132.1" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1100.7" y="-1734.23">
+      <tspan x="-1100.7" y="-1734.23">besoin de produit</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1096.13" y="-1652.93" width="152.3" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1019.98" y="-1615.13">
+      <tspan x="-1019.98" y="-1615.13">Trouver fournisseur</tspan>
+      <tspan x="-1019.98" y="-1599.13">Éditer </tspan>
+      <tspan x="-1019.98" y="-1583.13">bon de commande</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1265.57" y="-1872.8" width="386.378" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1072.38" y="-1849.9">
+      <tspan x="-1072.38" y="-1849.9">Bureau des stocks</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1138.23" y="-1652.47" width="42.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1117.2" y="-1629.57">
+      <tspan x="-1117.2" y="-1629.57">1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1138.23" y="-1614.47" width="42.075" height="61.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1117.19" y="-1579.67">
+      <tspan x="-1117.19" y="-1579.67">MA</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-1090.54" y="-1483.13" width="140.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1020.51" y="-1460.23">
+      <tspan x="-1020.51" y="-1460.23">bon de commande</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-1019.98" y1="-1553.13" x2="-1020.44" y2="-1492.87"/>
+    <polygon style="fill: #000000" points="-1020.49,-1485.37 -1025.42,-1495.41 -1020.44,-1492.87 -1015.42,-1495.33 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1020.49,-1485.37 -1025.42,-1495.41 -1020.44,-1492.87 -1015.42,-1495.33 "/>
+  </g>
+</svg>

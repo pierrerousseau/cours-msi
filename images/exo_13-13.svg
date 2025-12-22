@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="12cm" height="17cm" viewBox="93 60 228 336" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="161.333,98.8 229.328,98.8 229.328,128.797 "/>
+    <polygon style="fill: #000000" points="229.328,136.297 224.328,126.297 229.328,128.797 234.328,126.297 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="229.328,136.297 224.328,126.297 229.328,128.797 234.328,126.297 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 210.89 138.533 L 284.64,138.533 L 284.64,170.533 L 247.765,178.533 L 210.89,170.533 L 210.89,138.533"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="247.765" y="158.533">
+      <tspan x="247.765" y="158.533"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="164.325" y="180.733" width="155.75" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="242.2" y="218.533">
+      <tspan x="242.2" y="218.533">Compter factures</tspan>
+      <tspan x="242.2" y="234.533">Compter salaires</tspan>
+      <tspan x="242.2" y="250.533">Compter ventes</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="171.891" y="357.866" width="141.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="242.416" y="380.766">
+      <tspan x="242.416" y="380.766">bilan</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="242.2" y1="280.533" x2="242.389" y2="348.13"/>
+    <polygon style="fill: #000000" points="242.41,355.63 237.382,345.644 242.389,348.13 247.382,345.616 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="242.41,355.63 237.382,345.644 242.389,348.13 247.382,345.616 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="93.4084" y="60.8" width="135.85" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="161.333" y="83.7">
+      <tspan x="161.333" y="83.7">demande de bilan</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="9cm" height="17cm" viewBox="373 182 179 338" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="374,214 444.562,214 444.562,243.264 "/>
+    <polygon style="fill: #000000" points="444.562,250.764 439.562,240.764 444.562,243.264 449.562,240.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="444.562,250.764 439.562,240.764 444.562,243.264 449.562,240.764 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 426.125 253 L 499.875,253 L 499.875,285 L 463,293 L 426.125,285 L 426.125,253"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="463" y="273">
+      <tspan x="463" y="273">Conditions</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="551,216 481.437,216 481.437,243.264 "/>
+    <polygon style="fill: #000000" points="481.437,250.764 476.437,240.764 481.437,243.264 486.437,240.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="481.437,250.764 476.437,240.764 481.437,243.264 486.437,240.764 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="409.15" y="182" width="101.7" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="204.9">
+      <tspan x="460" y="204.9">Evènements</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="389" y="295.2" width="145.175" height="99.8"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="461.588" y="349">
+      <tspan x="461.588" y="349">Actions</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="388.9" y="395.1" width="145.175" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="461.488" y="418">
+      <tspan x="461.488" y="418">Conditions</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="461.488" y1="433.1" x2="461.095" y2="473.264"/>
+    <polygon style="fill: #000000" points="461.022,480.764 456.12,470.716 461.095,473.264 466.119,470.813 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="461.022,480.764 456.12,470.716 461.095,473.264 466.119,470.813 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="409.9" y="481.1" width="101.7" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460.75" y="504">
+      <tspan x="460.75" y="504">Résultats</tspan>
+    </text>
+  </g>
+</svg>

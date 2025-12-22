@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="20cm" height="40cm" viewBox="502 -68 384 799" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="611.292,57.2 650.97,57.2 650.97,78.7973 "/>
+    <polygon style="fill: #000000" points="650.97,86.2973 645.97,76.2973 650.97,78.7973 655.97,76.2973 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="650.97,86.2973 645.97,76.2973 650.97,78.7973 655.97,76.2973 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 632.532 88.5334 L 706.282,88.5334 L 706.282,120.533 L 669.407,128.533 L 632.532,120.533 L 632.532,88.5334"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="669.407" y="108.533">
+      <tspan x="669.407" y="108.533"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="570.842" y="19.2" width="80.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="611.292" y="42.1">
+      <tspan x="611.292" y="42.1">paiement</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="585.116" y="129.633" width="157.45" height="102"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="663.841" y="168.533">
+      <tspan x="663.841" y="168.533">Vérifier montant</tspan>
+      <tspan x="663.841" y="184.533">Enregistrer vente</tspan>
+      <tspan x="663.841" y="200.533"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="585.274" y="231.299" width="64.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="617.299" y="254.199">
+      <tspan x="617.299" y="254.199">Erreur</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="617.299" y1="269.299" x2="617.191" y2="294.897"/>
+    <polygon style="fill: #000000" points="617.159,302.397 612.202,292.376 617.191,294.897 622.202,292.418 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="617.159,302.397 612.202,292.376 617.191,294.897 622.202,292.418 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="557.8" y="304.633" width="118.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="617.15" y="327.533">
+      <tspan x="617.15" y="327.533">vente invalidée</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="649.274" y="231.467" width="93.3333" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="695.941" y="254.367">
+      <tspan x="695.941" y="254.367">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="695.941" y1="269.467" x2="695.807" y2="352.685"/>
+    <polygon style="fill: #000000" points="695.795,360.185 690.811,350.177 695.807,352.685 700.811,350.193 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="695.795,360.185 690.811,350.177 695.807,352.685 700.811,350.193 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="636.166" y="362.421" width="119.25" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="695.791" y="385.321">
+      <tspan x="695.791" y="385.321">ticket de caisse</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="503.384" y="-28.3333" width="381" height="758.333"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="693.884" y="354.733">
+      <tspan x="693.884" y="354.733"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="503.384" y="-66.8" width="381" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="693.884" y="-43.9">
+      <tspan x="693.884" y="-43.9">Stand</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="543.051" y="129.533" width="41.9667" height="64"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="564.034" y="165.433">
+      <tspan x="564.034" y="165.433">1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="543.151" y="193.633" width="41.8" height="75.7"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="564.051" y="235.383">
+      <tspan x="564.051" y="235.383">MA</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="695.791,400.421 755.17,400.421 755.17,421.731 "/>
+    <polygon style="fill: #000000" points="755.17,429.231 750.17,419.231 755.17,421.731 760.17,419.231 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="755.17,429.231 750.17,419.231 755.17,421.731 760.17,419.231 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 736.732 431.467 L 810.482,431.467 L 810.482,463.467 L 773.607,471.467 L 736.732,463.467 L 736.732,431.467"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="773.607" y="451.467">
+      <tspan x="773.607" y="451.467"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="689.316" y="472.567" width="157.45" height="139.433"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="768.041" y="538.183">
+      <tspan x="768.041" y="538.183">Mise à jour du stock</tspan>
+      <tspan x="768.041" y="554.183">du stand</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="768.041" y1="612" x2="767.704" y2="652.952"/>
+    <polygon style="fill: #000000" points="767.643,660.452 762.725,650.411 767.704,652.952 772.725,650.494 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="767.643,660.452 762.725,650.411 767.704,652.952 772.725,650.494 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="720.299" y="662.688" width="94.65" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="767.624" y="685.588">
+      <tspan x="767.624" y="685.588">stock à jour</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="647.251" y="472.467" width="41.9667" height="64"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="668.234" y="508.367">
+      <tspan x="668.234" y="508.367">2</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="647.351" y="536.567" width="41.8" height="75.7"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="668.251" y="578.317">
+      <tspan x="668.251" y="578.317">TR</tspan>
+    </text>
+  </g>
+</svg>

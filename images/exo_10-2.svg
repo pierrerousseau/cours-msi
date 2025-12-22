@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="19cm" height="23cm" viewBox="-149 -347 366 444" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-125.9" y="-15.8" width="118.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-66.75" y="6.1">
+      <tspan x="-66.75" y="6.1">pas de </tspan>
+      <tspan x="-66.75" y="22.1">ravitaillement</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-66.682,-298.8 16.2135,-298.8 16.2135,-267.536 "/>
+    <polygon style="fill: #000000" points="16.2135,-260.036 11.2135,-270.036 16.2135,-267.536 21.2135,-270.036 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="16.2135,-260.036 11.2135,-270.036 16.2135,-267.536 21.2135,-270.036 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -2.224 -257.8 L 71.526,-257.8 L 71.526,-225.8 L 34.651,-217.8 L -2.224,-225.8 L -2.224,-257.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="34.651" y="-237.8">
+      <tspan x="34.651" y="-237.8">A ou B</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-148.282" y="-336.8" width="163.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-66.682" y="-313.9">
+      <tspan x="-66.682" y="-313.9">A : prélèvement</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-109" y="-217.268" width="277.5" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="29.75" y="-171.468">
+      <tspan x="29.75" y="-171.468">Vérification des besoins</tspan>
+      <tspan x="29.75" y="-155.468">en ravitaillement</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-65.407" y1="-63" x2="-66.4731" y2="-25.5321"/>
+    <polygon style="fill: #000000" points="-66.6864,-18.0352 -71.4,-28.1733 -66.4731,-25.5321 -61.404,-27.8889 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-66.6864,-18.0352 -71.4,-28.1733 -66.4731,-25.5321 -61.404,-27.8889 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-109.757" y="-117" width="88.7" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-65.407" y="-94.1">
+      <tspan x="-65.407" y="-94.1">besoin</tspan>
+      <tspan x="-65.407" y="-78.1">non valide</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-20.682" y="-116.8" width="87.6" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="23.118" y="-93.9">
+      <tspan x="23.118" y="-93.9">tout est</tspan>
+      <tspan x="23.118" y="-77.9">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="23.118" y1="-62.8" x2="23.4866" y2="51.464"/>
+    <polygon style="fill: #000000" points="23.5108,58.9639 18.4786,48.9801 23.4866,51.464 28.4785,48.9479 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="23.5108,58.9639 18.4786,48.9801 23.4866,51.464 28.4785,48.9479 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="-31.032" y="61.2" width="109.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="23.518" y="83.1">
+      <tspan x="23.518" y="83.1">ravitaillement</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="66.35" y="-116.8" width="103.5" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="118.1" y="-93.9">
+      <tspan x="118.1" y="-93.9">produit</tspan>
+      <tspan x="118.1" y="-77.9">manquant</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="118.1" y1="-62.8" x2="119.463" y2="-28.5284"/>
+    <polygon style="fill: #000000" points="119.761,-21.0343 114.368,-30.8277 119.463,-28.5284 124.36,-31.2251 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="119.761,-21.0343 114.368,-30.8277 119.463,-28.5284 124.36,-31.2251 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="41.9" y="-18.8" width="155.9" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="119.85" y="3.1">
+      <tspan x="119.85" y="3.1">demande de</tspan>
+      <tspan x="119.85" y="19.1">prélèvement</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="135.9,-294.8 53.0884,-294.8 53.0884,-267.536 "/>
+    <polygon style="fill: #000000" points="53.0884,-260.036 48.0884,-270.036 53.0884,-267.536 58.0884,-270.036 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="53.0884,-260.036 48.0884,-270.036 53.0884,-267.536 58.0884,-270.036 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="54.3" y="-346.8" width="163.2" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="135.9" y="-324.9">
+      <tspan x="135.9" y="-324.9">B : besoin de</tspan>
+      <tspan x="135.9" y="-308.9">ravitaillement</tspan>
+    </text>
+  </g>
+</svg>

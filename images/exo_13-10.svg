@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="10cm" height="20cm" viewBox="211 99 198 382" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="264.683,137.867 304.361,137.867 304.361,159.464 "/>
+    <polygon style="fill: #000000" points="304.361,166.964 299.361,156.964 304.361,159.464 309.361,156.964 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="304.361,166.964 299.361,156.964 304.361,159.464 309.361,156.964 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 285.924 169.2 L 359.674,169.2 L 359.674,201.2 L 322.799,209.2 L 285.924,201.2 L 285.924,169.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="322.799" y="189.2">
+      <tspan x="322.799" y="189.2"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="224.233" y="99.8667" width="80.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="264.683" y="122.767">
+      <tspan x="264.683" y="122.767">paiement</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="238.508" y="210.3" width="157.45" height="102"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="317.233" y="241.2">
+      <tspan x="317.233" y="241.2">Vérifier montant</tspan>
+      <tspan x="317.233" y="257.2">Enregistrer vente</tspan>
+      <tspan x="317.233" y="273.2">Mise à jour du stock</tspan>
+      <tspan x="317.233" y="289.2">du stand</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="238.667" y="311.967" width="64.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270.692" y="334.867">
+      <tspan x="270.692" y="334.867">Erreur</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="270.692" y1="349.967" x2="270.582" y2="376.231"/>
+    <polygon style="fill: #000000" points="270.551,383.731 265.593,373.71 270.582,376.231 275.593,373.752 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="270.551,383.731 265.593,373.71 270.582,376.231 275.593,373.752 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="211.192" y="385.967" width="118.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270.542" y="408.867">
+      <tspan x="270.542" y="408.867">vente invalidée</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="302.667" y="312.133" width="93.3333" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="349.333" y="335.033">
+      <tspan x="349.333" y="335.033">OK</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="349.333" y1="350.133" x2="349.199" y2="433.352"/>
+    <polygon style="fill: #000000" points="349.187,440.852 344.203,430.844 349.199,433.352 354.203,430.86 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="349.187,440.852 344.203,430.844 349.199,433.352 354.203,430.86 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="289.558" y="443.088" width="119.25" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="349.183" y="465.988">
+      <tspan x="349.183" y="465.988">ticket de caisse</tspan>
+    </text>
+  </g>
+</svg>

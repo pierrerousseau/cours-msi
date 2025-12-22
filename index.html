@@ -4,20 +4,2402 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
-
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/solarized.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+        <title> MSI </title>
+
+        <meta name="description" content="Slides et ressources du cours de Système d'Information en L3 à Paris X">
+        <meta name="author" content="Pierre Rousseau">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="css/cours.css">
+
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+            <!-- Any section element inside of this container is displayed as a slide -->
+
+            <div class="slides">
+                <section data-markdown class="title">
+                    <script type="text/template">
+                    # Modélisation des Systèmes d'Information
+
+                    ![Université Paris Ouest Nanterre La Défense](images/logo-paris-x.png)
+                    **MIAGE - L3**
+
+                    *[Pierre Rousseau][mail]*
+
+                    *https://pierrerousseau.github.io/cours-msi*
+
+                    [notes de cours](https://pierrerousseau.github.io/cours-msi/cours/cours.pdf)
+
+                    [mail]: mailto:pierre.rousseau@parisnanterre.fr
+                    </script>
+                </section>
+                <section>
+                    <section data-markdown class="information">
+                        <script type="text/template">
+                        # Information
+
+                        > **Données** susceptibles d'être représentées à l'aide de conventions pour être 
+                        > conservées, traitées ou communiquées. [Larousse][larousse-information]
+
+                        ![données](images/database.svg) 
+                        ![données](images/folders.svg) 
+                        ![deviennent](images/rightleft.svg)
+                        ![informations](images/information.svg) 
+                        ![informations](images/news.svg) 
+
+                        [larousse-information]: http://www.larousse.fr/dictionnaires/francais/information/42993
+                        </script>
+                    </section>
+                    <section data-markdown class="system">
+                        <script type="text/template">
+                        # Système
+
+                        > Ensemble d'éléments considérés dans leurs **relations** à l'intérieur d'un 
+                        > tout fonctionnant de manière unitaire. [Larousse][larousse-systeme]
+
+                        ![système](images/system.svg) 
+
+                        [larousse-systeme]: http://www.larousse.fr/dictionnaires/francais/syst%C3%A8me/76262
+                        </script>
+                    </section>
+                    <section data-markdown class="information-system">
+                        <script type="text/template">
+                        # Système d'Information
+
+                        > Un système d'information (SI) est un ensemble organisé de ressources 
+                        > **permettant** de collecter, stocker, traiter et diffuser de l'information
+                        > [R. De Courcy][r-de-courcy]
+
+                        ![SI](images/information_system.svg) 
+
+                        [r-de-courcy]: https://fr.wikipedia.org/wiki/Système_d'information
+                        </script>
+                    </section>
+                </section>
+                <section class="systemic">
+                    <section data-markdown>
+                        <script type="text/template">
+                        # Analyse systémique
+
+                        Vue d'un ensemble (d'une organisation) sous forme de système
+
+                        * **complexe** : différentes parties
+                        * **cohérent** : parties organisées
+                        * **complet**  : pas de partie manquante
+                        * **récursif** : composé de sous-systèmes
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        # Analyse systémique
+
+                        ![systémique](images/systemique.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                        # Analyse systémique
+
+                        Description abstraite du fonctionnement l'entreprise et non sa représentation hiérarchique
+
+                        * le système de **pilotage** : prise de décision
+                        * le système **opérant** : réalisation des tâches d'exécution
+                        * le système d'**information** : intermédiaire entre le système de pilotage et le système opérant
+
+
+                        </script>
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown class="qualities">
+                        <script type="text/template">
+                        # Qualités du SI
+
+                        Aide à la *décision* 
+
+                        (organiser, informer, interpréter, prévoir)
+
+                        * **pertinent** : information utile
+                        * **rapide** : réponse en temps utile
+                        * **fiable** : information disponible et de confiance
+                        * **sûr** : usage sécurisé
+                        * **ADAPTÉ** : ressources et buts de l'organisation
+                        </script>
+                    </section>
+                    <section data-markdown class="parts">
+                        <script type="text/template">
+                        # Composants du SI
+
+                        * **Outils** : logiciels, protocoles
+                        * **Infrastructure** : matériels, réseaux
+                        * **Procédures** : organisation interne
+                        * **Humains** : utilisateurs, acteurs
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 1
+
+                        Décrire le système d'information d'une boulangerie
+                        </script>
+                    </section>
+                    <!-- section data-markdown class="problems">
+                        <script type="text/template">
+                        # Des problèmes ?
+
+                        manque de temps, d'homogénéité, de structure, de communication, ...
+
+                        **&rArr;** besoin d'une *démarche*, de techniques et d'*outils*
+                        </script>
+                    </section -->
+                </section>
+                <section>
+                    <section data-markdown class="model">
+                        <script type="text/template">
+                        # Pourquoi modéliser ?
+
+                        * Communiquer : parler le même langage pour *réduire les ambiguités*
+                        * Structurer : rester homogène, *avoir une démarche* pour savoir où on va, gagner du temps
+                        * Comprendre : ne pas négliger les détails pour *réveler des problèmes* moins évidents
+                        * Documenter : *se souvenir des raisons* pour lesquelles certains choix ont été faits
+
+                        </script>
+                    </section>
+                    <section data-markdown class="merise">
+                        <script type="text/template">
+                        # Merise
+
+                        > *Méthode* d'analyse, de conception et de gestion de projet informatique
+                        > [Wikipedia][wiki-merise]
+
+                        * niveaux d'abstraction
+                        * méthodes, outils (formalismes)
+                        * *lourdeur* (schéma directeur, détails)
+
+                        -----
+
+                        ### Adapter, choisir ce qui est utile
+
+                        [wiki-merise]: https://fr.wikipedia.org/wiki/Merise
+                        </script>
+                    </section>
+                    <section data-markdown class="dimensions small-diagram">
+                        <script type="text/template">
+                        # Dimensions
+
+                        ![si-cycle-vie](images/si_cycle_vie.svg) 
+
+                        * Cycle de vie : conception, mise en oeuvre, maintenance, déclin
+                        * Cycle de décision : choix fait pendant le cycle de vie
+                        * Cycle d'*abstraction* : modélisation du SI
+                        </script>
+                    </section>
+                    <section data-markdown class="abstraction">
+                        <script type="text/template">
+                        # Cycle d'abstraction
+
+                        * Expression des **besoins**
+                        * niveau **Conceptuel** : fondamentaux, *stable*, indépendant
+                        * niveau **Organisationnel** : personnes, matériel
+                        * niveau **Logique** : technique, *indépendant* des outils
+                        * niveau **Physique** : technique, adapté aux outils
+                        </script>
+                    </section>
+                    <section data-markdown class="sections">
+                        <script type="text/template">
+                        # Découplage
+
+                        * **données** : statique du système
+                          * structures
+                          * relations
+                        * **traitements** : dynamique du système
+                          * flux de données internes et externes
+                          * manipulation des données
+                        </script>
+                    </section>
+                    <section data-markdown class="tools">
+                        <script type="text/template">
+                        # Outils
+
+                        |                 |            |         |       |         |
+                        | --------------- |:----------:|:-------:|:-----:|:-------:|
+                        | Besoins         |            | *DD*    |       | *DF/MF* |
+                        |                 |            |         | *MCC* |         |
+                        | Conceptuel      | Quoi ?     | *MCD*   |       | *MCT*   |
+                        | Organisationnel | Qui ? Où ? | *MOD*   |       | *MOT*   |
+                        | Logique         | Comment ?  | MLD     |       | MLT     |
+                        | Physique        | Comment ?  | MPD     |       | MPT     |
+                        </script>
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown class="needs">
+                        <script type="text/template">
+                        # Recueil des besoins
+
+                        lister les informations et leurs flux
+
+                        * Existant : collecter *les données* (documents, normes, entretiens)
+                        * Analyse : déterminer les entrées, les sorties et *les flux* des uns aux autres
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="needs exercise">
+                        <script type="text/template">
+                        ### Exercice 2
+
+                        ## Recueillir les besoins du SI d'une boulangerie de manière informelle
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="needs solution">
+                        <script type="text/template">
+                        ### Exercice 2 : solution (1/2)
+                        Les besoins séléctionnés pour la suite sont :
+                        * Le boulanger veut établir un bilan de ses bénéfices (ventes - salaires - factures) chaque mois (bénéfices)
+                        * Il désire connaitre les commandes en cours (produits (noms et quantités))
+                        * Il désire connaitre l'état de ses stocks de matière première à tout instant (produits livrés (noms et quantités))
+                        * Il désire connaitre l'état de ses stocks de produits en vente à tout instant (produits vendus (noms et quantités))
+                        * Seuls les vendeurs reçoivent une fiche de paye
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="needs solution">
+                        <script type="text/template">
+                        ### Exercice 2 : solution (2/2)
+                        Les documents jugés utiles sont :
+                        * Ticket de caisse (référence, date, produits (noms et prix))
+                        * Fiche de paye (référence, date, nom, date de naissance et adresse de l'employé, salaire brut)
+                        * Bon de commande (nom du fournisseur, date, référence du fournisseur, adresse du fournisseur, produits (noms))
+                        * Bon de livraison (nom du fournisseur, date, référence de commande du fournisseur, référence de livraison du fournisseur, produits (noms))
+                        * Facture (nom du fournisseur, référence du fournisseur, date, paiement)
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="dd">
+                        <script type="text/template">
+                        # Dictionnaire de données (DD)
+
+                        *lister* les données
+
+                        * **Classifier** : *données élémentaires*, calculées, composées
+                        * **Typer** : définir les types et les formats des données
+                        * **Épurer** : supprimer les doublons, spécifier, déterminer les contraintes
+                        </script>
+                    </section>
+                    <section data-markdown class="dd">
+                        <script type="text/template">
+                        # DD : construction
+
+                        * pour chaque document et chaque besoin identifié
+                          * ajouter les données identifiées au DD
+                          * définir les données (identifiant, description, type, format, ...)
+
+                        * une fois la liste établie
+                          * supprimer les doublons
+                          * supprmier les données calculées ou composées
+                        </script>
+                    </section>
+                    <section data-markdown class="dd example">
+                        <script type="text/template">
+                        # DD : exemple
+
+                        | Mnémonique      | Description                     | Type    | Format      | Divers     | Exemple                 |
+                        |:--------------- |:------------------------------- |:------- |:----------- |:---------- |:----------------------- |
+                        | id-produit      | identifiant d'un produit        | entier  | -           | séquentiel | 1                       |
+                        | nom-produit     | nom d'un produit                | texte   | 50 car. max | -          | boite de haricots verts |
+                        | prix-produit    | prix d'un produit               | décimal | -           | en euros   | 1.52                    |
+                        | date-péremption | date de péremption d'un produit | date    | jj/mm/aaaa  | -          | 06/10/2015              |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="dd exercise">
+                        <script type="text/template">
+                        ### Exercice 3
+
+                        ## Écrire le dictionnaire de données du SI de la boulangerie
+                           (se baser sur les besoins recueillis dans l'exercice 2)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="dd solution">
+                        <script type="text/template">
+                        ### Exercice 3 : solution (1/5)
+                        | Mnémonique                    | Desc. | Type    | Format       | Divers     | Exemple                   |
+                        |:----------------------------- |:----- |:------- |:------------ |:---------- |:------------------------- |
+                        | ref-ticket                    | -     | entier  | -            | séquentiel | 1337                      |
+                        | date-ticket                   | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | nom-produit-vendu             | -     | texte   | 50 car. max. | -          | pain au chocolat          |
+                        | quantité-produit-vendu        | -     | décimal | -            | -          | 5.00                      |
+                        | prix-produit-vendu            | -     | décimal | en euros     | -          | 1,20                      |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="dd solution">
+                        <script type="text/template">
+                        ### Exercice 3 : solution (2/5)
+                        | Mnémonique                    | Desc. | Type    | Format       | Divers     | Exemple                   |
+                        |:----------------------------- |:----- |:------- |:------------ |:---------- |:------------------------- |
+                        | ref-fiche-paye                | -     | entier  | -            | séquentiel | 4237                      |
+                        | date-paye                     | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | nom-employé                   | -     | texte   | 50 car. max. | -          | Jean Dupond               |
+                        | date-naissance-employé        | -     | date    | jj/mm/aaaa   | -          | 06/10/1985                |
+                        | adresse-employé               | -     | texte   | 75 car. max. | -          | 36 rue des petits pains 92000 Nanterre |
+                        | salaire-employé               | -     | décimal | en euros     | -          | 1200,00                   |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="dd solution">
+                        <script type="text/template">
+                        ### Exercice 3 : solution (3/5)
+                        | Mnémonique                    | Desc. | Type    | Format       | Divers     | Exemple                   |
+                        |:----------------------------- |:----- |:------- |:------------ |:---------- |:------------------------- |
+                        | nom-fournisseur               | -     | texte   | 50 car. max. | -          | Farinin Corp.             |
+                        | adresse-fournisseur           | -     | texte   | 75 car. max. | -          | 120 route de la poudreuse 92000 Nanterre |
+                        | ref-commande-fournisseur      | -     | texte   | 50 car. max. | -          | FC-6102                   |
+                        | date-commande                 | -     | date    | jj/mm/aaaa   | -          | 06/10/2016                |
+                        | nom-produit-stock             | -     | texte   | 50 car. max. | -          | farine                    |
+                        | quantité-produit-commandé     | -     | décimal | -            | -          | 50.0                      |
+                        | prix-produit-commandé         | -     | décimal | en euros     | -          | 12,0                      |
+                        | ref-produit-fournisseur       | -     | texte   | 50 car. max. | -          | FC-6102-farine            |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="dd solution">
+                        <script type="text/template">
+                        ### Exercice 3 : solution (4/5)
+                        | Mnémonique                    | Desc. | Type    | Format       | Divers     | Exemple                   |
+                        |:----------------------------- |:----- |:------- |:------------ |:---------- |:------------------------- |
+                        | quantité-produit-livré        | -     | décimal | -            | -          | 50.0                      |
+                        | date-livraison                | -     | date    | jj/mm/aaaa   | -          | 07/10/2016                |
+                        | ref-bon-livraison-fournisseur | -     | texte   | 50 car. max. | -          | FC-6102-farine-10         |
+                        | ref-facture-fournisseur       | -     | texte   | 50 car. max. | -          | FC-6102-farine-10-fac     |
+                        | date-facturation              | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | date-paiement                 | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="dd solution">
+                        <script type="text/template">
+                        ### Exercice 3 : solution (5/5)
+                        | Mnémonique                    | Desc. | Type    | Format       | Divers     | Exemple                   |
+                        |:----------------------------- |:----- |:------- |:------------ |:---------- |:------------------------- |
+                        | quantité-produit-prélevé      | -     | décimal | -            | -          | 50.0                      |
+                        | date-prélèvement              | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | quantité-produit-ravitaillé   | -     | décimal | -            | -          | 50.0                      |
+                        | date-ravitaillement           | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | date-début-bilan              | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        | date-fin-bilan                | -     | date    | jj/mm/aaaa   | -          | 08/10/2016                |
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="df">
+                        <script type="text/template">
+                        # Diagramme de flux (DF)
+
+                        *Décomposition* en domaines d'activité
+
+                        * **Activité** : ensemble de traitements qui manipule les données
+                        * **Domaine** : ensemble d'activités avec une finalité commune (gestion des stocks, vente, ...)
+                        * **Acteurs** : intervenants du système, émetteur ou récepteur de flux (interne/externe, domaine, ...)
+                        </script>
+                    </section>
+                    <section data-markdown class="df formalism">
+                        <script type="text/template">
+                        # DF : formalisme
+
+                        ![df-formalisme](images/df_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="df">
+                        <script type="text/template">
+                        # DF : construction
+
+                        * établir le DF de la *vue globale* du SI (diagramme de contexte)
+                          * voir le SI comme une boite noire 
+                          * ne prendre en compte que ses acteurs externes
+                        * établir un nouveau DF à partir des *domaines d'activité* du SI
+                          * étendre le diagramme de contexte
+                        * établir le DF final 
+                          * lister les sous-domaines et acteurs des domaines d'activité
+                          * recommencer jusqu'à n'avoir plus que des acteurs
+
+                        </script>
+                    </section>
+                    <section data-markdown class="df example">
+                        <script type="text/template">
+                        # DF : exemple
+
+                        ![df-exemple](images/df_exemple_ext.svg)
+                        </script>
+                    </section>
+                    <section data-markdown class="df example">
+                        <script type="text/template">
+                        # DF : exemple
+
+                        ![df-exemple](images/df_exemple_global.svg)
+                        </script>
+                    </section>
+                    <section data-markdown class="df example">
+                        <script type="text/template">
+                        # DF : exemple
+
+                        ![df-exemple](images/df_exemple_detail.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="df exercise">
+                        <script type="text/template">
+                        ### Exercice 4
+
+                        ## Écrire les diagrammes de contexte, d'activités et de flux de la boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="df solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 4 : solution (1/3)
+                        ### Diagramme de contexte
+
+                        ![df-solution-1](images/exo_5-1.svg)
+                    </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="df solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 4 : solution (2/3)
+                        ### Diagramme d'activités
+
+                        ![df-solution-2](images/exo_5-2.svg)
+                    </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="df solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 4 : solution (3/3)
+                        ### Diagramme de flux
+
+                        ![df-solution-3](images/exo_5-3.svg)
+                    </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="mf">
+                        <script type="text/template">
+                        # Matrice des flux (MF)
+
+                        * **vérification** des activités des acteurs
+                        * **bilans** des activités des acteurs
+
+                        </script>
+                    </section>
+                    <section data-markdown class="mf example col-title">
+                        <script type="text/template">
+                        # MF : exemple
+
+                        | -                       | Fournisseur   | Gestionnaire des achats | Gestionnaire de stock  | Trésorier          |
+                        |:----------------------- |:-------------:|:-----------------------:|:----------------------:|:------------------:|
+                        | Fournisseur             | -             | -                       | livrer                 | -                  |
+                        | Gestionnaire des achats | commander     | -                       | -                      | demander paiements |
+                        | Gestionnaire des stocks | -             | demander achats         | -                      | informer livraison |
+                        | Trésorier               | payer facture | -                       | -                      |         |
+
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 5
+
+                        ## Écrire la matrice des flux de la boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mf solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 5 : solution
+                        | -                       | Gestionnaire de stock | Boulanger | Trésorier         | Vendeur       | Fournisseur   | Client |
+                        |:----------------------- |:---------------------:|:---------:|:-----------------:|:-------------:|:-------------:|:------:|
+                        | Gestionnaire de stock   | -                     | -         | avertir commande  | -             | commander     | -      |
+                        | -                       | -                     | -         | avertir livraison |               | -             | -      |
+                        | Boulanger               | prévlever             | -         | -                 | ravitailler   | -             | -      |
+                        | Trésorier               | -                     | -         | faire un bilan    | payer salaire | payer facture | -      |
+                        | Vendeur                 | -                     | -         | informer ventes   | -             | -             | -      |
+                        | Fournisseur             | livrer                | -         | -                 | -             | -             | -      |
+                        | Client                  | -                     | -         | -                 | acheter       | -             | -      |
+                    </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="mcc">
+                        <script type="text/template">
+                        # Modèle Conceptuel de Communication (MCC)
+
+                        *Description* des flux de données
+
+                        * **Message** : transmission d'une information complète
+                        </script>
+                    </section>
+                    <section data-markdown class="mcc">
+                        <script type="text/template">
+                        # MCC : construction
+
+                        chronologique (assure la cohérence) et *exhaustive*
+
+                        * pour chaque flux du DF
+                          * décomposer le flux en messages
+                        * pour obtenir le MCC détaillé, pour chaque message
+                          * intégrer les données du DD (et des données calculées) 
+                        </script>
+                    </section>
+
+                    <section data-markdown class="mcc example">
+                        <script type="text/template">
+                        # MCC : exemple 
+
+                        ![df-exemple](images/mcc_exemple.svg)
+                        </script>
+                    </section>
+                    <section data-markdown class="mcc example small">
+                        <script type="text/template">
+                        # MCC : exemple 
+
+                        * bon de livraison (Fournisseur, Gestion des stocks)
+                          * nom-fournisseur
+                          * id-bon-livraison
+                          * code-fournisseur-bon-livraison
+                          * code-fournisseur-produit
+                          * nom-produit
+                          * quantité-produit
+                          * code-barre
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 6
+
+                        ## Écrire le MCC de la boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (1/27)
+                        ### MCC : commander
+
+                        ![mcc-solution-1](images/exo_7-1.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (2/27)
+                        ### MCC : avertir d'une commande
+
+                        ![mcc-solution-2](images/exo_7-2.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (3/27)
+                        ### MCC : livrer
+
+                        ![mcc-solution-3](images/exo_7-3.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (4/27)
+                        ### MCC : avertir d'une livraison
+
+                        ![mcc-solution-4](images/exo_7-4.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (5/27)
+                        ### MCC : payer facture
+
+                        ![mcc-solution-5](images/exo_7-5.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (6/27)
+                        ### MCC : prélever
+
+                        ![mcc-solution-6](images/exo_7-6.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (7/27)
+                        ### MCC : ravitailler
+
+                        ![mcc-solution-10](images/exo_7-10.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (8/27)
+                        ### MCC : acheter
+
+                        ![mcc-solution-7](images/exo_7-7.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (9/27)
+                        ### MCC : informer sur les ventes
+
+                        ![mcc-solution-8](images/exo_7-8.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (10/27)
+                        ### MCC : payer salaire
+
+                        ![mcc-solution-9](images/exo_7-9.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution small-diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (11/27)
+                        ### MCC : faire un bilan
+
+                        ![mcc-solution-10](images/exo_7-11.svg)
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (12/27)
+
+                        #### MCC détaillé : bon de commande(Gestionnaire de stock, Fournisseur)
+                        * nom-fournisseur
+                        * date-commande
+                        * adresse-fournisseur
+                        * nom-produit-stock
+                        * prix-produit-commandé
+                        * quantité-produit-commandé
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (13/27)
+
+                        #### MCC détaillé : bon de commande validé(Fournisseur, Gestionnaire de stock)
+                        * nom-fournisseur
+                        * ref-commande-fournisseur
+                        * date-commande
+                        * nom-produit-stock
+                        * prix-produit-commandé
+                        * quantité-produit-commandé
+                        * ref-produit-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (14/27)
+
+                        #### MCC détaillé : bon de commande validé(Gestionnaire de stock, Trésorier)
+                        * nom-fournisseur
+                        * ref-commande-fournisseur
+                        * date-commande
+                        * nom-produit-stock
+                        * prix-produit-commandé
+                        * quantité-produit-commandé
+                        * ref-produit-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (15/27)
+
+                        #### MCC détaillé : bon de livraison(Fournisseur, Gestionnaire de stock)
+                        * nom-fournisseur
+                        * date-livraison
+                        * ref-bon-livraison-fournisseur
+                        * ref-commande-fournisseur
+                        * nom-produit-stock
+                        * quantité-produit-livré
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (16/27)
+
+                        #### MCC détaillé : bon de livraison validé(Gestionnaire de stock, Fournisseur)
+                        * nom-fournisseur
+                        * adresse-fournisseur
+                        * ref-bon-livraison-fournisseur
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (17/27)
+
+                        #### MCC détaillé : bon de livraison(Gestionnaire de stock, Trésorier)
+                        * nom-fournisseur
+                        * date-livraison
+                        * ref-bon-livraison-fournisseur
+                        * ref-commande-fournisseur
+                        * nom-produit-stock
+                        * quantité-produit-livré
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (18/27)
+
+                        #### MCC détaillé : facture(Fournisseur, Trésorier)
+                        * nom-fournisseur
+                        * ref-facture-fournisseur
+                        * ref-commande-fournisseur
+                        * date-facturation
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (19/27)
+
+                        #### MCC détaillé : paiement(Trésorier, Fournisseur)
+                        * ref-facture-fournisseur
+                        * prix-payé*
+                        * date-paiement
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (20/27)
+
+                        #### MCC détaillé : prélèvement(Boulanger, Gestionnaire de stock)
+                        * nom-produit-stock
+                        * quantité-produit-prélevé
+                        * date-prélèvement
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (21/27)
+
+                        #### MCC détaillé : besoin de ravitaillement(Vendeur, Boulanger)
+                        * nom-produit-vendu
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (22/27)
+
+                        #### MCC détaillé : ravitaillement(Boulanger, Vendeur)
+                        * nom-produit-vendu
+                        * quantité-produit-ravitaillé
+                        * date-ravitaillement
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (23/27)
+
+                        #### MCC détaillé : demande(Client, Vendeur)
+                        * nom-produit-vendu
+                        * quantité-produit-vendu
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (24/27)
+
+                        #### MCC détaillé : ticket de caisse(Vendeur, Client)
+                        * ref-ticket
+                        * date-ticket
+                        * nom-produit-vendu
+                        * prix-produit-vendu
+                        * quantité-produit-vendu
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (25/27)
+
+                        #### MCC détaillé : tickets de caisse(Vendeur, Trésorier)
+                        * ref-ticket
+                        * date-ticket
+                        * nom-produit-vendu
+                        * prix-produit-vendu
+                        * quantité-produit-vendu
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (26/27)
+
+                        #### MCC détaillé : fiche de paye(Trésorier, Vendeur)
+                        * ref-fiche-paye
+                        * date-paye
+                        * nom-employé
+                        * date-naissance-employé
+                        * adresse-employé
+                        * salaire-employé
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcc solution diagram">
+                        <script type="text/template">
+                        ### Exercice 6 : solution (27/27)
+
+                        #### MCC détaillé : bilan(Trésorier, Trésorier)
+                        * date-début-bilan
+                        * date-fin-bilan
+                        * bénéfices*
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="mcd">
+                        <script type="text/template">
+                        # Modèle Conceptuel de Données (MCD)
+
+                        Décrire les *entités* et les *associations* définissant les données
+
+                        * **Propriété** : donnée du SI *unique*
+                        * **Entité** : ensemble cohérent de propriétés
+                        * **Association** : lien entre entités
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd formalism">
+                        <script type="text/template">
+                        # MCD : formalisme
+
+                        ![mcd-formalisme](images/mcd_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd example">
+                        <script type="text/template">
+                        # MCD : exemple
+
+                        ![mcd-exemple](images/mcd_exemple.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd">
+                        <script type="text/template">
+                        # MCD : propriété
+
+                        Donnée élémentaire, atomique et *unique*
+
+                        * issue du DD
+                        * liée à une entité
+                        * peut être composée mais pas décomposable 
+                        * exemple : numéro de sécurité sociale
+                        * question : adresse ?
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd">
+                        <script type="text/template">
+                        # MCD : entité
+
+                        Élément *ayant une existence propre* et cohérent avec le SI
+
+                        * définie par un nom
+                        * possède *un identifiant unique*
+                        * est composée d'au moins une propriété
+                        * participe à au moins une association
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd">
+                        <script type="text/template">
+                        # MCD : association
+
+                        Élément perçu mais *sans existence propre*
+
+                        * définie par un verbe
+                        * liée à une (réflexive) ou plusieurs entités (binaires ou n-aires)
+
+                        * porteuse de *cardinalités*
+                          * occurrence minimale [0, 1] des entités associées
+                          * occurrences maximales [1, n] des entités associées
+
+                        * peut être composée de propriétés
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd example">
+                        <script type="text/template">
+                        # MCD : construction
+
+                        * à partir des *messages du MCC*
+                        * on démarre avec un MCD vide
+                        * puis, pour chaque données de chaque message
+                          * on choisit une entité du MCD pour le placer
+                            * si on ne trouve aucune entité, on en créé une
+                        * en fonction de contraintes du système, on ajoute les assciations et leurs cardinalités
+                        * on *valide* le modèle entité-association créé
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd example">
+                        <script type="text/template">
+                        # MCD : construction
+
+                        ![mcd-construction](images/mcc-mcd_exemple-1.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd example">
+                        <script type="text/template">
+                        # MCD : construction
+
+                        ![mcd-construction-2](images/mcc-mcd_exemple-2.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd validation">
+                        <script type="text/template">
+                        # MCD : validation
+
+                        * Assurer la cohérence du MCD
+                        * Éviter les redondances d'information
+
+                          * par respect de l'*unicité des propriétés*
+                          * par *normalisation*
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd normalisation">
+                        <script type="text/template">
+                        # MCD : normalisation
+
+                        Respect des 3 premières formes normales
+
+                        * aucune propriété n'est décomposable ou multiple
+                          * une seule valeur possible (à un instant t)
+
+                        * toute propriété dépend de la totalité de l'identifiant
+
+                        * toute propriété dépend directement de l'identifiant
+                          * pas de transitivité
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd validation diagram">
+                        <script type="text/template">
+                        # MCD : validation
+                        
+                        Valeurs multiples
+
+                        ![mcd-exemple](images/mcd_repetition.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd validation diagram">
+                        <script type="text/template">
+                        # MCD : validation
+                    
+                        Dépendance sur une partie de clé
+
+                        ![mcd-exemple](images/mcd_partie-cle.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mcd validation diagram">
+                        <script type="text/template">
+                        # MCD : validation
+
+                        Dépendance transitive
+
+                        ![mcd-exemple](images/mcd_transitivite.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise diagram">
+                        <script type="text/template">
+                        ### Exercice 7
+                        
+                        ## Corriger la partie de MCD suivante
+
+                        On souhaite qu'un livre puisse être édité par un ou plusieurs éditeurs et plusieurs fois par le même éditeur.
+
+                        ![mcd-exemple](images/mcd_exercice.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 8
+
+                        ## Écrire le MCD de notre boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mcd solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 8 : solution
+
+                        ![mcd-solution](images/exo_9-1.svg) 
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="mct">
+                        <script type="text/template">
+                        # Modèle conceptuel de traitement (MCT)
+
+                        Décrire les **processus** du SI
+
+                        * **Évènement** : apport d'information *déclencheur*
+                        * **Opération** : suite *non-interruptible* d'actions d'une activité
+                        * **Résultat** :  information produite par l'opération
+                        </script>
+                    </section>
+                    <section data-markdown class="mct formalism">
+                        <script type="text/template">
+                        # MCT : formalisme
+
+                        ![mct-formalisme](images/mct_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mct example">
+                        <script type="text/template">
+                        # MCT : exemple
+
+                        ![mct-exemple](images/mct_exemple.svg) 
+                        </script>
+                    </section>
+
+                    <section data-markdown class="mcd construction">
+                        <script type="text/template">
+                        # MCT : construction
+
+                        * à partir *des acteurs du MCC*
+                        * pour chaque acteur
+                          * on se demande quelles actions il effectue
+                          * on les liste sous forme de processus
+                          * on décrit les actions d'un processus
+                            * une opération produit des résultats exhaustifs
+                            * une opération est une suite ininterrompue d'actions
+                            * une opération ne comporte pas de résultat intermédiaire conditionnel
+                        </script>
+                    </section>
+                    <section data-markdown class="mct construction big-diagram">
+                        <script type="text/template">
+                        # MCT : construction
+
+                        ![mct-construction](images/mcc-mct_exemple.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 9
+
+                        ## Écrire le MCT de notre boulangerie
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mct solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 9 : solution (1/4)
+                        ### Gestionnaire de stock
+
+                        ![mct-solution-1](images/exo_10-1.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mct solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 9 : solution (2/4)
+                        ### Boulanger
+
+                        ![mct-solution-2](images/exo_10-2.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mct solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 9 : solution (3/4)
+                        ### Vendeur
+
+                        ![mct-solution-3](images/exo_10-3.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mct solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 9 : solution (4/4)
+                        ### Trésorier
+
+                        ![mct-solution-4](images/exo_10-4.svg) 
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="mot">
+                        <script type="text/template">
+                        # Modèle org. de traitement (MOT)
+
+                        Décrire les *procédures* du SI
+
+                        * Définir les *postes de travail*
+                        * Déterminer l'ordre d'exécution des *phases*
+                        * Déterminer les types d'automatisation (MA, TR, TD)
+                        </script>
+                    </section>
+                    <section data-markdown class="mot big-diagram">
+                        <script type="text/template">
+                        # MOT : formalisme
+
+                        ![mot-fromalisme](images/mot_formalisme.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mot example">
+                        <script type="text/template">
+                        # MOT : exemple
+
+                        ![mot-exemple](images/mot_exemple.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown class="mot">
+                        <script type="text/template">
+                        # MOT : construction
+
+                        À l'aide du MCT 
+                        
+                        * Plusieurs processus peuvent appartenir à une procédure, mais pas l'inverse
+                        * Les opérations du MCT peuvent être décomposées en une ou plusieurs phases
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 10
+
+                        ## Le boulanger ouvre des stands aux stations de métro :  écrire les MCC, MCT et MOT du nouveau SI
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mot solution diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (1/7)
+
+                        Seul le MCC détaillé du besoin de ravitaillement change
+
+                        #### MCC détaillé : besoin de ravitaillement(Vendeur, Boulanger)
+                        * nom-produit-vendu
+                        * quantité-produit-vendu
+                        * **nom-station-stand**
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mot solution diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (2/7)
+
+                        Postes de travail :
+                        * Bureau du stock
+                        * Four
+                        * Caisse
+                        * Bureau du comptable
+
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mot solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (3/7)
+
+                        #### Procédure de ravitaillement
+
+                        ![mot-solution-1](images/exo_11-1a.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mot solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (4/7)
+
+                        #### Procédure de commande
+
+                        ![mot-solution-1](images/exo_11-1.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mot solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (5/7)
+
+                        #### Procédure de réception de livraison
+
+                        ![mot-solution-2](images/exo_11-2.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mot solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (6/7)
+
+                        #### Procédure de paiement d'un salaire
+
+                        ![mot-solution-3](images/exo_11-3.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mot solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 10 : solution (7/7)
+
+                        #### Procédure d'édition du bilan
+
+                        ![mot-solution-4](images/exo_11-4.svg) 
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="mod">
+                        <script type="text/template">
+                        # MOD : Modèle org. de données (MOD)
+                    
+                        Mettre en évidence *la visibilité* des données
+
+                        * Définir l'emplacement des données selon des *types de sites* 
+                        * Déterminer les *droits d'accès* aux données
+                        * Déterminer la *répartition* des données par type de site 
+                        </script>
+                    </section>
+                    <section data-markdown class="mot">
+                        <script type="text/template">
+                        # MOD : formalisme
+
+                        Identique au MCD, mais découplé par site
+
+                        * ajout d'un tableau de sites
+                        * ajout d'un tableau de droits d'accès
+                        </script>
+                    </section>
+                    <section data-markdown class="mod example">
+                        <script type="text/template">
+                        # MOD : sites
+
+                        | Sites              | Acteurs |
+                        |:------------------ |:--------|
+                        | Siège              | Directeur <br /> Secrétaire RH <br /> Recruteur |
+                        | R&D                | Directeur technique <br /> Développeur |
+                        </script>
+                    </section>
+                    <section>
+                        <h1> MOD : droits d'accès </h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> &nbsp; </th>
+                                    <th colspan="4"> Directeur </th>
+                                    <th colspan="4"> Secrétaire RH </th>
+                                    <th colspan="4"> Recruteur </th>
+                                    <th colspan="4"> Dir. technique </th>
+                                    <th colspan="4"> Développeur </th>
+                                </tr>
+                                <tr>
+                                    <th> Ent.-Assoc. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> Contrat </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Offre </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Candidat </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        C.L.E.S. : Création. Lecture. Edition. Suppression. (= CRUD en anglais)
+                    </section>
+                    <section data-markdown class="mod">
+                        <script type="text/template">
+                        # MOD : construction
+                        
+                        À l'aide du MCD
+
+                        * Création d'un MOD par site
+                        * Ajout des données organisationnelles
+                        </script>
+                    </section>
+                    <section data-markdown class="mod big-diagram">
+                        <script type="text/template">
+                        # MOD : exemple
+
+                        ![mod-exemple](images/mcd-mod_exemple.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="exercise" class="exercise">
+                        <script type="text/template">
+                        ### Exercice 11
+
+                        ## Le boulanger ouvre des stands aux stations de métro : écrire les MCD et MOD du nouveau SI
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mod solution">
+                        <script type="text/template">
+                        ### Exercice 11 : solution (1/4)
+                        | Sites              | Acteurs |
+                        |:------------------ |:--------|
+                        | Boulangerie        | Boulanger <br /> Gestionnaire de stock <br /> Trésorier <br /> Vendeur |
+                        | Stand              | Vendeur |
+
+                        </script>
+                    </section>
+                    <section class="mod solution">
+                        <h3> Exercice 11 : solution (2/4) </h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th> &nbsp; </th>
+                                    <th colspan="4"> Boulanger </th>
+                                    <th colspan="4"> Gestionnaire du stock </th>
+                                    <th colspan="4"> Trésorier </th>
+                                    <th colspan="4"> Vendeur </th>
+                                </tr>
+                                <tr>
+                                    <th> Ent.-Assoc. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                    <th> C. </th> <th> L. </th> <th> E. </th> <th> S. </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> Employé </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Fiche de paye </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Bilan </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Facture </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Commande </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Fournisseur </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Ticket </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                </tr>
+                                <tr>
+                                    <td> Stand </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Livraison </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Acheter </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Vendre </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                </tr>
+                                <tr>
+                                    <td> Produit vendu </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Fournir </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Produit acheté </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Prélever </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td> Prélèvement </td>
+                                    <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                    <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                    <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section data-markdown data-state="solution" class="mod solution big-diagram">
+                        <script type="text/template">
+                        ### Exercice 11 : solution (3/4)
+                        Le MOD de la boulangerie est identique au MCD
+
+                        ![mod-solution-2](images/exo_12-1.svg) 
+                        </script>
+                    </section>
+                    <section data-markdown data-state="solution" class="mod solution diagram">
+                        <script type="text/template">
+                        ### Exercice 11 : solution (4/4)
+                        Le MOD du stand est fonction des droits des acteurs d'un stand (Vendeur)
+
+                        ![mod-solution-2](images/exo_12-2.svg) 
+                        </script>
+                    </sectio>
+                </section>
+
+                <!--section>
+                <section data-state="exercise">
+                    <h1> Exercice 12 </h1>
+                    <small> Modélisez complètement le SI de la boulangerie et de ses stands </small>
+                    <small>
+                        <table>
+                        <thead>
+                        <tr> <th> Documents collectés </th> <th> Décisions </th> </tr>
+                        <tbody> <tr> <td>
+                        <ul>
+                            <li> bons de livraisons (fournisseur, date, numéro du bon de livraison, produits (noms et codes fournisseur) et quantités livrés) </li>
+                            <li> factures (créancier, code créancier pour la facture, date, date de paiement et somme à payer) </li>
+                            <li> tickets de caisse (code barre, date, produits, quantités et prix total payé) </li>
+                            <li> contrats des employés (intitulé, dates de début et de fin, nom, age, adresse et salaire) </li>
+                            <li> fiches de paye (nom, adresse de l'employé, date de paiement, salaire et prime) </li>
+                        </ul>
+                        </td>
+                        <td>
+                        <ul>
+                            <li> Les commandes se font toujours aux mêmes fournisseurs par téléphone, on n'en garde pas de trace </li>
+                            <li> On veut une gestion simple des factures, qui inclut les factures des fournisseurs, du matériel, des charges et des divers impôts </li>
+                            <li> Le boulanger va désormais noter précisément le nombre de produits fabriqués </li>
+                            <li> Chaque stand est équipé d'un appareil pour imprimer les tickets de caisse mettant à jour le stock et les ventes effectuées </li>
+                            <li> Les stands sont ravitaillés en début de service </li>
+                            <li> Le boulanger voit les stocks en temps réel et décide s'il faut ou non ravitailler </li>
+                            <li> Le boulanger peut faire un bilan des dépenses et des gains pour la période de son choix à tout moment </li>
+                        </ul>
+                        </td></tr></tbody></table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Dictionnaire de Données (1/4) </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-bon-livraison </td>
+                            <td> identifiant d'un bon de livraison </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-fournisseur </td>
+                            <td> nom d'un fournisseur </td>
+                            <td> texte </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> Farines Inc. </td>
+                        </tr>
+                        <tr>
+                            <td> code-fournisseur-bon-livraison </td>
+                            <td> identifiant fournisseur d'un bon de livraison </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> 421337-OXO </td>
+                        </tr>
+                        <tr>
+                            <td> date-livraison </td>
+                            <td> date de livraison </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> code-fournisseur-produit </td>
+                            <td> identifiant fournisseur d'un produit </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> #81d8d0 </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-livrée </td>
+                            <td> quantité livrée d'un produit </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> unité selon produit </td>
+                            <td> 12.00 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-produit </td>
+                            <td> nom d'un produit </td>
+                            <td> texte </td>
+                            <td> 70 car. </td>
+                            <td> - </td>
+                            <td> Farine </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-produit </td>
+                            <td> quantité d'un produit en stock </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> unité selon produit </td>
+                            <td> 12.00 </td>
+                        </tr>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Dictionnaire de Données (2/4) </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-facture </td>
+                            <td> identifiant d'une facture </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> code-créancier-facture </td>
+                            <td> identifiant fournisseur d'une facture </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> 00000-0000 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-créancier </td>
+                            <td> nom d'un créancier </td>
+                            <td> texte </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> Farines Inc. </td>
+                        </tr>
+                        <tr>
+                            <td> date-facture </td>
+                            <td> date d'une facture </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> date-paiement-facture </td>
+                            <td> date de paiement d'une facture </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/09/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> total-facture </td>
+                            <td> somme totale à payer pour une facture </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> en euros </td>
+                            <td> 100.0 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Dictionnaire de Données (3/4) </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-stand </td>
+                            <td> identifiant d'un stand </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr class="later">
+                            <td> nom-stand </td>
+                            <td> dénomination d'un stand </td>
+                            <td> texte </td>
+                            <td> 70 car. </td>
+                            <td> - </td>
+                            <td> Nanterre-Université </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-stand </td>
+                            <td> quantité d'un produit disponible dans un stand </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> unité selon produit </td>
+                            <td> 12.00 </td>
+                        </tr>
+                        <tr class="later">
+                            <td> id-ticket </td>
+                            <td> identifiant d'un ticket </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> date-émission </td>
+                            <td> date d'émission d'un ticket de caisse </td>
+                            <td> date </td>
+                            <td> jj/mm/aaaa </td>
+                            <td> - </td>
+                            <td> 06/10/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> code-barre </td>
+                            <td> code barre d'un produit à la vente </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> unique </td>
+                            <td> 3-454977-344617 </td>
+                        </tr>
+                        <tr>
+                            <td> prix-vente </td>
+                            <td> prix d'un produit à la vente </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> en euros </td>
+                            <td> 2.00 </td>
+                        </tr>
+                        <tr>
+                            <td> quantité-vendue </td>
+                            <td> nombre de produits vendus sur un ticket </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> penser au demi-baguettes </td>
+                            <td> 0.5 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Dictionnaire de Données (4/4) </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th> Mnémonique </th>
+                            <th> Description </th>
+                            <th> Type </th>
+                            <th> Format </th>
+                            <th> Divers </th>
+                            <th> Exemple </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="later">
+                            <td> id-contrat </td>
+                            <td> identifiant d'un contrat </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> intitulé </td>
+                            <td> intitulé d'un contrat </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> Vendeur Junior </td>
+                        </tr>
+                        <tr>
+                            <td> date-début </td>
+                            <td> date de début d'un contrat </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 01/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> date-fin </td>
+                            <td> date de fin d'un contrat </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 31/12/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> salaire </td>
+                            <td> salaire d'un employé </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> en euros </td>
+                            <td> 2000.0 </td>
+                        </tr>
+                        <tr>
+                            <td> nom-employé </td>
+                            <td> nom d'un employé </td>
+                            <td> texte </td>
+                            <td> 50 car. </td>
+                            <td> - </td>
+                            <td> Robert Dupond </td>
+                        </tr>
+                        <tr>
+                            <td> date-naissance </td>
+                            <td> date de naissance d'un employé </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 31/12/1996 </td>
+                        </tr>
+                        <tr>
+                            <td> adresse </td>
+                            <td> adresse d'un employé </td>
+                            <td> texte </td>
+                            <td> 70 car. </td>
+                            <td> - </td>
+                            <td> 200, Avenue de la République 92001 NANTERRE CEDEX </td>
+                        </tr>
+                        <tr class="later">
+                            <td> id-paye </td>
+                            <td> identifiant d'une paye </td>
+                            <td> entier </td>
+                            <td> - </td>
+                            <td> séquentiel </td>
+                            <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td> date-paiement-paye </td>
+                            <td> date de paye </td>
+                            <td> date </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 31/01/2015 </td>
+                        </tr>
+                        <tr>
+                            <td> prime </td>
+                            <td> prime versée à un employé </td>
+                            <td> décimal </td>
+                            <td> - </td>
+                            <td> en euros </td>
+                            <td> 190.0 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+
+                <section data-state="solution">
+                    <h5> Matrice des Flux </h5>
+                    <small>
+                    <table>
+                        <thead>
+                        <tr>
+                            <td> &nbsp; </td>
+                            <th> Fournisseur </th>
+                            <th> Boulanger </th>
+                            <th> Créancier </th>
+                            <th> Client </th>
+                            <th> Stock </th>
+                            <th> Vendeur </th>
+                            <th> Trésorerie </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th> Fournisseur </th>
+                            <td> &nbsp; </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> <ul> <li> livrer </li> </ul> </td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <th> Boulanger </th>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> <ul> <li> fournir </li> </ul> </td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <th> Créancier </th>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <th> Client </th>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <th> Stock </th>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> <ul> <li> fournir </li> </ul> </td>
+                            <td> <ul> <li> informer </li> </ul> </td>
+                        </tr>
+                        <tr>
+                            <th> Vendeur </th>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> <ul> <li> vendre </li> </ul> </td>
+                            <td> - </td>
+                            <td> &nbsp; </td>
+                            <td> <ul> <li> informer </li> </ul> </td>
+                        </tr>
+                        <tr>
+                            <th> Trésorerie </th>
+                            <td> <ul> <li> payer </li> </ul> </td>
+                            <td> <ul> <li> payer </li> </ul> </td>
+                            <td> <ul> <li> payer </li> </ul> </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> <ul> <li> payer </li> </ul> </td>
+                            <td> &nbsp; </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+
+                <section data-state="solution">
+                    <h5> Diagramme des Flux </h5>
+                    <img src="images/exo_13-1.svg" class="big-diagram" alt="diagramme des flux" />
+                </section>
+                <section data-state="solution">
+                    <h5> Diagramme des Flux </h5>
+                    <img src="images/exo_13-2.svg" class="big-diagram" alt="diagramme des flux" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Gestion Stock </h5>
+                    <img src="images/exo_13-3.svg" class="big-diagram" alt="MCC stock" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Gestion Stock </h5>
+                    <small class="mcc-detail">
+                    <ul> bon de livraison (Fournisseur, Stock)
+                        <li> nom-fournisseur </li>
+                        <li> id-bon-livraison </li>
+                        <li> code-fournisseur-bon-livraison </li>
+                        <li> code-fournisseur-produit </li>
+                        <li> nom-produit </li>
+                        <li> quantité-produit </li>
+                        <li class="later"> code-barre </li>
+                    </ul>
+                    <ul> facture (Fournisseur, Stock)
+                        <li> id-facture </li>
+                        <li> code-créancier-facture </li>
+                        <li> date-facture </li>
+                        <li> total-facture </li>
+                    </ul>
+                    <ul> produits utilisés / fabriqués (Boulanger, Stock)
+                        <li> quantité-produit-utilisée </li>
+                        <li> quantité-produit-fabriquée </li>
+                    </ul>
+                    <ul> produits mis à la vente (Stock, Vendeur)
+                        <li> code-barre </li>
+                        <li> quantité-produit-stand </li>
+                    </ul>
+                    <ul> facture (Stock, Trésorier)
+                        <li> id-créancier </li>
+                        <li> code-créancier-facture </li>
+                        <li> date-facture </li>
+                        <li> total-facture </li>
+                    </ul>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Ventes </h5>
+                    <img src="images/exo_13-4.svg" class="big-diagram" alt="MCC ventes" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Ventes </h5>
+                    <small class="mcc-detail">
+                    <ul> ticket de caisse (Vendeur, Client)
+                        <li> date-émission </li>
+                        <li> code-barre </li>
+                        <li> nom-produit </li>
+                        <li> prix-vente </li>
+                        <li> quantité-vendue </li>
+                    </ul>
+                    <ul> ticket de caisse (Vendeur, Trésorier)
+                        <li> date-émission </li>
+                        <li> code-barre </li>
+                        <li> prix-vente </li>
+                        <li> quantité-vendue </li>
+                    </ul>
+                    <ul> contrat (Trésorier, Vendeur)
+                        <li> intitulé </li>
+                        <li> nom-employé </li>
+                        <li> adresse </li>
+                        <li> date-naissance </li>
+                        <li> date-début </li>
+                        <li> date-fin </li>
+                        <li> salaire </li>
+                    </ul>
+                    <ul> fiche de paye (Trésorier, Vendeur)
+                        <li> salaire </li>
+                        <li> date-paiement </li>
+                        <li> prime </li>
+                    </ul>
+                    <ul> produits mis à la vente (Stock, Vendeur)
+                        <li> quantité-produit-stand </li>
+                    </ul>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Trésorerie </h5>
+                    <img src="images/exo_13-5.svg" class="big-diagram" alt="MCC trésorerie" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Communication : Tésorerie </h5>
+                    <small class="mcc-detail">
+                    <ul> contrat (Trésorier, Vendeur/Boulanger)
+                        <li> intitulé </li>
+                        <li> nom-employé </li>
+                        <li> adresse </li>
+                        <li> date-naissance </li>
+                        <li> date-début </li>
+                        <li> date-fin </li>
+                        <li> salaire </li>
+                    </ul>
+                    <ul> fiche de paye (Trésorier, Vendeur/Boulanger)
+                        <li> salaire </li>
+                        <li> date-paiement </li>
+                        <li> prime </li>
+                    </ul>
+                    <ul> ticket de caisse (Vendeur, Trésorier)
+                        <li> date-émission </li>
+                        <li> code-barre </li>
+                        <li> prix-vente </li>
+                        <li> quantité-vendue </li>
+                    </ul>
+                    <ul> facture (Stock/Créancier, Trésorerie)
+                        <li> id-créancier </li>
+                        <li> code-créancier-facture </li>
+                        <li> date-facture </li>
+                        <li> total-facture </li>
+                    </ul>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Données </h5>
+                    <img src="images/exo_13-6.svg" class="big-diagram" alt="MCD" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : livraison </h5>
+                    <img src="images/exo_13-7.svg" class="big-diagram" alt="MCT livraison" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : mise à jour du stock </h5>
+                    <img src="images/exo_13-8.svg" class="big-diagram" alt="MCT maj stock" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : ravitaillement d'un stand </h5>
+                    <img src="images/exo_13-9.svg" class="big-diagram" alt="MCT maj stock stand" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : vente </h5>
+                    <img src="images/exo_13-10.svg" class="big-diagram" alt="MCT vente" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : paiement facture </h5>
+                    <img src="images/exo_13-11a.svg" class="big-diagram" alt="MCT paiement" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : embauche </h5>
+                    <img src="images/exo_13-11.svg" class="big-diagram" alt="MCT nouveau contrat" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : paye </h5>
+                    <img src="images/exo_13-12.svg" class="big-diagram" alt="MCT paye" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Conceptuel de Traitements : bilan </h5>
+                    <img src="images/exo_13-13.svg" class="big-diagram" alt="MCT bilan" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : livraison </h5>
+                    <img src="images/exo_13-14.svg" class="big-diagram" alt="MOT livraison" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : ravitaillement du stock </h5>
+                    <img src="images/exo_13_mot_maj_stock.svg" class="big-diagram" alt="MOT maj stock" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : ravitaillement d'un stand </h5>
+                    <img src="images/exo_13-15.svg" class="big-diagram" alt="MOT bilan" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : vente </h5>
+                    <img src="images/exo_13-16.svg" class="big-diagram" alt="MOT vente" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Traitements : embauche, paye, bilan </h5>
+                    <img src="images/exo_13-17.svg" class="big-diagram" alt="MOT bilan" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Données : sites </h5>
+                    <small>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th> Sites </th>
+                                <th> Acteurs </th>
+                            </tr>
+                        </thead>
+                            <tr>
+                                <td class="top"> Boulangerie </td>
+                                <td>
+                                    <ul>
+                                        <li> Stock </li>
+                                        <li> Trésorerie </li>
+                                        <li> Boulanger </li>
+                                        <li> Vendeur </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="top"> Stand </td>
+                                <td>
+                                    <ul>
+                                        <li> Vendeur </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Données : droits d'accès </h1>
+                    <small>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th> &nbsp; </th>
+                                <th colspan="4"> Boulanger </th>
+                                <th colspan="4"> Trésorerie </th>
+                                <th colspan="4"> Vendeur </th>
+                                <th colspan="4"> Stock </th>
+                            </tr>
+                            <tr>
+                                <th> Ent.-Rel. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                                <th> C. </th> <th> R. </th> <th> U. </th> <th> D. </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Contrat </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Paye </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Facture </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Créancier </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Bon_Livraison </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Livrer </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Produit </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                            </tr>
+                            <tr>
+                                <td> Stand </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> X </td> <td> X </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Disposer </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Ticket_Caisse </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                            </tr>
+                            <tr>
+                                <td> Vendre </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                                <td> - </td> <td> X </td> <td> - </td> <td> - </td>
+                                <td> X </td> <td> X </td> <td> X </td> <td> X </td>
+                                <td> - </td> <td> - </td> <td> - </td> <td> - </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </small>
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Données : boulangerie </h5>
+                    <img src="images/exo_13-6.svg" class="big-diagram" alt="MOD boulangerie" />
+                </section>
+                <section data-state="solution">
+                    <h5> Modèle de Organisationnel de Données : stand </h5>
+                    <img src="images/exo_13-18.svg" class="big-diagram" alt="MOD stand" />
+                </section-->
+                </section>
+
+                <section>
+                    <section data-markdown class="summary">
+                        <script type="text/template">
+                        ### Résumé de la démarche (1/3)
+
+                        ## Recueil des besoins
+
+                        * lister les données (DD) 
+                          * classifier
+                          * typer
+                          * épurer
+                        * lister les acteurs et les flux (MF/DF) 
+                          * définir (émetteur, récepteur, nature)
+                          * décomposer en sous-domaines
+                        * assurer la cohérence DF / MF
+                        </script>
+                    </section>
+                    <section data-markdown class="summary">
+                        <script type="text/template">
+                        ### Résumé de la démarche (2/3)
+
+                        ## Conception : quoi ?
+
+                        * décrire les flux de données (MCC) :
+                          * décomposer les flux du DF en messages </li>
+                          * détailler les messages avec les données du DD et les données calculées
+                          * assurer la cohérence DD / MCC
+                        * définir la statique du système (MCD)
+                          * utiliser les messages du MCC détaillé pour définir les entités et les associations porteuses
+                          * ajouter les associations non porteuses et les cardinalités
+                          * valider les formes normales sur le MCD
+                          * assurer la cohérence DD / propriétés du MCD
+                        * définir la dynamique du système (MCT)
+                          * utiliser les acteurs du MCC pour définir les processus effectués par ceux-ci : événements, actions, résultats
+                          * valider le MCT : résultats exhaustifs, pas d'interruption des actions, pas de résultat intermédiaire des actions
+                          * assurer la cohérence entre les messages du MCC et les déclencheurs/résultats du MCT
+                        </script>
+                    </section>
+                    <section data-markdown class="summary">
+                        <script type="text/template">
+                        ### Résumé de la démarche (3/3)
+
+                        ## Conception : qui ? où ?
+
+                        * définir les procédures du système (MOT) 
+                          * déterminer les postes de travail
+                          * renseigner l'ordre d'exécution des procédures du MOT
+                          * renseigner les niveaux d'automatisation des procédures du MOT
+                        * définir la visibilité des données (MOD)
+                          * déterminer les sites d'accès au SI
+                          * renseigner les droits d'accès par utilisateurs
+                          * détailler la répartition des données sur les différents sites
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="lbnl">
+                        <script type="text/template">
+                        # On a vu tout MERISE ?
+
+                        * **NON**, il manque la conception technique (MLD, MPD, MLT, MLPT)
+                        * **NON**, il manque de nombreux détails (CIF, héritage, ...)
+                        * **NON**, il manque la gestion globale du système d'information
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="cc">
+                        <script type="text/template">
+                        # Anciens Examens
+
+                        2015 : [ [CC 1](exams/2015/cc1/msi_cc115pr.pdf) - [corrigé](exams/2015/cc1/correction/msi_cc1_corr15pr.pdf) ] - 
+                               [ [CC 2](exams/2015/cc2/msi_cc215pr.pdf) - [corrigé](exams/2015/cc2/correction/msi_cc2_corr15pr.pdf) ] -
+                               [ [Examen](exams/2015/exam/msi_exam15pr.pdf) ] - [ [Rattrapage](exams/2015/exam2/msi_exam215pr.pdf) ]
+
+                        2016 : [ [CC 1](exams/2016/cc1/msi_cc116pr.pdf) - [corrigé](exams/2016/cc1/correction/msi_cc1_corr16pr.pdf) ] - 
+                               [ [CC 2](exams/2016/cc2/msi_cc216pr.pdf) - [corrigé](exams/2016/cc2/correction/msi_cc2_corr16pr.pdf)  ] -
+                               [ [Examen](exams/2016/exam/msi_exam16pr.pdf) ] - [ [Rattrapage](exams/2016/exam2/msi_exam216pr.pdf) ]
+
+                        2017 : [ [CC 1](exams/2017/cc1/msi_cc117pr.pdf) - [corrigé](exams/2017/cc1/correction/msi_cc1_corr17pr.pdf) ] - 
+                               [ [CC 2](exams/2017/cc2/msi_cc217pr.pdf) ] -
+                               [ [Examen 1](exams/2017/exam1/msi_exam117pr.pdf) ] - [ [Examen 2](exams/2017/exam2/msi_exam217pr.pdf) ]
+
+                        2018 : [ [CC 1](exams/2018/cc1/msi_cc118pr.pdf) ] -
+                               [ [CC 2](exams/2018/cc2/msi_cc218pr.pdf) ] -
+                               [ [CC 3](exams/2018/cc3/msi_cc318pr.pdf) ] -
+                               [ [Examen](exams/2018/exam/msi_exam18pr.pdf) - [corrigé](exams/2018/exam/correction/msi_exam_corr18pr.pdf) ]
+
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-markdown class="resources">
+                        <script type="text/template">
+                        # Ressources
+
+                        Slides faits avec [Reveal.js](http://lab.hakim.se/reveal-js/)
+                    
+                        Icones par [Creative Stall](https://thenounproject.com/creativestall/) et [Ben Rizzo](https://thenounproject.com/tgnsd/)
+                        </script>
+                    </section>
+                </section>
+
 			</div>
 		</div>
 

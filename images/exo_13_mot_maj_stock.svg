@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="37cm" height="22cm" viewBox="211 90 735 440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 284.357 231.6 L 364.957,231.6 L 364.957,263.6 L 324.657,271.6 L 284.357,263.6 L 284.357,231.6"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="324.657" y="251.6">
+      <tspan x="324.657" y="251.6"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="248.324" y="273.8" width="151.033" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="323.841" y="311.6">
+      <tspan x="323.841" y="311.6">Compter</tspan>
+      <tspan x="323.841" y="327.6">Mettre à jour</tspan>
+      <tspan x="323.841" y="343.6">le stock</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="323.841" y1="373.6" x2="323.483" y2="419.964"/>
+    <polygon style="fill: #000000" points="323.425,427.464 318.503,417.426 323.483,419.964 328.502,417.503 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="323.425,427.464 318.503,417.426 323.483,419.964 328.502,417.503 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="272.558" y="429.7" width="101.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="323.408" y="452.6">
+      <tspan x="323.408" y="452.6">stock à jour</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="430.867,194.733 344.807,194.733 344.807,221.864 "/>
+    <polygon style="fill: #000000" points="344.807,229.364 339.807,219.364 344.807,221.864 349.807,219.364 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="344.807,229.364 339.807,219.364 344.807,221.864 349.807,219.364 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="344.367" y="156.733" width="173" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="430.867" y="179.633">
+      <tspan x="430.867" y="179.633">pélèvement de produits</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 685.833 233.067 L 766.433,233.067 L 766.433,265.067 L 726.133,273.067 L 685.833,265.067 L 685.833,233.067"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="726.133" y="253.067">
+      <tspan x="726.133" y="253.067"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="649.8" y="275.267" width="151.033" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="725.317" y="313.067">
+      <tspan x="725.317" y="313.067">Compter</tspan>
+      <tspan x="725.317" y="329.067">Mettre à jour</tspan>
+      <tspan x="725.317" y="345.067">le stock</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="725.317" y1="375.067" x2="724.959" y2="421.431"/>
+    <polygon style="fill: #000000" points="724.901,428.931 719.979,418.892 724.959,421.431 729.978,418.969 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="724.901,428.931 719.979,418.892 724.959,421.431 729.978,418.969 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="674.034" y="431.167" width="101.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="724.884" y="454.067">
+      <tspan x="724.884" y="454.067">stock à jour</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="841.343,196.2 746.283,196.2 746.283,223.331 "/>
+    <polygon style="fill: #000000" points="746.283,230.831 741.283,220.831 746.283,223.331 751.283,220.831 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="746.283,230.831 741.283,220.831 746.283,223.331 751.283,220.831 "/>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="744.818" y="158.2" width="193.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="841.343" y="181.1">
+      <tspan x="841.343" y="181.1">ajout de produits fabriqués</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="212.8" y="91.2" width="344.2" height="436.9"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="384.9" y="313.55">
+      <tspan x="384.9" y="313.55"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="212.8" y="91.2" width="344.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="384.9" y="114.1">
+      <tspan x="384.9" y="114.1">Stock</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="601.4" y="91.6" width="344.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="773.5" y="114.5">
+      <tspan x="773.5" y="114.5">Stock</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="601.4" y="91.6" width="344.2" height="436.9"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="773.5" y="313.95">
+      <tspan x="773.5" y="313.95"></tspan>
+    </text>
+  </g>
+</svg>

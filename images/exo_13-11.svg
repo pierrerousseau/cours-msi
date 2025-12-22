@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="11cm" height="17cm" viewBox="202 91 212 336" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="263.392,129.2 324.361,129.2 324.361,159.464 "/>
+    <polygon style="fill: #000000" points="324.361,166.964 319.361,156.964 324.361,159.464 329.361,156.964 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="324.361,166.964 319.361,156.964 324.361,159.464 329.361,156.964 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 305.924 169.2 L 379.674,169.2 L 379.674,201.2 L 342.799,209.2 L 305.924,201.2 L 305.924,169.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="342.799" y="189.2">
+      <tspan x="342.799" y="189.2"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="202.117" y="91.2" width="122.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="263.392" y="114.1">
+      <tspan x="263.392" y="114.1">nouvel employé</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="261.467" y="211.4" width="151.533" height="99.8"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="337.233" y="257.2">
+      <tspan x="337.233" y="257.2">Enregistrer </tspan>
+      <tspan x="337.233" y="273.2">informations</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #000000" x="266.258" y="388.533" width="141.05" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="336.783" y="411.433">
+      <tspan x="336.783" y="411.433">nouveau contrat</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="337.233" y1="311.2" x2="336.84" y2="378.797"/>
+    <polygon style="fill: #000000" points="336.796,386.297 331.855,376.268 336.84,378.797 341.854,376.327 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="336.796,386.297 331.855,376.268 336.84,378.797 341.854,376.327 "/>
+  </g>
+</svg>

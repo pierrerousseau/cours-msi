@@ -1,0 +1,30 @@
+no-carte
+nom-étudiant
+date-emprunt
+no-biblio
+no-auteur
+date-edition
+code-livre
+titre
+nom-auteur
+principal
+nom-éditeur
+
+
+carte
+    no-carte
+    nom-étudiant
+    no-biblio
+livre
+    no-carte
+    no-biblio
+    date-emprunt
+    no-auteur
+    date-edition
+    titre
+    nom-auteur
+    principal
+    nom-éditeur
+emprunts
+    cf livre
+
